@@ -31,4 +31,4 @@ Reikiami įrankiai:
 
 Jūs neteisingai sukonfigūravote liečiamojo ekrano draiverius, norint tai sutvarkyti:
 
-- [Sekite šią gido dalį](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/Lithuanian/2-install-lt.md#patikrinkite-kokią-ekrano-panelę-turi-jūsų-telefonas)
+- [Sekite šią gido dalį](https://github.com/woa-vayu/Port-Windows-11-Poco-X3-pro/blob/main/guide/Lithuanian/2-install-lt.md#patikrinkite-kokią-ekrano-panelę-turi-jūsų-telefonas)

@@ -69,6 +69,6 @@ fastboot boot <uefi.img>
   
 </details>  
   
-- Якщо ви маєте BSOD з кодом помилки BOUND_IMAGE_UNSUPPORTED під час першого завантаження Windows, вам потрібно використовувати [старий UEFI](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases) для першого завантаження (тачскрін не працює у старій версії UEFI).
+- Якщо ви маєте BSOD з кодом помилки BOUND_IMAGE_UNSUPPORTED під час першого завантаження Windows, вам потрібно використовувати [старий UEFI](https://github.com/woa-vayu/Port-Windows-11-Poco-X3-pro/releases) для першого завантаження (тачскрін не працює у старій версії UEFI).
 
 # Готово!

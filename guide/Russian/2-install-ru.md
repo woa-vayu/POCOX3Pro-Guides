@@ -66,6 +66,6 @@ fastboot boot <uefi.img>
 Android загрузится при следующей перезагрузке, для загрузки Windows вы должны вновь загрузится с UEFI.
 </details>
 
-- Если у вас BSOD с кодом ошибки BOUND_IMAGE_UNSUPPORTED при первой загрзке Windows, вы должны использовать [старое UEFI](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases) для первой загрузки (тачскрин не работает в старой версии UEFI).
+- Если у вас BSOD с кодом ошибки BOUND_IMAGE_UNSUPPORTED при первой загрзке Windows, вы должны использовать [старое UEFI](https://github.com/woa-vayu/Port-Windows-11-Poco-X3-pro/releases) для первой загрузки (тачскрин не работает в старой версии UEFI).
 
 # Готово!
