@@ -8,3 +8,4 @@
 ### Select your language
 
 - [English](English/optional-postinst-stuff-en.md)
+- [Русский](Russian/optional-postinst-stuff-ru.md)

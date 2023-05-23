@@ -1,60 +1,72 @@
-# Установка Windows на POCO X3 Pro
-## Создание разделов для Windows
-### Заметки
-> **Внимание!** Если вы удалили любой раздел используя diskpart, Windows рано или поздно отправит команду памяти, которая будет неверно распознана, отчего память будет стёрта.
+<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+
+
+# Запуск Windows на POCO X3 Pro
+
+## Установка
+
+## Переразметка вашего устройства
+
+### Предпосылки
+
+- [Модифицированный TWRP или OrangeFox](../../../../releases/Recoveries)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
+### Notes:
+> **Warning** Если вы удалили любой раздел используя diskpart, Windows отправит команду памяти, которая сотрет все данные на чипе памяти!
+- Все ваши данные в Android будут стерты! Сделайте резервную копию ваших данных, если она понадобится вам.
 - Все команды были протестированы.
-- Все ваши данные в Android будут удалены.
 - Игнорируйте предупреждения `udevadm`.
 - Не запускайте одну и ту же команду дважды.
 - НЕ ПЕРЕЗАГРУЖАЙТЕ ТЕЛЕФОН если думаете, что совершли ошибку - обратитесь в [Telegram-чат проекта](https://t.me/winonvayualt).
 
-### Нужные файлы
-- [Образ Windows 10/11 ARM (Windows 11 рекомендуется)](https://uupdump.net/)
-- [platform-tools(ADB & Fastboot)](https://developer.android.com/studio/releases/platform-tools)
-- [DriverUpdater для установки и обновления драйверов](https://github.com/WOA-Project/DriverUpdater/releases/)
-- [UEFI образ](https://github.com/halal-beef/edk2-msm/releases/tag/latest)
-- [Модифицированный TWRP или OrangeFox](https://github.com/woa-vayu/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
+#### ⚠️ Не запускайте все команды сразу, выполняйте их по порядку!
 
-### Запустите TWRP через комьютер с помощью fastboot
+##### ⚠️ НЕ ДЕЛАЙТЕ ОШИБОК!!! ВЫ МОЖЕТЕ УБИТЬ ВАШЕ УСТРОЙСТВО КОМАНДАМИ НИЖЕ, ЕСЛИ ВЫ ВЫПОЛНИТЕ ИХ НЕПРАВИЛЬНО!!!
+
+##### Установите модифицированное TWRP рекавери
 ```cmd
-fastboot boot <twrp.img>
+fastboot flash recovery <twrp.img>
+fastboot reboot recovery
 ```
-⚠️ Не запускайте все команды сразу, выполняйте их по порядку!
 
-⚠️ НЕ ДЕЛАЙТЕ ОШИБОК!!! ВЫ МОЖЕТЕ СЛОМАТЬ ВАШЕ УСТРОЙСТВО КОМАНДАМИ НИЖЕ, ЕСЛИ ВЫ СДЕЛАЕТЕ ИХ НЕПРАВИЛЬНО!!!
+#### Размонтируйте все разделы
+Зайдите в вкладку "монтирование" ("mount" на английском) и уберите галочки со всех разделов
 
-### Размонтирование всех разделов
-Перейдите в раздел "Монтирование" и размонтируйте все разделы.
-
-## Запустите adb shell:
+#### Запустите ADB shell
 ```cmd
 adb shell
 ```
 
-### Измените размер таблицы разделов
+#### Измените размер таблицы разделов
 > Чтобы разделы Windows поместились в таблице разделов
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Запустите parted
+#### Запустите parted
 ```sh
 parted /dev/block/sda
 ```
 
-### Удалите раздел `userdata`
+
+#### Удалите раздел `userdata`
 > Вы должны убедится что 32 это номер раздела `userdata` командой
 >  `print all`
 ```sh
 rm 32
 ```
 
-### Создайте разделы
+#### Создайте разделы
 > Если вы получите какое либо сообщение, говоря вам либо игнорировать либо отменить, просто введите i и нажмите enter.
 
 <details>
-<summary><strong>Для моделей 6/128</strong></summary>
-- Создайте раздел `userdata` для использования Android вместе с Windows
+<summary><b><strong>Для моделей на 128GB</strong></b></summary>
+
+
+
+- Создайте раздел для данных Android
 ```sh
 mkpart userdata ext4 11.8GB 68.6GB
 ```
@@ -66,18 +78,21 @@ mkpart win ntfs 68.6GB 126GB
 
 - Создайте ESP раздел (будет содержать загрузчик Windows)
 ```sh
-mkpart esp fat32 126.6GB 127GB
+mkpart esp fat32 126GB 127GB 
 ```
+  </summary>
 </details>
 
 <details>
-<summary><strong>Для моделей 8/256</strong></summary>
-- Создайте раздел `userdata` для использования Android вместе с Windows
+<summary><b><strong>Для моделей на 256GB</strong></b></summary>
+
+
+- Создайте раздел для данных Android
 ```sh
 mkpart userdata ext4 11.8GB 134.6GB
 ```
 
-- Создайте раздел на который будет установлена Windows
+- Создайте раздел, в который будет установлена Windows
 ```sh
 mkpart win ntfs 134.6GB 254GB
 ```
@@ -86,35 +101,43 @@ mkpart win ntfs 134.6GB 254GB
 ```sh
 mkpart esp fat32 254GB 255GB
 ```
+  </summary>
 </details>
 
-
-### Сделайте раздел ESP загрузочным, чтобы образ EFI смог его обнаружить
+#### Сделайте раздел ESP загрузочным, чтобы образ UEFI смог его обнаружить
 ```sh
 set 34 esp on
 ```
 
-### Закройте parted
+#### Выйдите из parted
 ```sh
 quit
 ```
 
-- Перезагрузитесь в TWRP
+#### Перезагрузитесь в TWRP снова
 
-### Запустите adb shell снова
+#### Запустите adb shell ещё раз
 ```cmd
 adb shell
 ```
 
-### Отформатируйте разделы
+#### Отформатируйте разделы
+-  Отформатируйте ESP раздел в файловой системе FAT32
 ```sh
 mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
+```
+
+-  Отформатируйте раздел Windows в файловой системе NTFS
+```sh
 mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
 ```
 
-- Отформатируйте userdata: перейдите в меню "Очистка", выберите "Форматировать data", напишите `yes`, и нажмите "✓".
+- Отформатируйте data
+перейдите в меню "Очистка", выберите "Форматировать data" (Wipe > Format Data если установлен ангйлиский язык)
+затем напишите `yes`.
 
-### Убедитесь что Android запускается
+#### Убедитесь что Android запускается
 Перезагрузите телефон в систему и убедитесь, что Android запускается.
+
 
 ## [Следующий шаг: Установка Windows](/guide/Russian/2-install-ru.md)
