@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 
 # Running Windows on the POCO X3 Pro
@@ -11,9 +11,9 @@
 ### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
-- [UEFI image](https://github.com/halal-beef/edk2-msm/releases/latest)
+- [UEFI image](https://github.com/woa-vayu/edk2-msm/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/halal-beef/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 
 #### Boot into TWRP
 

@@ -4,9 +4,9 @@
 ### Requisitos Previos
 
 - [Windows para ARM (Windows 11 es el recomendado)](https://uupdump.net/)
-- [UEFI](https://github.com/halal-beef/edk2-msm/releases/latest)
+- [UEFI](https://github.com/woa-vayu/edk2-msm/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/halal-beef/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 
 ## Pasar las herramientas necesarias:
 ```cmd

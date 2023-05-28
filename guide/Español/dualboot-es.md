@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 
 # Windows en el POCO X3 Pro
@@ -15,7 +15,7 @@
 
 - [NTFS Android Magisk Module](../../../../releases/ntfsdroid)
 
-- [UEFI](https://github.com/halal-beef/edk2-msm/releases/latest)
+- [UEFI](https://github.com/woa-vayu/edk2-msm/releases/latest)
 
 - [UEFI & Android Boot Flashing App](../../../../releases/dualboot)
 

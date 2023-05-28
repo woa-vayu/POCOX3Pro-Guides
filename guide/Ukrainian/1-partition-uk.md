@@ -14,7 +14,7 @@
 - [Образ Windows 10/11 ARM(11 рекомендується)](https://uupdump.net/)
 - [platform-tools(ADB & Fastboot)](https://developer.android.com/studio/releases/platform-tools)
 - [DriverUpdater для встановлення та оновлення драйверів](https://github.com/WOA-Project/DriverUpdater/releases/)
-- [UEFI образ](https://github.com/halal-beef/edk2-msm/releases/tag/latest)
+- [UEFI образ](https://github.com/woa-vayu/edk2-msm/releases/tag/latest)
 - [Модифікований TWRP чи OrangeFox](https://github.com/woa-vayu/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
 
 ### Завантажте TWRP чи OrangeFox через комп'ютер за допомогою fastboot
