@@ -40,11 +40,12 @@ adb shell cat /proc/cmdline
 ```
 > Ищите экран почти в самом внизу
 > Если ваше устройство `Tianma`, то `msm_drm.dsi_display0` будет `dsi_j20s_36_02_0a_video_display`.
-> Если ваше устройство `Huaxing`, то `msm_drm.dsi_display0` будет `dsi_j20s_42_02_0b_video_display`: перейдите в папку драйверов (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) и удалите j20s_novatek_ts_fw01.bin, наконец, переименуйте j20s_novatek_ts_fw02.bin в j20s_novatek_ts_fw01.bin
+> Если ваше устройство `Huaxing`, то `msm_drm.dsi_display0` будет `dsi_j20s_42_02_0b_video_display`.
 
 > Замените `<vayudriversfolder>` путём к папке с вашими драйверами
+> Замените `<paneltype>` на тип дисплея (tianma/huaxing)
 ```cmd
-driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu_<paneltype>.txt -r <vayudriversfolder> -p X:
 ```
 
 ### Загрузка в Windows
