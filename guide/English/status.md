@@ -14,14 +14,14 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [ ] Charging ```Only slow charging now```
+- [ ] Charging ```Only slow charging```
 - [x] Display
 - [x] GPU
 - [x] LTE ```Only SIM1; requires provisioning on every boot```
-- [x] SD ```Need to unplug and plug many times to get the SD Card detected```
-- [x] Touchscreen ```Need off on display after boot```
+- [ ] SD ```Very unstable, takes several attempts to be recognized```
+- [x] Touchscreen
 - [x] UFS
-- [x] USB ```Registry hack needed for non powered hubs```
+- [x] USB
 - [x] Wi-Fi
 
 #### Sensors (Need to provision after installing Windows)

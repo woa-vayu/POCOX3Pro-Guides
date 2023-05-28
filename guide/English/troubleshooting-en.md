@@ -34,6 +34,4 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## Touchscreen touches are inaccurate/upside down
 
-You have incorrectly configured the touch driver, to fix this:
-
-- [Follow this part of the guide](https://github.com/woa-vayu/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have)
+You picked the wrong definitions file while installing drivers.
