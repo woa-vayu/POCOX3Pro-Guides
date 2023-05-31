@@ -5,7 +5,7 @@
 
 ## Dualbooting Android and Windows seamlessly (Option 1)
 
-> **Notice** This will work on any android version and kernel but it does take longer to boot into android from windows
+> **Note** This will work on any android version and kernel but it does take longer to boot into android from windows
 
 ### Prerequisites
 
@@ -65,7 +65,7 @@
   
 ## Dualbooting Android and Windows seamlessly (Option 2)
   
-> **Notice** This may not work on some android kernels or versions but it is easier and faster to boot into android
+> **Note** This may not work on some android kernels or versions but it is easier and faster to boot into android
   
 ### Prerequisites
 
