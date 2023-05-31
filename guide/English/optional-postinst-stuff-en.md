@@ -39,6 +39,8 @@
 ## Finished!
 
 
+
+
 ### Provisioning the modem manually
 
 > **Warning** You will need to do this every time before you boot windows if you want LTE!
@@ -91,6 +93,8 @@
 ## Finished!
 
 
+
+
 ### Making the keyboard float
 
 > **Warning** Make sure these steps are done on the POCO X3 Pro running windows!
@@ -109,6 +113,8 @@
 - Reboot your phone
 
 ## Finished!
+
+
 
 
 ### Disabling USB Host mode
