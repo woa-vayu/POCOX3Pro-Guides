@@ -37,17 +37,17 @@
 
 ### PC part
 
-#### Boot recovery
+#### Flashing the recovery and booting it
 
 - Reboot to the bootloader
 
-- Run ```fastboot boot <recovery.img>``` (Substituting <recovery.img> with your chosen recovery)
+- Run ```fastboot flash recovery <recovery.img> reboot recovery```
 
-#### Transfer some files to the phone
+#### Transfering files to the phone
 
 - When the recovery has booted run ```adb shell mount.ntfs /dev/block/by-name/win /win```
 - Run ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
-- Run ```adb push switchtoandroid.exe /win/Users/<username>/Desktop/switchtoandroid.exe``` (Substituting <username> with the username on your windows partition)
+- Run ```adb push switchtoandroid.exe /win/Users/<username>/Desktop/switchtoandroid.exe```
   
 #### Booting to android
   
@@ -65,7 +65,7 @@
   
 ## Dualbooting Android and Windows seamlessly (Option 2)
   
-> **Note** This may not work on some android kernels or versions but it is easier and faster to boot into android
+> **Note** This may not work on some android kernels or versions and you will have to redo this every update or rom install but it is easier and faster to boot into android
   
 ### Prerequisites
 
@@ -76,11 +76,11 @@
 - [TWRP/OFOX](../../../../releases/Recoveries)
   
   
-#### Boot recovery
+#### Flashing the recovery and booting it
 
 - Reboot to the bootloader
 
-- Run ```fastboot boot <recovery.img>``` (Substituting <recovery.img> with your chosen recovery)
+- Run ```fastboot flash recovery <recovery.img> reboot recovery```
 
   
 #### Putting your phone into sideload mode
@@ -91,5 +91,5 @@
   
 #### Flashing UEFI With dualboot support
   
-- On your pc open the command prompt
-- In the command prompt do ```adb sideload <pathtouefizip>``` (Substituting <pathtouefizip> with the zip you downloaded earlier)
+- On your PC open the command prompt
+- In the command prompt do ```adb sideload <pathtouefizip>```
