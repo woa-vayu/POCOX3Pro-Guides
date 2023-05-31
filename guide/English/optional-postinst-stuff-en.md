@@ -43,7 +43,7 @@
 
 ### Provisioning the modem manually
 
-> **Warning** You will need to do this every time before you boot windows if you want LTE!
+> **Warning** You will need to do this every time before you boot Windows if you want LTE!
 
 #### Prerequisites
 
@@ -89,7 +89,7 @@
 
 ### Making the keyboard float
 
-> **Warning** Make sure these steps are done on the POCO X3 Pro running windows!
+> **Warning** Make sure these steps are done on the POCO X3 Pro running Windows!
 
 ##### Opening the command prompt
 
@@ -113,7 +113,7 @@
 
 > **Warning** Any non powered hub will STOP working!
 
-> **Warning** Make sure these steps are done on the POCO X3 Pro running windows!
+> **Warning** Make sure these steps are done on the POCO X3 Pro running Windows!
 
 ##### Opening the command prompt
 
