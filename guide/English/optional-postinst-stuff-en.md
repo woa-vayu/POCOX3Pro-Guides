@@ -70,15 +70,7 @@
 
 > Take note of the random data in that folder name (after qcremotefs8150)
 
-```ls /win/Windows/System32/DriverStore/FileRepository/ | grep qcremotefs8150```
-
-###### Delete any previous modem files if they exist
-
-> If you get any error about the files not existing, it's fine
-
-> Make sure you replace the random data with the data you notes down at the previous step
-
-```rm -rf /win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[insert random data here]/boot*```
+```ls /win/Windows/System32/DriverStore/FileRepository/ | grep qcremotefs8150`
 
 ###### Dump modem data
 
