@@ -14,22 +14,22 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation instructions](guide/install-selection.md)
+- [Installation instructions](guide/partition-en.md)
 
-- [Uninstall instructions](guide/uninstall-selection.md)
+- [Uninstall instructions](guide/uninstall-en.md)
 
 
 ## Miscellaneous
 
-- [Dualboot setup](guide/dualboot-selection.md)
+- [Dualboot setup](guide/dualboot-en.md)
 
-- [Optional post-install stuff](guide/optional-postinst-stuff-selection.md)
+- [Optional post-install stuff](guide/postinstall-en.md)
 
-- [Project status](guide/status-selection.md)
+- [Project status](guide/status-en.md)
 
-- [Troubleshooting](guide/troubleshooting-selection.md)
+- [Troubleshooting](guide/troubleshooting-en.md)
 
-- [Driver updating instructions](guide/driver-updating-selection.md)
+- [Driver updating instructions](guide/update-en.md)
 
 ## Contributors
 
