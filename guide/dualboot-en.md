@@ -13,13 +13,13 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP/OFOX](../../../../releases/Recoveries)
+- [TWRP/OFOX](../../../releases/Recoveries)
 
-- [NTFS Android Magisk Module](../../../../releases/ntfsdroid)
+- [NTFS Android Magisk Module](../../../releases/ntfsdroid)
 
 - [UEFI](https://github.com/woa-vayu/edk2-msm/releases/latest)
 
-- [UEFI & Android Boot Flashing App](../../../../releases/dualboot)
+- [UEFI & Android Boot Flashing App](../../../releases/dualboot)
 
 ### Phone Setup
 
@@ -73,7 +73,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP/OFOX](../../../../releases/Recoveries)
+- [TWRP/OFOX](../../../releases/Recoveries)
   
   
 #### Flashing the recovery and booting it

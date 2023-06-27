@@ -8,7 +8,7 @@
 ### Prerequisites
 
 - [UEFI](https://github.com/woa-vayu/edk2-msm/releases/latest)
-- [Modded TWRP/OFOX](../../../../releases/Recoveries)
+- [Modded TWRP/OFOX](../../../releases/Recoveries)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 

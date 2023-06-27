@@ -9,7 +9,7 @@
 
 #### Prerequisites
 
-- [Modded TWRP/OFOX](../../../../releases/Recoveries)
+- [Modded TWRP/OFOX](../../../releases/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -47,7 +47,7 @@
 
 #### Prerequisites
 
-- [Modded TWRP/OFOX](../../../../releases/Recoveries)
+- [Modded TWRP/OFOX](../../../releases/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
