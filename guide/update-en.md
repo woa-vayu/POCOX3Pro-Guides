@@ -58,15 +58,24 @@ exit
 ```
 
 
-### Install Drivers
-
-> Replace `<vayudriversfolder>` with the location of the drivers folder
-
-> Open cmd as administrator
-
+### Check what type of panel you have
 
 ```cmd
-DriverUpdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+adb shell cat /proc/cmdline
+```
+> Look for `msm_drm.dsi_display0` almost at the bottom
+
+> If your device is `Tianma`, `msm_drm.dsi_display0` will be `dsi_j20s_36_02_0a_video_display`
+
+> If your device is `Huaxing`, `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`
+
+### Install Drivers
+
+> Replace `<vayudriversfolder>` with the actual location of the drivers folder
+> Replace `<paneltype>` with the actual panel type (tianma/huaxing)
+
+```cmd
+.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu_<paneltype>.txt -r <vayudriversfolder> -p X:
 ```
 
 
