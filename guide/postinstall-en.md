@@ -70,7 +70,7 @@
 
 > Take note of the random data in that folder name (after qcremotefs8150)
 
-```ls /win/Windows/System32/DriverStore/FileRepository/ | grep qcremotefs8150`
+```ls /win/Windows/System32/DriverStore/FileRepository/ | grep qcremotefs8150```
 
 ###### Dump modem data
 
