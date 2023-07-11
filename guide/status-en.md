@@ -17,14 +17,14 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Charging ```Only slow charging```
 - [x] Display
 - [x] GPU
-- [x] LTE ```Only SIM1; requires provisioning on every boot```
+- [x] LTE ```Only SIM1; requires provisioning before every boot```
 - [ ] SD ```Very unstable, takes several attempts to be recognized```
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
 
-#### Sensors (Need to provision after installing Windows)
+#### Sensors
 - [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS

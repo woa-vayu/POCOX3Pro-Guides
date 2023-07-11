@@ -14,13 +14,16 @@
 - [UEFI image](https://github.com/woa-vayu/edk2-msm/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+- [Modified TWRP](../../../releases/Recoveries) (should already be installed)
 
 #### Boot into TWRP
 
 #### Execute the msc script
 
+> If it asks you to run it once again, do so
+
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
   
@@ -31,6 +34,7 @@ adb shell msc.sh
 #### Start the Windows disk manager
 
 > Once the X3 Pro is detected as a disk
+> (if it isn't, replug the device)
 
 ```cmd
 diskpart
@@ -48,7 +52,7 @@ select volume <number>
 
 #### Assign the letter X
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 ### Assign `Y` to esp volume
@@ -63,7 +67,7 @@ select volume <number>
 #### Assign the letter Y
 
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 #### Exit diskpart
@@ -76,14 +80,14 @@ exit
 
 ### Install
 
-> Replace `<path/to/install.wim>` with the actual path to install.wim,
+> Replace `path\to\install.wim` with the actual path to install.wim,
 
 > `install.wim` is located in sources folder inside your ISO
 > (it might also be named `install.esd`)
 > You can get it either by mounting or extracting the ISO
 
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
 ```
 
 ### Check what type of panel you have
@@ -101,11 +105,11 @@ adb shell cat /proc/cmdline
 
 ### Install Drivers
 
-> Replace `<vayudriversfolder>` with the actual location of the drivers folder
-> Replace `<paneltype>` with the actual panel type (tianma/huaxing)
+> Replace `path\to\drivers` with the actual location of the drivers folder
+> Replace `paneltype` with the actual panel type (tianma/huaxing)
 
 ```cmd
-.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu_<paneltype>.txt -r <vayudriversfolder> -p X:
+.\driverupdater.exe -d path\to\drivers\definitions\Desktop\ARM64\Internal\vayu_paneltype.txt -r path\to\drivers -p X:
 ```
 
   

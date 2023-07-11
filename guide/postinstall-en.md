@@ -5,41 +5,6 @@
 
 ## Optional post-install stuff
 
-### Provisioning the sensors
-
-#### Prerequisites
-
-- [Modded TWRP/OFOX](../../../releases/Recoveries)
-
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
-##### Flash and boot modded recovery
-
-```fastboot flash recovery <recovery.img> reboot recovery```
-
-##### Mounting partitions
-
-- Go to the mount menu
-- Mount the partitions persist and win
-
-##### Provisioning the sensors
-
-###### Start ADB Shell
-
-```adb shell```
-
-###### Remove any Qualcomm remnants
-
-```rm -rf /win/Windows/System32/drivers/DriverData/QUALCOMM/fastRPC/persist/sensors```
-
-###### Copy sensor data over
-
-```cp -r /persist/sensors /win/Windows/System32/drivers/DriverData/QUALCOMM/fastRPC/persist/sensors```
-
-## Finished!
-
-
-
 
 ### Provisioning the modem manually
 
@@ -47,13 +12,13 @@
 
 #### Prerequisites
 
-- [Modded TWRP/OFOX](../../../releases/Recoveries)
+- [Modded TWRP](../../../releases/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ##### Flash and boot modded recovery
 
-```fastboot flash recovery <recovery.img> reboot recovery```
+```fastboot flash recovery path\to\twrp.img reboot recovery```
 
 ##### Mounting partitions
 

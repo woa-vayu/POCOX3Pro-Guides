@@ -13,7 +13,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP/OFOX](../../../releases/Recoveries)
+- [Modified TWRP](../../../releases/Recoveries)
 
 - [NTFS Android Magisk Module](../../../releases/ntfsdroid)
 
@@ -69,11 +69,11 @@
   
 ### Prerequisites
 
-- [Latest installer ZIP](https://github.com/Woa-Vayu/edk2-msm/releases/latest)
+- [Latest installer ZIP](https://github.com/woa-vayu/edk2-msm/releases/latest)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP/OFOX](../../../releases/Recoveries)
+- [Modified TWRP](../../../releases/Recoveries)
   
   
 #### Flashing the recovery and booting it

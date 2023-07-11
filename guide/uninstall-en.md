@@ -16,16 +16,36 @@ If you want to relock your bootloader you'll need your partition table to be sto
 ### Prerequisites
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../releases/tag/binaries)
+- [gpt_both0.bin](../../../releases/tag/binaries) (old method)
+- [Modded TWRP/OFOX](../../../releases/Recoveries) (new method)
 
-### Restore GPT
-> Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
+#### New method
+
+##### Flash and boot modified recovery
 
 ```cmd
-fastboot flash partition:0 <gpt_both0.bin>
+fastboot flash recovery path\to\twrp.img 
+fastboot reboot recovery
 ```
 
-### Erase userdata to avoid bootloop and restore FS size
+##### Execute the restore script
+
+```cmd
+adb shell restore
+```
+
+##### Done!
+
+#### Old method (in case the new one didn't work)
+
+##### Restore GPT
+> Replace ```path\to\gpt_both0.bin``` with the path to the gpt_both0.bin file.
+
+```cmd
+fastboot flash partition:0 path\to\gpt_both0.bin
+```
+
+##### Erase userdata to avoid bootloop and restore FS size
 ```cmd
 fastboot -w
 ```
