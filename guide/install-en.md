@@ -97,9 +97,9 @@ dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
 ```cmd
 adb shell 'dmesg | grep dsi_display_bind'
 ```
-> If your device is `Tianma`, it will show `dsi_j20s_36_02_0a_video_display`
+> If your panel is `Tianma`, it will show `dsi_j20s_36_02_0a_video_display`
 
-> If your device is `Huaxing`, it will show `dsi_j20s_42_02_0b_video_display`
+> If your panel is `Huaxing`, it will show `dsi_j20s_42_02_0b_video_display`
 
 ### Install Drivers
 
