@@ -95,7 +95,7 @@ dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
 > Open cmd
 
 ```cmd
-adb shell 'dmesg | grep dsi_display_bind'
+adb shell "dmesg | grep dsi_display_bind"
 ```
 > If your panel is `Tianma`, it will show `dsi_j20s_36_02_0a_video_display`
 
