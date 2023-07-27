@@ -6,7 +6,6 @@
 ## Installation
 
 ## Installing Windows
-> You will need to have MTP disabled in "Mount"
 
 ### Prerequisites
 
