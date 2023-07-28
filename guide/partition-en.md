@@ -13,16 +13,20 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-### Notes:
+### Notes
 > [!WARNING]  
 > If you ever delete any partitions via diskpart, Windows will send a UFS command which would erase the entire UFS storage!
-- All your data will be erased! Backup now if needed.
-- Do not run the same command twice.
-- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayualt).
-
-#### ⚠️ Do not run all commands at once, execute them in order!
-
-##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
+> 
+> All your data will be erased! Backup now if needed.
+> 
+> Do not run the same command twice.
+> 
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayualt).
+> 
+>
+> Do not run all commands at once, execute them in order!
+>
+> YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
 ##### Flash the modified TWRP recovery
 ```cmd
