@@ -78,9 +78,10 @@
 
 ### Disabling USB Host mode
 
-> **Warning** Any non powered hub will STOP working!
-
-> **Warning** Make sure these steps are done on the POCO X3 Pro running Windows!
+> [!WARNING]
+>  Any non powered hub will STOP working!
+>
+> Make sure these steps are done on the POCO X3 Pro running Windows!
 
 ##### Opening the command prompt
 
