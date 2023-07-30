@@ -15,7 +15,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Brightness
 - [ ] Camera
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
-- [ ] Charging ```Only slow charging```
+- [ ] Charging ```VERY slow```
 - [x] Display
 - [x] GPU
 - [ ] SD ```Takes several attempts to be recognized and is very unstable```
