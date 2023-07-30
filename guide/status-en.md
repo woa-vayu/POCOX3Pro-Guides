@@ -14,11 +14,11 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
+- [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
 - [ ] Charging ```Only slow charging```
 - [x] Display
 - [x] GPU
-- [x] LTE ```Only SIM1; requires provisioning before every boot```
-- [ ] SD ```Very unstable, takes several attempts to be recognized```
+- [ ] SD ```Takes several attempts to be recognized and is very unstable```
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
