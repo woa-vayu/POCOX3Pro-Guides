@@ -14,7 +14,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation instructions](guide/partition-en.md)
+- [Installation instructions](guide/install-1-en.md)
 
 - [Uninstall instructions](guide/uninstall-en.md)
 
