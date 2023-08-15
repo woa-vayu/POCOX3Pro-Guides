@@ -14,9 +14,11 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
+- [Project status](guide/status-en.md)
+
 - [Installation instructions](guide/install-1-en.md)
 
-- [Uninstall instructions](guide/uninstall-en.md)
+- [Troubleshooting](guide/troubleshooting-en.md)
 
 
 ## Miscellaneous
@@ -25,11 +27,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Optional post-install stuff](guide/postinstall-en.md)
 
-- [Project status](guide/status-en.md)
-
-- [Troubleshooting](guide/troubleshooting-en.md)
-
 - [Driver updating instructions](guide/update-en.md)
+
+- [Uninstall instructions](guide/uninstall-en.md)
 
 ## Contributors
 
