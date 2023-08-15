@@ -5,7 +5,7 @@
 
 ## Project Status
 
-Beta. Most of the hardware works, but some components do not work yet.
+The project is finished. Some improvements might be made, but there won't be any driver updates.
 
 #### Features
 
