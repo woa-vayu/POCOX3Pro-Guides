@@ -1,39 +1,39 @@
 <img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 
-# Running Windows on the POCO X3 Pro
+# Запуск Windows на Poco X3 PRO
 
-English **|** [Русский](README_RU.md)
+[English](README.md) **|** Русский
 
-## ⚠️ Warning
+## ⚠️ Предупреждение
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства xiaomi, мертвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мертвые контроллеры экрана, мертвые процессоры, мертвых кошек и собак и ядерные войны.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Установка Windows - опасный процесс, делайте это на свой страх и риск и осторожно следуйте инструкции.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
-
-
-## Get Started
-
-- [Project status](guide/status-en.md)
-
-- [Installation instructions](guide/install-1-en.md)
-
-- [Troubleshooting](guide/troubleshooting-en.md)
+**ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО СЛОМАТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ПОЛОМКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
 
 
-## Miscellaneous
+## Начало
 
-- [Dualboot setup](guide/dualboot-en.md)
+- [Статус проекта](guide/status-ru.md)
 
-- [Optional post-install stuff](guide/postinstall-en.md)
+- [Инструкция по установке](guide/install-1-ru.md)
 
-- [Driver updating instructions](guide/update-en.md)
+- [Решение проблем](guide/troubleshooting-ru.md)
 
-- [Uninstall instructions](guide/uninstall-en.md)
 
-## Contributors
+## Дополнительное
+
+- [Настройка dualboot](guide/dualboot-ru.md)
+
+- [Опциональные действия после установки](guide/postinstall-ru.md)
+
+- [Инструкция по обновлению драйверов](guide/update-ru.md)
+
+- [Инструкция по удалению](guide/uninstall-ru.md)
+
+## Внесли вклад в проект:
 
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
