@@ -17,7 +17,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 - [gpt_both0.bin](../../../releases/tag/binaries) (old method)
-- [Modded TWRP/OFOX](../../../releases/Recoveries) (new method)
+- [Modded TWRP](../../../releases/Recoveries) (new method)
 
 #### New method
 
