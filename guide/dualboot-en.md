@@ -33,7 +33,7 @@
 
 - Install the APK provided
 - Create a folder named "UEFI" on your internal storage
-- Copy all uefi images into that folder with the naming scheme ```vayu-<panel>-<version>.img```
+- Copy all uefi images into the UEFI folder
 - Open the app and allow any root access it wants
 
 ### PC part
