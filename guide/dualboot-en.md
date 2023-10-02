@@ -48,11 +48,11 @@
 
 - When the recovery has booted run ```adb shell mount.ntfs /dev/block/by-name/win /win```
 - Run ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
-- Run ```adb push switchtoandroid.exe /win/Users/<username>/Desktop/switchtoandroid.exe```
+- Run ```adb push StA_installer.exe /win/Users/<username>/Desktop/StA_installer.exe```
   
 #### Booting to android
   
-  - Run switchtoandroid.exe on the phone as **ADMINISTRATOR**
+  - Run StA_installer.exe on the phone as **ADMINISTRATOR**
 
 #### Booting to windows
   

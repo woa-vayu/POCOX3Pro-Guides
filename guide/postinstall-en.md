@@ -26,7 +26,7 @@
 - Go to the mount menu
 - Mount the partition win
 
-##### Provisioning the modem
+##### Provisioning the modem (Longer method)
 
 ###### Start ADB Shell
 
@@ -94,5 +94,23 @@
 
 - In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
 - Reboot your phone
+
+## Finished!
+
+
+
+
+##### Provisioning the modem (Shorter method)
+
+#### Prerequisites
+- Rooted phone
+- [Modem provisioning zip](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/tag/modemprov)
+
+###### Flash the modem provisioning zip
+
+- Open Magisk
+- Go to the Modules section
+- Flash the zip
+- Boot into windows
 
 ## Finished!
