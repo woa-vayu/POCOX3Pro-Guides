@@ -28,6 +28,10 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
+> [!IMPORTANT]
+> Make sure you use the MODDED TWRP Recovery throughout this whole tutorial as we provide tools to help aid this installation process and make it as easy as possible for you
+> If you dont use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
+
 ##### Flash the modified TWRP recovery
 ```cmd
 fastboot flash recovery path\to\twrp.img
