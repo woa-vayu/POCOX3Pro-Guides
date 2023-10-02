@@ -49,10 +49,19 @@
 - When the recovery has booted run ```adb shell mount.ntfs /dev/block/by-name/win /win```
 - Run ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
 - Run ```adb push StA_installer.exe /win/Users/<username>/Desktop/StA_installer.exe```
-  
+
+#### Boot your phone into windows
+
+- Do ```adb reboot bootloader``` to reboot into fastboot
+- Do ```fastboot flash boot <UEFI File Here>.img reboot``` to flash the image and reboot the phone
+
+#### Phone Setup - Windows
+
+- Run the StA_installer.exe on your phone and follow any installation steps
+
 #### Booting to android
   
-  - Run StA_installer.exe on the phone as **ADMINISTRATOR**
+  - Run the new shortcut on your desktop as **ADMINISTRATOR**
 
 #### Booting to windows
   
