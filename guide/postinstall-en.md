@@ -19,9 +19,13 @@
 
 ##### Flash and boot modded recovery
 
+> This is self explanatory, it flashes the recovery then reboots into the recovery
+
 ```fastboot flash recovery path\to\twrp.img reboot recovery```
 
 ##### Mounting partitions
+
+> Also self explanatory, this will mount the windows partitions
 
 - Go to the mount menu
 - Mount the partition win
@@ -30,11 +34,15 @@
 
 ###### Start ADB Shell
 
+> Starts a shell on your computer used to communicate with your phone over ADB
+
 ```adb shell```
 
 ###### Finding the modem folder
 
 > Take note of the random data in that folder name (after qcremotefs8150)
+
+> This looks for the Qualcomm remotefs driver folder
 
 ```ls /win/Windows/System32/DriverStore/FileRepository/ | grep qcremotefs8150```
 
@@ -43,6 +51,8 @@
 > Just like before, replace the random data with the one that you noted down before
 
 > Make sure you do BOTH commands
+
+> This dumps your modem data into the remote fs folder, ultimately fixing the modem
 
 ```dd if=/dev/block/by-name/modemst1 of=/win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[insert random data here]/bootmodem_fs1```
 
@@ -58,7 +68,9 @@
 > [!WARNING]  
 > Make sure these steps are done on the POCO X3 Pro running Windows!
 
-##### Opening the command prompt
+##### Opening the command prompt as an administrator
+
+> This is self explanatory, this opens the command prompt as administrator
 
 - Go to the start menu
 - Search command prompt
@@ -66,6 +78,8 @@
 - Approve any UAC dialogs
 
 ##### Making the keyboard float
+
+> This deletes the registry key that tells the keyboard the size of our screen and makes it float again
 
 - In the command prompt put ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
 - Press 'y' then enter
@@ -83,7 +97,9 @@
 >
 > Make sure these steps are done on the POCO X3 Pro running Windows!
 
-##### Opening the command prompt
+##### Opening the command prompt as an administrator
+
+> This is self explanatory, this opens the command prompt as administrator
 
 - Go to the start menu
 - Search command prompt
@@ -92,6 +108,8 @@
 
 ##### Disabling USB host mode
 
+> This edits the registry key to tell the USB Controller not to put the device into host mode
+
 - In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
 - Reboot your phone
 
@@ -99,6 +117,10 @@
 
 
 
+### Provisioning the modem mostly automatically
+
+> [!WARNING]  
+> You will need to do this every time before you boot Windows if you want LTE!
 
 ##### Provisioning the modem (Shorter method)
 
@@ -107,6 +129,8 @@
 - [Modem provisioning zip](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/tag/modemprov)
 
 ###### Flash the modem provisioning zip
+
+> This is very self explanatory, open magisk, install zip that does the hard work for you
 
 - Open Magisk
 - Go to the Modules section
