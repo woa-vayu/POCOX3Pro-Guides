@@ -10,13 +10,13 @@
 > [!WARNING]  
 > You will need to do this every time before you boot Windows if you want LTE!
 
-##### Provisioning the modem mostly automatically (faster/easier method)
+#### Provisioning the modem mostly automatically (faster/easier method)
 
 #### Prerequisites
 - Magisk or TWRP installed
 - [Modem provisioning zip](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/tag/modemprov)
 
-###### Flash the modem provisioning zip
+##### Flash the modem provisioning zip
 
 > This is very self explanatory, open Magisk (or TWRP), install zip that does the hard work for you
 
@@ -27,7 +27,7 @@
 
 ## Finished!
 
-### Provisioning the modem manually (longer/harder method)
+#### Provisioning the modem manually (longer/harder method)
 
 #### Prerequisites
 
@@ -48,15 +48,13 @@
 - Go to the mount menu
 - Mount the partition win
 
-##### Provisioning the modem (Longer method)
-
-###### Start ADB Shell
+##### Start ADB Shell
 
 > Starts a shell on your computer used to communicate with your phone over ADB
 
 ```adb shell```
 
-###### Finding the modem folder
+##### Finding the modem folder
 
 > Take note of the random data in that folder name (after qcremotefs8150)
 
@@ -64,7 +62,7 @@
 
 ```ls /win/Windows/System32/DriverStore/FileRepository/ | grep qcremotefs8150```
 
-###### Dump modem data
+##### Dump modem data
 
 > Just like before, replace the random data with the one that you noted down before
 
