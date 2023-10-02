@@ -183,10 +183,14 @@ adb push <uefi.img> /external_sd
 
 
 ### Make a backup of your existing boot image
-> You need to do it just once
 
-> Put it to the microSD card if possible
+> You need to do it now and also after every ROM update.
 
+> To do this, go to the backup menu in TWRP
+
+> Select Boot, and make sure the Internal Storage (or SD if possible) is selected for the backup destination
+
+> Swipe!
 
 ### Flash the uefi image from TWRP
 Navigate to the `uefi.img` file and flash it into boot
