@@ -5,11 +5,29 @@
 
 ## Optional post-install stuff
 
-
-### Provisioning the modem manually
+### Provisioning the modem
 
 > [!WARNING]  
 > You will need to do this every time before you boot Windows if you want LTE!
+
+##### Provisioning the modem mostly automatically (faster/easier method)
+
+#### Prerequisites
+- Magisk or TWRP installed
+- [Modem provisioning zip](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/tag/modemprov)
+
+###### Flash the modem provisioning zip
+
+> This is very self explanatory, open Magisk (or TWRP), install zip that does the hard work for you
+
+- Open Magisk (or boot TWRP)
+- Go to the Modules section ("Install" button in TWRP)
+- Flash the zip
+- Boot into Windows
+
+## Finished!
+
+### Provisioning the modem manually (longer/harder method)
 
 #### Prerequisites
 
@@ -117,24 +135,4 @@
 
 
 
-### Provisioning the modem mostly automatically
 
-> [!WARNING]  
-> You will need to do this every time before you boot Windows if you want LTE!
-
-##### Provisioning the modem (Shorter method)
-
-#### Prerequisites
-- Rooted phone
-- [Modem provisioning zip](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/tag/modemprov)
-
-###### Flash the modem provisioning zip
-
-> This is very self explanatory, open magisk, install zip that does the hard work for you
-
-- Open Magisk
-- Go to the Modules section
-- Flash the zip
-- Boot into windows
-
-## Finished!
