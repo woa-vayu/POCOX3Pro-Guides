@@ -44,6 +44,7 @@ fastboot reboot recovery
 > If it asks you to run it once again, do so
 
 > This is **optional** but you can **set custom sizes using this script**
+
 > To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
 > Make sure you do not add GB at the end, just the number
 
