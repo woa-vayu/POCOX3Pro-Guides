@@ -117,16 +117,7 @@ adb shell "dmesg | grep dsi_display_bind"
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-  
-  
 
-## Allow unsigned drivers
-
-> If you don't do this you'll get a BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
 
 ### Unssign disk letters
   
