@@ -3,7 +3,7 @@
 
 # Running Windows on the POCO X3 Pro
 
-## Dualbooting Android and Windows seamlessly (Option 1)
+## Dualbooting Android and Windows seamlessly
 
 > [!NOTE] 
 > This will work on any android version and kernel but it does take longer to boot into Android from Windows
@@ -69,38 +69,3 @@
   - Press "Quickboot to windows"
   
 ## Finished!
-  
-  
-
-  
-## Dualbooting Android and Windows seamlessly (Option 2)
-  
-> [!NOTE] 
-> This may not work on some Android kernels or versions, you will have to redo this every update or rom install and sometimes it may randomly break meaning you have to reflash but it is easier and faster to boot into android
-  
-### Prerequisites
-
-- [Latest installer ZIP](https://github.com/woa-vayu/edk2-msm/releases/latest)
-
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
-- [Modified TWRP](../../../releases/Recoveries)
-  
-  
-#### Flashing the recovery and booting it
-
-- Reboot to the bootloader
-
-- Run ```fastboot flash recovery <recovery.img> reboot recovery```
-
-  
-#### Putting your phone into sideload mode
-  
-- Go to the advanced tab on your phone
-- Press ADB Sideload
-- Swipe to start sideload mode
-  
-#### Flashing UEFI With dualboot support
-  
-- On your PC open the command prompt
-- In the command prompt do ```adb sideload <pathtouefizip>```
