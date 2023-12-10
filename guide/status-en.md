@@ -32,3 +32,8 @@ The project is finished. Some improvements might be made, but there won't be any
 - [x] Light sensor
 - [x] Magnetometer
 - [x] Proximity
+
+#### Security
+
+- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
+- [x] TPM (Software Backed)
