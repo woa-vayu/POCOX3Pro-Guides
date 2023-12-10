@@ -10,7 +10,7 @@
 ### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
-- [UEFI image](https://github.com/woa-vayu/edk2-msm/releases/latest)
+- [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 - [Modified TWRP](../../../releases/Recoveries) (should already be installed)
