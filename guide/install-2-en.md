@@ -9,9 +9,8 @@
 
 ### Prerequisites
 
-- [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
+- [Windows on ARM64 image (Windows 11 only)](https://uupdump.net/)
 - [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 - [Modified TWRP](../../../releases/Recoveries) (should already be installed)
 
@@ -102,13 +101,8 @@ adb shell "dmesg | grep dsi_display_bind"
 
 ### Install Drivers
 
-> Replace `path\to\drivers` with the actual location of the drivers folder
-> Replace `paneltype` with the actual panel type (tianma/huaxing)
-
-```cmd
-.\driverupdater.exe -d path\to\drivers\definitions\Desktop\ARM64\Internal\vayu_paneltype.txt -r path\to\drivers -p X:
-```
-
+#### Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
+> When it asks you for the drive letter, enter X
   
 
 ### Create Windows bootloader files
@@ -164,12 +158,6 @@ exit
 
 ```cmd
 adb push <uefi.img> /sdcard
-```
-
-#### if you have a microSD card use this
-
-```cmd
-adb push <uefi.img> /external_sd
 ```
 
 
