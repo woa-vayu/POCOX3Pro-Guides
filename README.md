@@ -3,7 +3,9 @@
 
 # Running Windows on the POCO X3 Pro
 
-English **|** [Русский](README_RU.md)
+[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
+
+English **|** [~~Русский~~](README_RU.md)
 
 ## ⚠️ Warning
 
