@@ -10,6 +10,9 @@
 > [!WARNING]  
 > You will need to do this every time before you boot Windows if you want LTE!
 
+> [!NOTE]
+> You don't have to do this if you're using WoA Helper
+
 #### Provisioning the modem mostly automatically (faster/easier method)
 
 #### Prerequisites
