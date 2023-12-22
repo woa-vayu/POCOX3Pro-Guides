@@ -46,9 +46,8 @@
 
 #### Transfering files to the phone
 
-- When the recovery has booted run ```adb shell mount.ntfs /dev/block/by-name/win /win```
 - Run ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
-- Run ```adb push StA_installer.exe /win/Users/<username>/Desktop/StA_installer.exe```
+- Run ```adb push StA_installer_vayu.exe /win/Users/<username>/Desktop/StA_installer_vayu.exe```
 
 #### Boot your phone into windows
 
@@ -57,7 +56,7 @@
 
 #### Phone Setup - Windows
 
-- Run the StA_installer.exe on your phone and follow any installation steps
+- Run the StA_installer_vayu.exe on your phone (make sure that any antivirus software is off, as it will probably not let the app run)
 
 #### Booting to android
   
