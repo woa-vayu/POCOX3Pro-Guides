@@ -28,8 +28,7 @@
 
 ##### Установите модифицированный TWRP
 ```cmd
-fastboot flash recovery path\to\twrp.img
-fastboot reboot recovery
+fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
 ##### Запустите скрипт разметки
