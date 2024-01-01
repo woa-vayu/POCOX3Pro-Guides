@@ -35,8 +35,7 @@
 
 ##### Flash the modified TWRP recovery
 ```cmd
-fastboot flash recovery path\to\twrp.img
-fastboot reboot recovery
+fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
 ##### Run the partitioning script
