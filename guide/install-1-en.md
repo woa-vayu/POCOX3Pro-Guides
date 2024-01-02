@@ -9,6 +9,8 @@
 
 ### Prerequisites
 
+- A brain
+
 - [Modified TWRP](../../../releases/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
