@@ -137,3 +137,17 @@
 
 
 
+### Hiding the ESP drive (Local Disk D)
+> [!NOTE]
+> This is recommended because this drive should not be modified, while some applications may try to write to it
+
+- Open a command window and run ```diskpart```
+- Then run ```list volume``` to see all connected disks
+- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
+- Remove the letter with ```remove letter d`
+- Now exit diskpart with ```exit```
+
+## Finished!
+
+
+
