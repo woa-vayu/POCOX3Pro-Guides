@@ -137,3 +137,17 @@
 
 
 
+### Hiding the D: drive (modem partition)
+> [!NOTE]
+> This is recommended because this drive should not be modified, while some applications may try to write to it
+
+- Open a command prompt and run ```diskpart```
+- Then run ```list volume``` to see all available volumes
+- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
+- Remove the letter with ```remove letter d`
+- Now exit diskpart with ```exit```
+
+## Finished!
+
+
+
