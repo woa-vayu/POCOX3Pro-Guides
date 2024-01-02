@@ -5,66 +5,42 @@
 
 ## Dualbooting Android and Windows seamlessly
 
-> [!NOTE] 
-> This will work on any android version and kernel but it does take longer to boot into Android from Windows
-
 ### Prerequisites
-
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
 - [Modified TWRP](../../../releases/Recoveries)
-
 - [NTFS Android Magisk Module](../../../releases/ntfsdroid)
-
 - [UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-
-- [UEFI & Android Boot Flashing App](../../../releases/dualboot)
+- [Android Boot Flashing App](../../../releases/dualboot)
 
 ### Phone Setup
 
 #### Adding NTFS Support to android
-
 - Install Magisk if you haven't already
 - Install the NTFS Android magisk module through the Magisk manager
 
 #### Application Setup
-
-- Install the APK provided
+> In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android.
+- Download the StA Installer and the APK, then install the APK
 - Create a folder named "UEFI" on your internal storage
-- Copy all uefi images into the UEFI folder
+- Copy the uefi image into the UEFI folder
 - Open the app and allow any root access it wants
+- Press the "BACKUP ANDROID BOOT" button, then dismiss the popup
+- Press the "Mount/Unmount Windows button, then dismiss the popup
+- Go to your file explorer and Windows should be mounted in sdcard/Windows (your internal storage). Move the StA Installer and boot.img backup into this folder
+- Return to the WOA helper app and press "Quickboot to Windows"
+- After Windows boots, run the StA installer in the C:\ directory
+> You may need to disable any antivirus software present, if the installer does not work
 
-### PC part
-
-#### Flashing the recovery and booting it
-
-- Reboot to the bootloader
-
-- Run ```fastboot flash recovery <recovery.img> reboot recovery```
-
-#### Transfering files to the phone
-
-- Run ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
-- Run ```adb push StA_installer_vayu.exe /win/Users/<username>/Desktop/StA_installer_vayu.exe```
-
-#### Boot your phone into windows
-
-- Do ```adb reboot bootloader``` to reboot into fastboot
-- Do ```fastboot flash boot <UEFI File Here>.img reboot``` to flash the image and reboot the phone
-
-#### Phone Setup - Windows
-
-- Run the StA_installer_vayu.exe on your phone (make sure that any antivirus software is off, as it will probably not let the app run)
-
-#### Booting to android
+#### Booting to Android
   
   - Run the new shortcut on your desktop as **ADMINISTRATOR**
 
-#### Booting to windows
+#### Booting to Windows
   
   - Run the app
-  - Press "Quickboot to windows"
+  - Press "Quickboot to Windows"
+
+> If quickboot does not work, you may have shut down Windows incorrectly. If this happens, use the "Flash UEFI" button and manually reboot your phone.
   
 ## Finished!
