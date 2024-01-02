@@ -29,7 +29,7 @@
 - Press the "Mount/Unmount Windows button, then dismiss the popup
 - Go to your file explorer and Windows should be mounted in sdcard/Windows (your internal storage). Move the StA Installer and boot.img backup into this folder
 - Return to the WOA helper app and press "Quickboot to Windows"
-- After Windows boots, run the StA installer in the C:/ directory
+- After Windows boots, run the StA installer in the C:\ directory
 > You may need to disable any antivirus software present, if the installer does not work
 
 #### Booting to Android
