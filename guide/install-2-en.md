@@ -111,7 +111,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 
 
-### Unssign disk letters
+### Unassign disk letters
   
 > So that they don't stay there after disconnecting the device
 
