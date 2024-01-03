@@ -5,7 +5,9 @@
 
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
 
+<!--
 English **|** [~~Русский~~](README_RU.md)
+-->
 
 ## ⚠️ Warning
 
