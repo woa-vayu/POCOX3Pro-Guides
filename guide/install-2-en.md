@@ -15,6 +15,10 @@
 - [Modified TWRP](../../../releases/Recoveries) (should already be installed)
 
 #### Boot into TWRP
+> If your recovery has been replaced by the stock recovery, flash it again using
+```cmd
+fastboot flash recovery path\to\twrp.img reboot recovery
+```
 
 #### Execute the msc script
 
