@@ -10,7 +10,6 @@
 ### Prerequisites
 
 - [Windows on ARM64 image (Windows 11 only)](https://uupdump.net/)
-- .NET 8.0 Desktop Runtime (choose your PC's arch): [x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x86-installer) | [x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer) | [arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-arm64-installer)
 - [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 - [Modified TWRP](../../../releases/Recoveries) (should already be installed)
