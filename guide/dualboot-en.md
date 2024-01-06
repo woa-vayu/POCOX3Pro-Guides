@@ -20,7 +20,9 @@
 - Install the NTFS Android magisk module through the Magisk manager
 
 #### Application Setup
-> In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android.
+> [!NOTE]
+>
+> In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android using the backup you made earlier.
 - Download the StA Installer and the APK, then install the APK
 - Create a folder named "UEFI" on your internal storage
 - Copy the uefi image into the UEFI folder
