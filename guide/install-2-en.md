@@ -102,7 +102,7 @@ adb shell panel
 
 ### Install Drivers
 
-### Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
+Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
 > When it asks you for the drive letter, enter X:
   
 
