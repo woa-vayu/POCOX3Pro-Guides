@@ -8,7 +8,7 @@
 ## Installing Windows
 
 ### Prerequisites
-
+- A brain
 - [Windows on ARM64 image (Windows 11 only)](https://uupdump.net/)
 - [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
