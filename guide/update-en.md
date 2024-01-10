@@ -67,6 +67,7 @@ Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater
 
 ### Boot with Windows bootable UEFI image
 ```
+adb reboot bootloader
 fastboot flash boot <uefi.img>
 ```
 
