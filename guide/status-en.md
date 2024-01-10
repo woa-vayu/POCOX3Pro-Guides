@@ -15,7 +15,7 @@ The project is finished. Some improvements might be made, but there won't be any
 - [x] Brightness
 - [ ] Camera
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
-- [x] Charging ```VERY slow, about 6W```
+- [x] Charging ```Slow. Check "Troubleshooting" for more info```
 - [x] Display
 - [x] GPU
 - [ ] SD ```Takes several attempts to be recognized and is very unstable```
