@@ -6,37 +6,34 @@
 ## Driver updating
 
 ### Prerequisites
-
-- [UEFI](https://github.com/woa-vayu/edk2-msm/releases/latest)
-- [Modded TWRP](../../../releases/Recoveries)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- A brain
+- [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+- [Modified TWRP](../../../releases/Recoveries) (should already be installed)
 
-#### Start TWRP recovery through the PC with the command
 
+#### Boot into TWRP
+> If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot boot <twrp.img>
+fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
-
-> You will need to disable MTP in Mount
-#### Execute script
-
+#### Execute the msc script
+> If it asks you to run it once again, do so
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
-### Assign letters to disks
+### Assign letters to disk
+  
 
 #### Start the Windows disk manager
-
 > Once the X3 Pro is detected as a disk
+> (if it isn't, replug the device)
 
 ```cmd
 diskpart
 ```
-
 
 ### Assign `X` to Windows volume
 
@@ -49,7 +46,7 @@ select volume <number>
 
 #### Assign the letter X
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 #### Exit diskpart
@@ -57,31 +54,20 @@ assign letter=x
 exit
 ```
 
-
 ### Check what type of panel you have
-
+> Open cmd
 ```cmd
-adb shell cat /proc/cmdline
+adb shell panel
 ```
-> Look for `msm_drm.dsi_display0` almost at the bottom
-
-> If your device is `Tianma`, `msm_drm.dsi_display0` will be `dsi_j20s_36_02_0a_video_display`
-
-> If your device is `Huaxing`, `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`
 
 ### Install Drivers
-
-> Replace `<vayudriversfolder>` with the actual location of the drivers folder
-> Replace `<paneltype>` with the actual panel type (tianma/huaxing)
-
-```cmd
-.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu_<paneltype>.txt -r <vayudriversfolder> -p X:
-```
-
+Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
+> When it asks you for the drive letter, enter X:
+  
 
 ### Boot with Windows bootable UEFI image
-
 ```
+adb reboot bootloader
 fastboot flash boot <uefi.img>
 ```
 
