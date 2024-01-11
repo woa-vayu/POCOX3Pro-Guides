@@ -24,12 +24,12 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation instructions](guide/install-1-en.md)
 
+- [Dualboot setup](guide/dualboot-en.md) (do this AFTER the main installation guide!)
+- 
 - [Troubleshooting](guide/troubleshooting-en.md)
 
 
 ## Miscellaneous
-
-- [Dualboot setup](guide/dualboot-en.md) (do this AFTER the main installation guide!)
 
 - [Optional post-install stuff](guide/postinstall-en.md)
 
