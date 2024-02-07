@@ -11,7 +11,8 @@
 - [Modified TWRP](../../../releases/Recoveries)
 - [NTFS Android Magisk Module](../../../releases/ntfsdroid)
 - [UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [Android Boot Flashing App](../../../releases/dualboot)
+- [Windows on Android Helper APK](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [StA Installer](../../../releases/dualboot)
 
 ### Phone Setup
 
@@ -23,7 +24,7 @@
 > [!NOTE]
 >
 > In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android using the backup you made earlier.
-- Download the StA Installer and the APK, then install the APK
+- Download the StA Installer and the Windows on Android Helper APK, then install the APK
 - Create a folder named "UEFI" on your internal storage
 - Copy the uefi image into the UEFI folder
 - Open the app and allow any root access it wants
