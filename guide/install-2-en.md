@@ -9,7 +9,7 @@
 
 ### Prerequisites
 - A brain
-- [Windows on ARM64 image (Windows 11 only)](https://uupdump.net/)
+- [Windows on ARM64 image (Windows 11 only)](https://worproject.com/esd)
 - [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 - [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 - [Modified TWRP](../../../releases/Recoveries) (should already be installed)
@@ -82,14 +82,12 @@ exit
 
 ### Install
 
-> Replace `path\to\install.wim` with the actual path to install.wim,
+> Replace `path\to\install.esd` with the actual path to install.esd
 
-> `install.wim` is located in sources folder inside your ISO
-> (it might also be named `install.esd`)
-> You can get it either by mounting or extracting the ISO
+> If you got your Windows image (which may also be named `install.wim`) from another source than the link in this guide, replace `index:6` with `index:1`
 
 ```cmd
-dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
 ### Check what type of panel you have
