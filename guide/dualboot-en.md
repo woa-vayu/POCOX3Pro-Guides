@@ -7,43 +7,28 @@
 
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [Modified TWRP](../../../releases/Recoveries)
-- [NTFS Android Magisk Module](../../../releases/ntfsdroid)
 - [UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [Windows on Android Helper APK](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [Windows on Android Helper APK](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [StA Installer](../../../releases/dualboot)
 
-### Phone Setup
-
-#### Adding NTFS Support to android
-- Install Magisk if you haven't already
-- Install the NTFS Android magisk module through the Magisk manager
-
-#### Application Setup
+### Setup - Android
 > [!NOTE]
->
-> In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android using the backup you made earlier.
-- Download the StA Installer and the Windows on Android Helper APK, then install the APK
-- Create a folder named "UEFI" on your internal storage
-- Copy the uefi image into the UEFI folder
-- Open the app and allow any root access it wants
-- Press the "BACKUP ANDROID BOOT" button, then dismiss the popup
-- Press the "Mount/Unmount Windows button, then dismiss the popup
-- Go to your file explorer and Windows should be mounted in sdcard/Windows (your internal storage). Move the StA Installer and boot.img backup into this folder
-- Return to the WOA helper app and press "Quickboot to Windows"
-- After Windows boots, run the StA installer in the C:\ directory
-> You may need to disable any antivirus software present, if the installer does not work
+> If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
 
-#### Booting to Android
-  
-  - Run the new shortcut on your desktop as **ADMINISTRATOR**
+- Download and install the WOA Helper app, then open it and grant it root access.
+- Download the UEFI image and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
+- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
+- Press the `Mount Windows` button, then download and move StA_Installer_vayu.exe to the newly created `Windows` folder in your internal storage.
+- Return to the WOA Helper app and press `Quickboot to Windows`.
 
-#### Booting to Windows
-  
-  - Run the app
-  - Press "Quickboot to Windows"
+### Setup - Windows
+- Navigate to `C:\StA_Installer_vayu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run
 
-> If quickboot does not work, you may have shut down Windows incorrectly. If this happens, use the "Flash UEFI" button and manually reboot your phone.
+##### Booting to Android
+  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+
+##### Booting to Windows
+  - Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+
   
 ## Finished!
