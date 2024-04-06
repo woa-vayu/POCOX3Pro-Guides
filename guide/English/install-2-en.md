@@ -4,17 +4,15 @@
 
 ## Installation
 > [!NOTE]
-> It is recommended to open CMD or powershell as an admin now, and then access the platform-tools folder using the `cd C:\path\to\platform-tools` command, replacing the path with the actual path of the folder.
+> It is recommended to open CMD or powershell as an admin now, if you haven't already on the last page, and then access the platform-tools folder using the `cd C:\path\to\platform-tools` command, replacing the path with the actual path of the folder.
 > Use the same window in the entire guide, do not close it.
 
 ### Prerequisites
-- ```Brain```
-  
-- [```ARM Windows esd```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+- [ARM Windows esd](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
     
-- [```Drivers```](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 
-- [```Recovery Image```](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
+- [Recovery image](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
 
 ### Boot back into recovery to start installing Windows
 > If your recovery has been replaced by the stock recovery, flash it again using
@@ -28,18 +26,18 @@ fastboot flash recovery <recovery.img> reboot recovery
 adb shell msc
 ```
 
-#### Start the Windows disk manager
+### Diskpart
 > [!WARNING]
-> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
+> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
 
 ```cmd
 diskpart
 ```
   
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named **WINVAYU**
+#### Select the Windows volume of the phone
+> Use `list volume` to find it, replace "$" with the actual number of **WINVAYU**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Assign the letter X
@@ -47,8 +45,8 @@ select volume <number>
 assign letter x
 ```
 
-#### Select the ESP volume of the tablet
-> Use `list volume` to find it, it's the one named **ESPVAYU**
+#### Select the ESP volume of the phone
+> Use `list volume` to find it, replace "$" with the actual number of **ESPVAYU**
 ```diskpart
 select volume <number>
 ```
@@ -73,19 +71,16 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Check what type of panel you have
-
-> Open cmd
-
 ```cmd
 adb shell panel
 ```
 
-### Install Drivers
+### Installing drivers
 Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
-> When it asks you for the drive letter, enter X:
+> When it asks you for the drive letter, enter X
   
 #### Create Windows bootloader files for the EFI
-> If an error occurs when copying boot files, check `diskpart` to see if ESPVAYU still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
+> If an error occurs when copying boot files, check `diskpart` to see if **ESPVAYU** still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
@@ -104,3 +99,21 @@ adb reboot
 > Set up your device, then go to the last step
 
 ## [Last step: Set up Dualboot](/guide/English/dualboot-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
