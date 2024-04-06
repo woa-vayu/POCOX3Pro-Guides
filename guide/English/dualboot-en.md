@@ -5,22 +5,19 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- ```Brain```
-- ```A rooted phone```
-- ```Windows installed on the phone```
-- [```NTFS Android Magisk Module```](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/ntfsdroid)
-- [```UEFI image```](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [```Windows on Android Helper APK```](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
-- [```StA Installer```](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
+- A rooted vayu with Windows already installed
+- [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
+- [WoA Helper app](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
+- [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
 
 ## Setting up the dualboot app
-> This guide assumes you are rooted, if you aren't, please install Magisk
+> This guide assumes you are rooted, if you aren't, please do this first
 
 ### Setup - Android
-- Download and install the WoA Helper app, then open it and grant it root access.
-- Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
-- Press the `Mount Windows` button, then download and move **StA_Installer_vayu.exe** to the newly created `Windows` folder in your internal storage.
-- Return to the WoA Helper app and press `QuickBoot to Windows`.
+- Download and install the **WoA Helper** app, then open it and grant it root access.
+- Download the **UEFI image** for your panel and place it inside the folder named `UEFI` in your internal storage.
+- Press the `MOUNT WINDOWS` button, then download and move **StA_Installer_vayu.exe** to the newly created `Windows` folder in your internal storage.
+- Return to the WoA Helper app and press `QUICKBOOT TO WINDOWS`.
   
 > [!NOTE]
 > The first Windows boot can take up to 10 minutes, don't worry and just wait
@@ -32,6 +29,26 @@
 - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
 #### Booting to Windows
-- Press `QuickBoot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+- Press `QUICKBOOT TO WINDOWS` inside the app, or use the newly created toggle in your quick settings panel
   
 ## Finished!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
