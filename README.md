@@ -1,13 +1,8 @@
 <img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
-
 # Running Windows on the POCO X3 Pro
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
-
-<!--
-English **|** [~~Русский~~](README_RU.md)
--->
 
 ## ⚠️ Warning
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
@@ -20,15 +15,14 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Get Started
-- [Installation](guide/English/install-1-en.md)
+- [Project status](guide/English/status-en.md)
 
-- [Dualboot setup](guide/English/dualboot-en.md)
+- [Installation](guide/English/install-1-en.md)
 
 - [Uninstallation](guide/English/uninstall-en.md)
 
-
 ## Miscellaneous
-- [Project status](guide/English/status-en.md)
+- [Dualboot setup](guide/English/dualboot-en.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
@@ -38,10 +32,7 @@ This project is in development stage, all the files here have been contributed b
 
 - [Reinstallation](guide/English/reinstall-en.md)
 
-
-
 ## Contributors
-
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -63,3 +54,25 @@ This project is in development stage, all the files here have been contributed b
 [<img alt="nedokaka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104865210?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/nedokaka)
 [<img alt="Nx0Ri" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/152011726?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Nx0Ri)
 [<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
+[<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
