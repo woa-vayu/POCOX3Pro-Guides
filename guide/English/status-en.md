@@ -1,14 +1,11 @@
 <img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
-
 # Running Windows on the POCO X3 Pro
 
 ## Project Status
-
 The project is finished. Some improvements might be made, but there won't be any driver updates.
 
-#### Features
-
+### Features
 - [ ] Audio ```Only by USB or Bluetooth```
 - [X] Battery status
 - [x] Bluetooth
@@ -24,7 +21,7 @@ The project is finished. Some improvements might be made, but there won't be any
 - [x] USB
 - [x] Wi-Fi
 
-#### Sensors
+### Sensors
 - [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS

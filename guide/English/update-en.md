@@ -6,26 +6,25 @@
 ## Updating Drivers
 
 ### Prerequisites
-- [```Recovery image```](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [Recovery image](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
 
-- [```UEFI image```](https://github.com/woa-vayu/msmnilePkg/releases/latest)
+- [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 
-- [```Drivers```](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 
-#### Boot into TWRP
+### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
 fastboot flash recovery <recovery.img> reboot recovery
 ```
 
-### Activate mass storage mode
+#### Activate mass storage mode
 > If it asks you to run it once again, do so
 ```cmd
 adb shell msc
 ```
 
-#### Start the Windows disk manager
-> Once the X3 Pro is detected as a disk
+### Diskpart
 ```cmd
 diskpart
 ```
@@ -41,7 +40,7 @@ select volume <number>
 assign letter x
 ```
 
-### Exit diskpart
+#### Exit diskpart
 ```diskpart
 exit
 ```
@@ -52,10 +51,9 @@ exit
 adb shell panel
 ```
 
-### Install Drivers
-> You can download Drivers [here](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+### Installing drivers
 Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
-> When it asks you for the drive letter, enter X:
+> When it asks you for the drive letter, enter **X**
   
 ### Reboot to fastboot to flash UEFI
 > You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
@@ -70,5 +68,21 @@ adb reboot bootloader
 ```cmd
 fastboot flash boot <uefi.img>
 ```
-
 ## Finished!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
