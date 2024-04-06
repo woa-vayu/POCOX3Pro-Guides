@@ -7,7 +7,7 @@
 ### Prerequisites
 - A rooted vayu with Windows already installed
 - [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [WoA Helper app](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
+- [WoA Helper](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk) or [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 - [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
 
 ## Setting up the dualboot app
