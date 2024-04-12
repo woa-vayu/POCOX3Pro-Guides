@@ -27,7 +27,7 @@ This project is in development stage, all the files here have been contributed b
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
-- [Optional post-install stuff](guide/English/postinstall-en.md)
+- [Useful apps and instructions](guide/English/additional-materials-en.md)
 
 - [Updating Drivers](guide/English/update-en.md)
 
