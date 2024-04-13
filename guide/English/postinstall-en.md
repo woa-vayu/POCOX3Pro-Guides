@@ -114,26 +114,11 @@
 > [!WARNING]
 >  Any non powered hub will STOP working!
 >
-> Make sure these steps are done on the POCO X3 Pro running Windows!
+> Make sure these steps are done on the POCO X3 Pro running Windows
 
-##### Opening the command prompt as an administrator
+Run [USB Host Control script](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V6.0.vbs) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
 
-> This is self explanatory, this opens the command prompt as administrator
-
-- Go to the start menu
-- Search command prompt
-- Hold the command prompt application and run it as administrator
-- Approve any UAC dialogs
-
-##### Disabling USB host mode
-
-> This edits the registry key to tell the USB Controller not to put the device into host mode
-
-- In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
-- Reboot your phone
-
-## Finished!
-
+#### Finished!
 
 
 
