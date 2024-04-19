@@ -15,8 +15,8 @@
 - [Образ recovery](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
 
 ### Загрузитесь обратно в recovery что бы начать установку Windows
-> Если ваше recovery было заменено стоковым, прошейте его снова используя
 > Замените `<recovery.img>` действительным путём к recovery.img
+> Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
 fastboot flash recovery <recovery.img> reboot recovery
 ```
