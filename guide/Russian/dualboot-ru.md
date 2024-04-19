@@ -7,10 +7,10 @@
 ### Требования 
 - Рутированный vayu с уже установленной Windows
 - [Образ UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [WoA Helper](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk) or [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [WoA Helper](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk) или [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 - [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
 
-## Setting up the dualboot app
+## Настройка приложения dualboot
 > В этом гайде предполагается, что у вас есть root, если это не так, пожалуйста, сделайте это в первую очередь
 
 ### Установка - Android
