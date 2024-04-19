@@ -7,8 +7,8 @@
 > It is recommended to open CMD or powershell as an admin now, if you haven't already on the last page, and then access the platform-tools folder using the `cd C:\path\to\platform-tools` command, replacing the path with the actual path of the folder.
 > Use the same window in the entire guide, do not close it.
 
-### Prerequisites
-- [ARM Windows esd](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+### Требования 
+- [ARM Windows esd](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```выберите ваш язык```)
 
 - [Драйвера](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 
