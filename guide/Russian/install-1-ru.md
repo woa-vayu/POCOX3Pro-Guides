@@ -52,4 +52,4 @@ adb shell partition $
 ```cmd
 adb reboot
 ```
-## [Следующий шаг: Установка Windows](/guide/English/install-2-en.md)
+## [Следующий шаг: Установка Windows](install-2-ru.md)
