@@ -17,22 +17,22 @@
 
 
 ## Начнём 
-- [Статус проекта](guide/Russian/status-ru.md)
+- [Статус проекта](status-ru.md)
 
-- [Установка](guide/Russian/install-1-ru.md)
+- [Установка](install-1-ru.md)
 
-- [Удаление](guide/Russian/uninstall-ru.md)
+- [Удаление](uninstall-ru.md)
 
 ## Прочее 
-- [Настройка Dualboot](guide/Russian/dualboot-ru.md)
+- [Настройка Dualboot](dualboot-ru.md)
 
-- [Исправление проблем](guide/Russian/troubleshooting-ru.md)
+- [Исправление проблем](troubleshooting-ru.md)
 
-- [Полезные приложения и инструкции](guide/Russian/additional-materials-ru.md)
+- [Полезные приложения и инструкции](additional-materials-ru.md)
 
-- [Обновление драйверов](guide/Russian/update-ru.md)
+- [Обновление драйверов](update-ru.md)
 
-- [Переустановка](guide/Russian/reinstall-ru.md)
+- [Переустановка](reinstall-ru.md)
 
 ## Соавторы
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
