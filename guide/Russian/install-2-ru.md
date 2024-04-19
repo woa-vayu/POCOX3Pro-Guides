@@ -99,4 +99,4 @@ adb reboot
 
 > Настройте своё устройство, затем перейдите к последнему шагу
 
-## [Последний шаг: Настройка Dualboot](/guide/English/dualboot-en.md)
+## [Последний шаг: Настройка Dualboot](/guide/Russian/dualboot-ru.md)
