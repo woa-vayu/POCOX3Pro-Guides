@@ -20,7 +20,7 @@
 fastboot flash recovery <recovery.img> reboot recovery
 ```
 
-#### Execute msc 
+#### Запустите msc 
 > If it asks you to run it once again, do so
 ```cmd
 adb shell msc
