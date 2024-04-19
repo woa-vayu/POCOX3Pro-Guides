@@ -14,69 +14,70 @@
 
 - [Образ recovery](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
 
-### Boot back into recovery to start installing Windows
-> If your recovery has been replaced by the stock recovery, flash it again using
+### Загрузитесь обратно в recovery что бы начать установку Windows
+> Если ваше recovery было заменено стоковым, прошейте его снова используя
+> Замените `<recovery.img>` действительным путём к recovery.img
 ```cmd
 fastboot flash recovery <recovery.img> reboot recovery
 ```
 
 #### Запустите msc 
-> If it asks you to run it once again, do so
+> Если он попросит вас запустить его ещё раз, сделайте это
 ```cmd
 adb shell msc
 ```
 
 ### Diskpart
 > [!WARNING]
-> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
+> НЕ УДАЛЯЙТЕ, НЕ СОЗДАВАЙТЕ И НЕ ИЗМЕНЯЙТЕ КАКИМ-ЛИБО ИНЫМ ОБРАЗОМ РАЗДЕЛЫ, НАХОДЯСЬ В DISKPART!!! ЭТО МОЖЕТ ПРИВЕСТИ К УДАЛЕНИЮ UFS ИЛИ НЕВОЗМОЖНОСТИ ЗАГРУЗКИ В FASTBOOT!!! ЭТО ОЗНАЧАЕТ, ЧТО ВАШЕ УСТРОЙСТВО БУДЕТ ОКИРПИЧЕНО БЕЗ КАКОГО-ЛИБО РЕШЕНИЯ! (за исключением доставки устройства в Xiaomi или его прошивки с помощью EDL, и то, и другое, скорее всего, будет стоить денег)
 
 ```cmd
 diskpart
 ```
 
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINVAYU**
+#### Выберите раздел Windows телефона
+> Используйте `list volume` что бы найти его, замените "$" номером раздела **WINVAYU**
 ```diskpart
 select volume $
 ```
 
-#### Assign the letter X
+#### Привяжите букву X
 ```diskpart
 assign letter x
 ```
 
-#### Select the ESP volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **ESPVAYU**
+#### Выберите раздел ESP телефона
+> Используйте `list volume` что бы найти его, замените "$" номером раздела **ESPVAYU**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
-#### Assign the letter Y
+#### Привяжите букву Y
 ```diskpart
 assign letter y
 ```
 
-#### Exit diskpart
+#### Выйдите из diskpart
 ```diskpart
 exit
 ```
 
-### Installing Windows
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+### Установка Windows
+> Замените `<путь\к\install.esd>` путём к файлу install.esd (он также может называться install.wim)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 ```
 
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+> Если вы получите `Error 87`, проверьте индекс вашего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` индексом Windows 11 Pro в вашем образе
 
-### Check what type of panel you have
+### Узнайте тип вашего дисплея 
 ```cmd
 adb shell panel
 ```
 
-### Installing drivers
-Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
+### Установка драйверов 
+Распакуйте архив драйверов который вы скачали ранее и запустите файл `OfflineUpdater_<paneltype>.cmd` 
 > When it asks you for the drive letter, enter X
   
 #### Create Windows bootloader files for the EFI
