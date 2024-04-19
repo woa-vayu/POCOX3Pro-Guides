@@ -78,25 +78,25 @@ adb shell panel
 
 ### Установка драйверов 
 Распакуйте архив драйверов который вы скачали ранее и запустите файл `OfflineUpdater_<paneltype>.cmd` 
-> When it asks you for the drive letter, enter X
+> Когда скрипт запросит у вас букву диска, введите X:
   
-#### Create Windows bootloader files for the EFI
-> If an error occurs when copying boot files, check `diskpart` to see if **ESPVAYU** still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
+#### Создайте файлы загрузчика Windows 
+> Если при копировании загрузочных файлов возникает ошибка, проверьте `diskpart`, чтобы узнать, имеет ли **ESPVAYU** букву Y. Если нет, добавьте любую другую букву (например, K) и замените Y в приведенной ниже команде на указанную букву 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Remove the drive letter for ESPVAYU
-> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
+#### Удалите букву диска ESPVAYU
+> Если вы получите ошибку, проигнорируйте это и перейдите к следующей команде. Фантомный диск исчезнет при следующей перезагрузке компьютера.
 ```cmd
 mountvol y: /d
 ```
 
-### Reboot to Android
+### Перезагрузитесь в Android
 ```cmd
 adb reboot
 ```
 
-> Set up your device, then go to the last step
+> Настройте своё устройство, затем перейдите к последнему шагу
 
-## [Last step: Set up Dualboot](/guide/English/dualboot-en.md)
+## [Последний шаг: Настройка Dualboot](/guide/English/dualboot-en.md)
