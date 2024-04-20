@@ -7,7 +7,7 @@
 Если вам не нравится ваша версия Windows, или вы совершили ошибку при установке, или что-то ещё, вам нужно просто переустановить Windows. К счастью, этот процесс очень прост.
 
 > [!IMPORTANT]
-> Совершенно очевидно, что это приведет к удалению всех ваших файлов Windows. Если вы хотите создать резервную копию, вы можете сделать это, смонтировав Windows с помощью [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
+> Совершенно очевидно, что это приведет к удалению всех ваших файлов в Windows. Если вы хотите создать резервную копию, вы можете сделать это, смонтировав Windows с помощью приложения [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) и вручную скопировав любые файлы, которые вы хотите сохранить
 
 
 ### Требования 
