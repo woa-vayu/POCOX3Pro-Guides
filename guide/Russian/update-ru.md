@@ -31,7 +31,7 @@ diskpart
 ```
 
 #### Выберите раздел Windows телефона
-> Используйте `list volume` что бы найти его, он называется **WINVAYU**
+> Используйте `list volume` чтобы найти его, он называется **WINVAYU**
 ```diskpart
 select volume <number>
 ```
