@@ -5,7 +5,7 @@
 
 ### Список поддерживаемых приложений/игр
 Это ни в коем случае не полный список, в нём просто перечислены приложения/игры, которые были протестированы сообществом
-[The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+[Вы можете найти ссылку сдесь](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
 Вы также можете ознакомиться со списком специализированного программного обеспечения ARM [по этой ссылке](https://armrepo.ver.lt/)
 
@@ -21,10 +21,10 @@
 - Удалите букву используя ```remove letter d```
 - Выйдите из diskpart при помощи ```exit```
 
-#### Finished!
+#### Готово!
 
 
-## Выключение режима USB host 
+## Отключение режима USB host 
 > [!Warning]
 > USB устройства без дополнительного питания перестанут работать 
 
@@ -65,11 +65,11 @@
 
 ##### Прошейте zip-файл для настройки модема
 
-> Это очень просто, откройте Magisk (или загрузитесь в TWRP), установите zip, который сделает всю тяжёлую работу за вас
+> Это очень просто. Откройте Magisk (или загрузитесь в TWRP) и установите zip-файл, который выполнит всю тяжелую работу за вас.
 
 - Откройте Magisk (или загрузитесь в TWRP)
 - Перейдите к выбору модуля (кнопка "Install" в TWRP)
-- Прошейте zip
+- Прошейте zip-файл
 - Загрузитесь в Windows
 
 ## Готово!
@@ -84,26 +84,26 @@
 
 ##### Прошейте и загрузитесь в модифицированное recovery
 
-> This is self explanatory, it flashes the recovery then reboots into the recovery
+> Это говорит само за себя. Команда прошьёт recovery и затем перезагрузит ваш телефон. 
 
 ```fastboot flash recovery путь\к\twrp.img reboot recovery```
 
 ##### Монтирование разделов 
 
-> Also self explanatory, this will mount the windows partitions
+> Также само собой разумеется, что это приведет к монтированию разделов Windows
 
 - Перейдите в меню монтирования
 - Смонтируйте раздел **win**
 
-##### Start ADB Shell
+##### Запустите ADB Shell
 
-> Starts a shell on your computer used to communicate with your phone over ADB
+> Запускает оболочку на вашем компьютере, используемую для связи с вашим телефоном через ADB
 
 ```adb shell```
 
-##### Finding the modem folder
+##### Поиск папки modem
 
-> Take note of the random data in that folder name (after qcremotefs8150)
+> Обратите внимание на случайные данные в названии этой папки (после qcremotefs8150).
 
 > This looks for the Qualcomm remotefs driver folder
 
@@ -111,19 +111,19 @@
 
 ##### Дамп данных модема
 
-> Как и раньше, replace the random data with the one that you noted down before
+> Как и раньше, замените ```**случайные данные**``` на те, которые вы записали ранее
 
 > Убедитесь, что вы выполняете **ОБЕ** команды
 
 > Это выполнит дамп данных модема в папку remote fs, окончательно починив модем
 
-```dd if=/dev/block/by-name/modemst1 of=/win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[insert random data here]/bootmodem_fs1```
+```dd if=/dev/block/by-name/modemst1 of=/win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[вставьте сюда **случайные данные**]/bootmodem_fs1```
 
-```dd if=/dev/block/by-name/modemst2 of=/win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[insert random data here]/bootmodem_fs2```
+```dd if=/dev/block/by-name/modemst2 of=/win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[вставьте сюда **случайные данные**]/bootmodem_fs2```
 
 ## Готово!
 
-### Сделать клавиатуру плавающей 
+### Сделать клавиатуру плавающей. 
 
 > [!WARNING]  
 > Убедитесь, что эти действия выполнены на POCO X3 Pro под управлением Windows!
@@ -133,13 +133,13 @@
 > Это говорит само за себя, при этом открывается командная строка от имени администратора
 
 - Перейдите в меню "Пуск"
-- Веедите в поиск "командная строка"
+- Введите в поиск ```командная строка```.
 - Удерживайте приложение командной строки и запустите его от имени администратора.
-- Одобряйте любые диалоги контроля учетных записей
+- Одобряйте любые диалоги контроля учетных записей.
 
 ##### Сделайте клавиатуру плавающей 
 
-> При этом удаляется параметр реестра, который сообщает клавиатуре размер нашего экрана, и она снова становится плавающей
+> При этом удаляется параметр реестра, который сообщает клавиатуре о размере нашего экрана, и она снова становится плавающей.
 
 - В командной строке вставьте команду ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
 - Введите 'y', а затем нажмите enter
