@@ -1,42 +1,43 @@
 <img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
-# Running Windows on the POCO X3 Pro
+# Запуск Windows на POCO X3 Pro
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
 
-## Language 
-[```Русский```](guide/Russian/README-ru.md) | **```English```** |
+## Язык
+**```Русский```** | [```English```](/README.md) |
 
-## ⚠️ Warning
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+## ⚠️ Предупреждение 
+Мы не несём ответственности за окирпиченные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мёртвые чипы управления питанием, мёртвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Этот проект находится в стадии разработки. Все файлы, представленные здесь, были предоставлены другими пользователями. Вы найдете руководство с рабочими файлами, которые нам удалось получить. 
+Это деликатный процесс, поэтому выполняйте его на свой страх и риск и внимательно следуйте всем шагам.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR  PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО ОКИРПИЧИТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ОШИБКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
 
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM!**
+> **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ ВИДЕО-ГАЙДЫ НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ ВИДЕО УСТАРЕЛИ, И ВЫ МОЖЕТЕ ОКИРПИЧИТЬ СВОЁ УСТРОЙСТВО, ИСПОЛЬЗУЯ ИХ!**
 
 
-## Get Started
-- [Project status](guide/English/status-en.md)
+## Начнём 
+- [Статус проекта](status-ru.md)
 
-- [Installation](guide/English/install-1-en.md)
+- [Установка](install-1-ru.md)
 
-- [Uninstallation](guide/English/uninstall-en.md)
+- [Удаление](uninstall-ru.md)
 
-## Miscellaneous
-- [Dualboot setup](guide/English/dualboot-en.md)
+## Прочее 
+- [Настройка Dualboot](dualboot-ru.md)
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
+- [Исправление проблем](troubleshooting-ru.md)
 
-- [Useful apps and instructions](guide/English/additional-materials-en.md)
+- [Полезные приложения и инструкции](additional-materials-ru.md)
 
-- [Updating Drivers](guide/English/update-en.md)
+- [Обновление драйверов](update-ru.md)
 
-- [Reinstallation](guide/English/reinstall-en.md)
+- [Переустановка](reinstall-ru.md)
 
-## Contributors
+## Соавторы
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -59,23 +60,3 @@ This project is in development stage, all the files here have been contributed b
 [<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

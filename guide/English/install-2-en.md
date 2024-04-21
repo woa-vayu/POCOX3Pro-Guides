@@ -48,7 +48,7 @@ assign letter x
 #### Select the ESP volume of the phone
 > Use `list volume` to find it, replace "$" with the actual number of **ESPVAYU**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Assign the letter Y
