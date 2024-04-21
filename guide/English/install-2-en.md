@@ -70,13 +70,8 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
-### Check what type of panel you have
-```cmd
-adb shell panel
-```
-
 ### Installing drivers
-Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
+Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater.cmd` script
 > When it asks you for the drive letter, enter X
   
 #### Create Windows bootloader files for the EFI
