@@ -45,14 +45,8 @@ assign letter x
 exit
 ```
 
-### Check what type of panel you have
-> Open cmd
-```cmd
-adb shell panel
-```
-
 ### Installing drivers
-Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
+Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater.cmd` script
 > When it asks you for the drive letter, enter **X**
   
 ### Reboot to fastboot to flash UEFI

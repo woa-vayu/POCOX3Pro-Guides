@@ -6,8 +6,8 @@
 The project is finished. Some improvements might be made, but there won't be any driver updates.
 
 ### Features
-- [ ] Audio ```Only by USB or Bluetooth```
-- [X] Battery status
+- [x] Audio ```Only by USB, Bluetooth or AUX(3.5mm)```
+- [x] Battery status
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
