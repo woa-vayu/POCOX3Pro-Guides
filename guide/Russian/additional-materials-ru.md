@@ -28,7 +28,7 @@
 > [!Warning]
 > USB устройства без дополнительного питания перестанут работать 
 
-Запустите [USB Host Mode Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V6.0.vbs) чтобы включить/отключить режим USB-хоста, а затем подтвердите, что вы хотите включить/отключить режим USB-хоста
+Запустите [USB Host Mode Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) чтобы включить/отключить режим USB-хоста, а затем подтвердите, что вы хотите включить/отключить режим USB-хоста
 
 #### Готово!
 
