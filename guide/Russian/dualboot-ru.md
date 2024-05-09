@@ -7,17 +7,17 @@
 ### Требования 
 - Рутированный vayu с уже установленной Windows
 - [Образ UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [WoA Helper](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk) или [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 - [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
 
 ## Настройка приложения dualboot
 > В этом гайде предполагается, что у вас есть root, если это не так, пожалуйста, сделайте это в первую очередь
 
 ### Установка - Android
-- Скачайте и установите приложение **WoA Helper**, затем откройте его и предоставьте ему root-доступ.
+- Скачайте и установите приложение **M3K WoA Helper**, затем откройте его и предоставьте ему root-доступ.
 - Скачайте **образ UEFI** для вашего дисплея и поместите его в папку `UEFI` в вашем внутреннем хранилище.
 - Нажмите кнопку `MOUNT WINDOWS`, затем скачайте и переместите **StA_Installer_vayu.exe** в только что созданную папку `Windows` в вашем внутреннем хранилище.
-- Вернитесь в приложение WoA Helper и нажмите `QUICKBOOT TO WINDOWS`.
+- Вернитесь в приложение M3K WoA Helper и нажмите `QUICKBOOT TO WINDOWS`.
   
 > [!NOTE]
 > Первая загрузка в Windows может занять до 10 минут, не волнуйтесь и просто подождите
