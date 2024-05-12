@@ -71,8 +71,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Installing drivers
-Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater.cmd` script
-> When it asks you for the drive letter, enter X
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+
+> If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be X), then press enter
   
 #### Create Windows bootloader files for the EFI
 > If an error occurs when copying boot files, check `diskpart` to see if **ESPVAYU** still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
