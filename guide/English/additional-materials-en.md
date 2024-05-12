@@ -24,9 +24,9 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 #### Finished!
 
 
-## Disabling USB host mode
+## Enabling/Disabling USB host mode
 > [!Warning]
-> Unpowered USB devices will stop working
+> Unpowered USB devices will stop working with USB host mode disabled
 
 Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and then confirm that you want to disable/enable USB host mode 
 
