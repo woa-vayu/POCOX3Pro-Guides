@@ -15,7 +15,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!NOTE]
 > This is recommended because this drive should not be modified, while some applications may try to write to it.
 
-- Download [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) to your VAYU
+- Download [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your VAYU
 - Run it
 - Approve any UAC dialogs 
 - Click `Yes` in the dialog box
@@ -27,7 +27,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!Warning]
 > Unpowered USB devices will stop working with USB host mode disabled
 
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and then confirm that you want to disable/enable USB host mode 
+Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and then confirm that you want to disable/enable USB host mode 
 
 #### Finished!
 
@@ -147,20 +147,6 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 
 ## Finished!
 
-## Factory reset Windows 11
-> [!Warning]
-> After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
-- Open Settings app.
-- Click on System.
-- Click the Recovery tab.
-- Under the **Recovery options** section, click the ```Reset PC``` button in the **Reset this PC** setting.
-- Click the ```Remove Everything``` option.
-- Select the ```Local reinstall``` option.
-- Click the `Next` button.
-- Click the `Reset` button.
-> After rebooting, you will get a clean Windows. 
-
-## Finished!
 
 
 
