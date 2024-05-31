@@ -39,6 +39,7 @@ Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-H
 - Approve any UAC dialogs 
 - In the window that appears, click `Yes` to start installation 
 - Wait for the installation to complete
+- Enjoy Office and don't forget to activate it
 
 #### Finished!
 
