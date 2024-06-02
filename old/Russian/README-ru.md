@@ -1,40 +1,43 @@
 <img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
+# Запуск Windows на POCO X3 Pro
 
-# Запуск Windows на Poco X3 PRO
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
 
-[English](README.md) **|** Русский
+## Язык
+**```Русский```** | [```English```](/README.md) |
 
-## ⚠️ Предупреждение
+## ⚠️ Предупреждение 
+Мы не несём ответственности за окирпиченные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мёртвые чипы управления питанием, мёртвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
-Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства xiaomi, мертвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мертвые контроллеры экрана, мертвые процессоры, мертвых кошек и собак и ядерные войны.
+Этот проект находится в стадии разработки. Все файлы, представленные здесь, были предоставлены другими пользователями. Вы найдете руководство с рабочими файлами, которые нам удалось получить. 
+Это деликатный процесс, поэтому выполняйте его на свой страх и риск и внимательно следуйте всем шагам.
 
-Установка Windows - опасный процесс, делайте это на свой страх и риск и осторожно следуйте инструкции.
+**ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО ОКИРПИЧИТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ОШИБКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
 
-**ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО СЛОМАТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ПОЛОМКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
-
-
-## Начало
-
-- [Статус проекта](guide/status-ru.md)
-
-- [Инструкция по установке](guide/install-1-ru.md)
-
-- [Решение проблем](guide/troubleshooting-ru.md)
+> [!WARNING]
+> **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ ВИДЕО-ГАЙДЫ НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ ВИДЕО УСТАРЕЛИ, И ВЫ МОЖЕТЕ ОКИРПИЧИТЬ СВОЁ УСТРОЙСТВО, ИСПОЛЬЗУЯ ИХ!**
 
 
-## Дополнительное
+## Начнём 
+- [Статус проекта](status-ru.md)
 
-- [Настройка dualboot](guide/dualboot-ru.md)
+- [Установка](install-1-ru.md)
 
-- [Опциональные действия после установки](guide/postinstall-ru.md)
+- [Удаление](uninstall-ru.md)
 
-- [Инструкция по обновлению драйверов](guide/update-ru.md)
+## Прочее 
+- [Настройка Dualboot](dualboot-ru.md)
 
-- [Инструкция по удалению](guide/uninstall-ru.md)
+- [Исправление проблем](troubleshooting-ru.md)
 
-## Внесли вклад в проект:
+- [Полезные приложения и инструкции](additional-materials-ru.md)
 
+- [Обновление драйверов](update-ru.md)
+
+- [Переустановка](reinstall-ru.md)
+
+## Соавторы
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -44,7 +47,7 @@
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
 [<img alt="gus33000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/3755345?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/gus33000)
 [<img alt="Renegade Project Discord Members" src="https://images.weserv.nl/?url=https://cdn.discordapp.com/icons/736563593058713690/68f67bfddf4390b11effc99917b16338.webp?size=256&w=45&fit=cover&mask=circle&maxage=7d" />](https://discord.gg/XXBWfag)
-[<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArtturoGC06)
+[<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArturoGC06)
 [<img alt="SebastianZSXS" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111822607?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/SebastianZSXS)
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
 [<img alt="haouarihk" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/57036855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/haouarihk)
@@ -54,4 +57,6 @@
 [<img alt="KuatoDev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17999613?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/KuatoDev)
 [<img alt="belomaxorka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54049465?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/belomaxorka)
 [<img alt="nedokaka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104865210?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/nedokaka)
-[<img alt="RIllEX1" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/142384494?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RIllEX1)
+[<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
+[<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
+[<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
