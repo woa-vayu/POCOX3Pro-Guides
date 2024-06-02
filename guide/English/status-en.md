@@ -1,36 +1,76 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+# Main Status
+- Device: POCO X3 Pro (vayu)
+> [!IMPORTANT]
+> **This description is for reference only. It does not represent any commitment to develop Windows on POCO X3 Pro in any way, nor does it mean that all functions will be available or development will be completed forever. You should not buy this device for the purpose of using Windows on it, and hope that it will have complete functions in the end. The functions available today should be considered as the most you can get.We should take this into consideration when purchasing. Don't think we will make everything normal.**
 
-# Running Windows on the POCO X3 Pro
+| Feature                | Notes                                                                                   | Status         |
+|------------------------|-----------------------------------------------------------------------------------------|----------------|
+| ⌨️ Side buttons        |                                     | ✅            |
+| ♋ Cellular Calls      |                                     | ❌            |
+| ♋ Cellular Data       | Requires manial provisioning.       | ✅            |
+| ♋ Cellular Texts      | Requires manial provisioning.       | ✅            |
+| ♋ Wifi                |                                     | ✅            |
+| 📦 UFS                 |                                     | ✅            |
+| 🔵 Bluetooth           |                                     | ✅            |
+| 🎆 GPU                 |                                     | ✅            |
+| 🔋 Battery             |                                     | ✅            |
+| 📌 GPS                 |                                     | ✅            |
+| 🪵 USB                 |                                     | ✅            |
+| 🔊 Audio               | Speakers don't work                 | ⚠️            |
+| 🧭 Sensor              |                                     | ✅            |
+| 🛡️ TPM                 | Not support Windows 10 18362/18363. | ✅            |
+| 👆 Touch               |                                     | ✅            |
+| 🔌 Charge              | Slow charging only.                 | ✅            |
+| 📳 Vibration motor     |                                     | ❌            |
+| 🔦 LED                 |                                     | ❌            |
+| 📸 Camera Flash        |                                     | ❌            |
+| 🏷️ NFC                 |                                     | ❌            |
+| 📸 Camera              |                                     | ❌            |
+| 🧑‍💼 Hyper-V             | Requires Microsoft Corporation Signed device configuration binary  | ❌           |
+| 🧬 Fingerprint scanner |                                     | ❌            |
 
-## Project Status
-The project is finished. Some improvements might be made, but there won't be any driver updates.
+# Detailed status
 
-### Features
-- [x] Audio ```Only by USB, Bluetooth or AUX(3.5mm)```
-- [x] Battery status
-- [x] Bluetooth
-- [x] Brightness
-- [ ] Camera
-- [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
-- [x] Charging ```Slow. Check "Troubleshooting" for more info```
-- [x] Display
-- [x] GPU
-- [ ] SD ```Takes several attempts to be recognized and is very unstable```
-- [x] Touchscreen
-- [x] UFS
-- [x] USB
-- [x] Wi-Fi
+## 🔊 Audio
+| Feature                | Notes                                                                                   | Status         |
+|------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🔉 Audio Speaker       |                                     | ❌            |
+| 🔉 Handset  Speaker    |                                     | ❌            |
+| 🔉 AUX                 |                                     | ✅            |
+| 🎙️ Internal Top Mic    |                                     | ❌            |
+| 🎙️ Internal Bottom Mic |                                     | ✅            |
 
-### Sensors
-- [x] Accelerometer
-- [ ] Fingerprint
-- [x] GPS
-- [x] Gyroscope
-- [x] Light sensor
-- [x] Magnetometer
-- [x] Proximity
+## 🧭 Sensors
+| Feature                | Notes                                                                                   | Status         |
+|------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🧭 Accelerometer       |                                     | ✅            |
+| 🧭 Gyroscope           | Testing required.                   | ⚠️            |
+| 🧭 Light sensor        |                                     | ✅            |
+| 🧭 Magnetometer        | Testing required.                   | ⚠️            |
+| 🧭 Proximity           | Testing required.                   | ⚠️            |
 
-#### Security
+## 🪵 USB
+> [!NOTE]
+> - Currently using USB Fn mode by default. The user can however get host mode functionality back and out with the help of a simple reg commands:
+> - RoleSwitchMode 1 -> USB Host
+> - RoleSwitchMode 3 -> USB Fn
+```batch
+REM Force USB Host mode (identical to the older driver release of this month):
+REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 1
+```
+```batch
+REM Restore default auto detection functionality (default behavior):
+REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3
+```
 
-- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
-- [x] TPM (Software Backed)
+| Feature                         | Notes                                                                                   | Status         |
+|---------------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🪵 USB-Fn   (Charging & MTP)   | MTP doesn't work all of the time | ✅            |
+| 🪵 USB-Host (OTG)              | **[Default]** Some of the features are work in progress (USB Powerless Dongles)          | ⚠️            |
+
+
+## 🎆 GPU 
+| Feature                | Notes                                                                                   | Status         |
+|------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 📲 Brightness control  |                                     | ✅            |
+| 🎆 X64 simulation      |                                     | ✅            |
