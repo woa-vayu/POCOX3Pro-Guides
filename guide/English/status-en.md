@@ -44,7 +44,7 @@
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 🧭 Accelerometer       |                                     | ✅            |
-| 🧭 Gyroscope           | Testing required.                   | ⚠️            |
+| 🧭 Gyroscope           |                                     | ✅            |
 | 🧭 Light sensor        |                                     | ✅            |
 | 🧭 Magnetometer        | Testing required.                   | ⚠️            |
 | 🧭 Proximity           | Testing required.                   | ⚠️            |
