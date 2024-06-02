@@ -6,7 +6,7 @@
 
 ### Требования 
 - Рутированный vayu с уже установленной Windows
-- [Образ UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
+- [Образ Secure Boot UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
 - [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 - [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
 
@@ -15,7 +15,7 @@
 
 ### Установка - Android
 - Скачайте и установите приложение **M3K WoA Helper**, затем откройте его и предоставьте ему root-доступ.
-- Скачайте **образ UEFI** для вашего дисплея и поместите его в папку `UEFI` в вашем внутреннем хранилище.
+- Скачайте **образ Secure Boot UEFI** для вашего дисплея и поместите его в папку `UEFI` в вашем внутреннем хранилище.
 - Нажмите кнопку `MOUNT WINDOWS`, затем скачайте и переместите **StA_Installer_vayu.exe** в только что созданную папку `Windows` в вашем внутреннем хранилище.
 - Вернитесь в приложение M3K WoA Helper и нажмите `QUICKBOOT TO WINDOWS`.
   
