@@ -4,7 +4,9 @@ Welcome!
 
 ## [Installing Windows](/InstallWindows-en/InstallWindows.md)
 
-## [Reinstalling Windows if it was already installed](/InstallWindows-en/ReInstallWindows.md)
+## [Reinstalling Windows if it was already installed](/InstallWindows-en/ReinstallWindows.md)
+
+## [Install Dual Boot](/InstallWindows-en/DualBoot.md)
 
 ## [Uninstalling Windows](/InstallWindows-en/Uninstall.md)
 

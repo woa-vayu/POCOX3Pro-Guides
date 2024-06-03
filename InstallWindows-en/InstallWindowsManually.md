@@ -25,7 +25,7 @@ UEFI Image:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI.Fast.Boot.img         | POCO X3 Pro           |
+| POCO.X3.Pro.UEFI.img                   | POCO X3 Pro           |
 
 Windows Drivers:
 
@@ -93,7 +93,7 @@ Here's how to acquire a Driver archive file and the matching UEFI image for POCO
 </td>
 <td>
 
-- [Fast Boot](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/download/2406.06/POCO.X3.Pro.UEFI-v2406.06.Fast.Boot.img)
+- [Fast Boot](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/download/2406.06/POCO.X3.Pro.UEFI-v2406.06.img)
 </td>
 <td>POCO X3 Pro</td>
 <td>Windows 10 Version 2004 and higher</td>
@@ -146,7 +146,7 @@ If not already done, please first unlock the bootloader. Come back once you're d
 
 ## Partitioning
 
-If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReInstallWindows.md) guide, not this one.
+If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReinstallWindows.md) guide, not this one.
 
 ## Getting to Mass Storage Mode
 

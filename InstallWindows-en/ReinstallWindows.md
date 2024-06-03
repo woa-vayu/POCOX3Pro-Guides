@@ -8,7 +8,7 @@ UEFI Image:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI.Fast.Boot.img         | POCO X3 Pro           |
+| POCO.X3.Pro.UEFI.img                   | POCO X3 Pro           |
 
 Windows Drivers:
 

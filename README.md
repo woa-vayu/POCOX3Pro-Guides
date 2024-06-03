@@ -24,7 +24,7 @@ Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-G
 - [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/GetWindows.md)
 - [Activate Windows on your POCO X3 Pro](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
 - [Uninstall Windows and only keep Android™](/InstallWindows-en/Uninstall.md)
-- [Reinstall Windows](/InstallWindows-en/ReInstallWindows.md)
+- [Reinstall Windows](/InstallWindows-en/ReinstallWindows.md)
 - [Making Cellular work](/InstallWindows-en/Cellular.md)
 
 ## More Resources:
