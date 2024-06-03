@@ -146,7 +146,7 @@ If not already done, please first unlock the bootloader. Come back once you're d
 
 ## Partitioning
 
-If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReinstallWindows.md) guide, not this one.
+If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReInstallWindows.md) guide, not this one.
 
 ## Getting to Mass Storage Mode
 

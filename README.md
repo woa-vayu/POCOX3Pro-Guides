@@ -25,7 +25,7 @@ Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-G
 - [Activate Windows on your POCO X3 Pro](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
 - [Uninstall Windows and only keep Android™](/InstallWindows-en/Uninstall.md)
 - [Reinstall Windows](/InstallWindows-en/ReInstallWindows.md)
-- [Making Cellular work](/InstallWindows-en/Cellular)
+- [Making Cellular work](/InstallWindows-en/Cellular.md)
 
 ## More Resources:
 
