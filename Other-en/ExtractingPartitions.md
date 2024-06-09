@@ -2,10 +2,7 @@
 
 ## Files/Tools Needed 📃
 
-- [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
-- A Windows PC
-
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -14,6 +11,9 @@
 |-------------------------------------------------|-----------------------|
 | [shrp-3.2_12-vayu.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
 | [twrp-3.7.0_11-vayu-mod4epsilon.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/twrp-3.7.0_11-vayu-mod4epsilon.img) | POCO X3 Pro |
+
+- [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
+- A Windows PC
 
 ## Disclaimers
 
@@ -63,9 +63,9 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Boot into SHRP/TWRP
+## Boot into recovery
 
-- If not already done, please proceed with the installing SHRP/TWRP as told in [Getting to Mass Storage Mode] section in [Main guide](/InstallWindows-en/InstallWindowsManually.md) for POCO X3 Pro. Come back once you're done.
+- If not already done, please proceed with the installing recovery as told in [Getting to Mass Storage Mode] section in [Main guide](/InstallWindows-en/InstallWindowsManually.md) for POCO X3 Pro. Come back once you're done.
 
 - Reboot into recovery
 

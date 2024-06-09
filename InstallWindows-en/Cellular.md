@@ -2,7 +2,7 @@
 
 ## Files/Tools Needed 📃
 
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -11,6 +11,12 @@
 |-------------------------------------------------|-----------------------|
 | [shrp-3.2_12-vayu.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
 | [twrp-3.7.0_11-vayu-mod4epsilon.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/twrp-3.7.0_11-vayu-mod4epsilon.img) | POCO X3 Pro |
+
+Cellular provisioning script:
+
+| File Name                                       | Target Device         |
+|-------------------------------------------------|-----------------------|
+| [modemprov.zip](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/modemprov/modemprov.zip) | POCO X3 Pro |
 
 - Windows Command Prompt, Linux is not required
 
@@ -25,21 +31,22 @@
 
 # Steps 🛠️
 
-## Getting to Mass Storage Mode
+## Booting to recovery
 
 - Reboot your deivce into recovery
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from SHRP/TWRP. You must decrypt your data if it asks you to.
+## Dumping Modem partitions using automated script
 
-```batch
-adb shell msc
-```
+- Go into the Install page
 
-- If it asks you to run it once again, do so
+- Navigate to the folder where you placed ```modemprov.zip```
 
-POCO X3 Pro should now be in USB Mass Storage Mode.
 
-## Dumping Modem partitions
+- Flash it
+
+- Now you can boot into Windows
+
+## Dumping Modem partitions manually
 
 Using [the following guide](/Other/ExtractingPartitions.md), extract the following partitions:
 
@@ -50,7 +57,19 @@ once done, you should have obtained the ```modemst1.img``` and ```modemst2.img``
 
 Please note that your device is already in recovery, there's no need to put it back again into recovery. (So jump directly to the adb shell section of the above's guide).
 
-## Copying files over
+### Getting to Mass Storage Mode
+
+- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
+
+```batch
+adb shell msc
+```
+
+- If it asks you to run it once again, do so
+
+POCO X3 Pro should now be in USB Mass Storage Mode.
+
+### Copying files over
 
 Assuming the Windows partition is available under X: (will/may be different for you), do the following:
 
@@ -59,6 +78,8 @@ Assuming the Windows partition is available under X: (will/may be different for 
 
 Please note bootmodem_fs1 is the name of the file, and not a folder (same for bootmodem_fs2).
 You may have to adjust permissions on the ```X:\Windows\System32\DriverStore\FileRepository\qcremotefs8150_<random data here>``` folder in order to copy paste the above's files.
+
+- Now you can boot into Windows
 
 ---
 

@@ -16,7 +16,7 @@ Windows Drivers:
 |-------------------------------------------------|-----------------------|
 | POCOX3Pro-Drivers-v2XXX.XX-Desktop.7z           | POCO X3 Pro           |
 
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -89,7 +89,7 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Booting to SHRP/TWRP
+## Booting to recovery
 
 - Reboot your deivce into recovery
 
@@ -103,9 +103,9 @@ Now the Windows Partition on your POCO X3 Pro should be empty. Let's go ahead an
 
 ## Getting to Mass Storage Mode
 
-- Please turn your phone and boot to SHRP/TWRP again before proceding further
+- Please turn your phone and boot to recovery again before proceding further
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from SHRP/TWRP. You must decrypt your data if it asks you to.
+- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
@@ -165,7 +165,7 @@ Note: Here's a table of what to download if you're a bit lost:
 
 | File Name                                      | Target Device         |
 |------------------------------------------------|-----------------------|
-| POCOX3Pro-Drivers-XXXX.XX-Desktop-Epsilon.zip  | POCO X3 Pro           |
+| POCOX3Pro-Drivers-XXXX.XX-Desktop.zip  | POCO X3 Pro           |
 
 - Extract the driver package, and go to the folder where you extracted it.
 

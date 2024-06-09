@@ -2,7 +2,7 @@
 
 ## Files/Tools Needed 📃
 
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -20,10 +20,11 @@
 > [!WARNING]
 > - Don't create partitions from Mass Storage Mode on Windows (because ABL will break with blank/spaces in names), your phone may be irrecoverable otherwise
 > - If you see a warning and/or error during the process, it is not normal. Contact us on telegram if you see anything odd, but do not continue or proceed on your own, you will break things further.
-> - Don't rerun the commands if you interrupt the process. You may break your partition table. Parted is a very *delicate* tool, anything you do may cause permanent damage to your device.
-> - Do not run all commands at once. Parted is a very *delicate* tool, anything you do may cause permanent damage to your device.
-> - Do not commit *any* typo with *any* commands. Parted is a very *delicate* tool, anything you do may cause permanent damage to your device.
-> - Be familiar with command line interfaces. Parted is a very *delicate* tool, anything you do may cause permanent damage to your device.
+> - Don't rerun the commands if you interrupt the process. You may break your partition table.
+> - Do not run all commands at once.
+> - Do not commit *any* typo with *any* commands.
+> - Be familiar with command line interfaces.
+> - Anything you do may cause permanent damage to your device.
 
 > [!IMPORTANT]
 > **THIS WILL WIPE ALL YOUR ANDROID™ DATA**
@@ -107,7 +108,7 @@ adb reboot bootloader
 
 You will be rebooted to Poco X3 Pro's bootloader.
 
-## Booting to SHRP/TWRP
+## Booting to recovery
 
 - Plug your phone to your PC, open a command prompt and start by typing the following text, but do not press enter just yet
 
@@ -115,7 +116,7 @@ You will be rebooted to Poco X3 Pro's bootloader.
 fastboot flash recovery
 ```
 
-- Go find the SHRP/TWRP image file you downloaded earlier, right click it, click "Copy as path"
+- Go find the recovery image file you downloaded earlier, right click it, click "Copy as path"
 
 - Then go back to the Command Prompt window we started writing text in previously, and simply, right click on it with your mouse (or long press if you're on a touch device) and press enter
 
@@ -125,7 +126,7 @@ fastboot flash recovery
 fastboot reboot recovery
 ```
 
-You will now boot to SHRP/TWRP. Keep the phone plugged to your PC and continue along.
+You will now boot to recovery. Keep the phone plugged to your PC and continue along.
 
 - Now, let's open a shell onto the device, by running the following command
 

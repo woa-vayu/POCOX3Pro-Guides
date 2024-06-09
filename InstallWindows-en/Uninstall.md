@@ -2,7 +2,7 @@
 
 ## Files/Tools Needed 📃
 
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -67,17 +67,19 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Booting to SHRP/TWRP
+## Booting to recovery
 
 - Reboot your deivce into recovery
 
 ## Restoring the original partitions
 
-- Once booted into SHRP/TWRP, run the following command:
+- Once booted into recovery run the following command:
 
 ```batch
 adb shell restore
 ```
+
+- If it asks you to run it once again, do so
 
 - And leave the device shell
 

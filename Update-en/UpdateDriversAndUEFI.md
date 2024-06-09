@@ -21,10 +21,7 @@ Windows Drivers:
 |-------------------------------------------------|-----------------------|
 | POCOX3Pro-Drivers-v2XXX.XX-Desktop.7z           | POCO X3 Pro           |
 
-- [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
-- A Windows PC
-
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -33,6 +30,9 @@ Windows Drivers:
 |-------------------------------------------------|-----------------------|
 | [shrp-3.2_12-vayu.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
 | [twrp-3.7.0_11-vayu-mod4epsilon.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/twrp-3.7.0_11-vayu-mod4epsilon.img) | POCO X3 Pro |
+
+- [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
+- A Windows PC
 
 ## Disclaimers
 
@@ -84,7 +84,7 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 - Reboot your deivce into recovery
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from SHRP/TWRP. You must decrypt your data if it asks you to.
+- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
@@ -136,6 +136,8 @@ Simply use the latest UEFI image
 ```batch
 fastboot boot uefi.img
 ```
+
+### For Dual Boot follow [Dual Boot](/InstallWindows-en/DualBoot.md) guide again
 
 ---
 

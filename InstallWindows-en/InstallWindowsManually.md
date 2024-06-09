@@ -33,7 +33,7 @@ Windows Drivers:
 |-------------------------------------------------|-----------------------|
 | POCOX3Pro-Drivers-v2XXX.XX-Desktop.7z           | POCO X3 Pro           |
 
-- SHRP/TWRP image:
+Recovery image:
 
 11 image supports Android™ 11 encryption
 12 image supports Android™ 12/12.1/13/14 encryption
@@ -156,7 +156,7 @@ If not already done, please proceed with the [Partitioning](Partitioning.md) gui
 adb reboot bootloader
 ```
 
-Start by flashing SHRP/TWRP:
+Start by flashing recovery:
 
 - Plug your phone to your PC, open a command prompt and start by typing the following text, but do not press enter just yet
 
@@ -164,7 +164,7 @@ Start by flashing SHRP/TWRP:
 fastboot flash recovery
 ```
 
-- Go find the SHRP/TWRP image file you downloaded earlier, right click it, click "Copy as path"
+- Go find the recovery image file you downloaded earlier, right click it, click "Copy as path"
 
 - Then go back to the Command Prompt window we started writing text in previously, and simply, right click on it with your mouse (or long press if you're on a touch device) and press enter
 
@@ -178,7 +178,7 @@ You will now boot to SHPR/TWRP.
 
 ## Going to Mass Storage
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from SHRP/TWRP. You must decrypt your data if it asks you to.
+- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
@@ -239,7 +239,7 @@ Note: Here's a table of what to download if you're a bit lost:
 
 | File Name                                      | Target Device         |
 |------------------------------------------------|-----------------------|
-| POCOX3Pro-Drivers-XXXX.XX-Desktop-Epsilon.zip  | POCO X3 Pro           |
+| POCOX3Pro-Drivers-XXXX.XX-Desktop.zip  | POCO X3 Pro           |
 
 - Extract the driver package, and go to the folder where you extracted it.
 
