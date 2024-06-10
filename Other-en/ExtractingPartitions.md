@@ -76,7 +76,6 @@ Your POCO X3 Pro will boot into TWRP, touch will not work and the device will sa
 - We need to open a shell to issue commands directly to the phone. To do so, run the following command on your PC:
 
 ```batch
-adb shell "setenforce 0"
 adb shell
 ```
 

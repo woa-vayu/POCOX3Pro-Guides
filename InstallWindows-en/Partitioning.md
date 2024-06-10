@@ -128,14 +128,6 @@ fastboot reboot recovery
 
 You will now boot to recovery. Keep the phone plugged to your PC and continue along.
 
-- Now, let's open a shell onto the device, by running the following command
-
-```batch
-adb shell
-```
-
-- Now we are issuing commands directly from inside POCO X3 Pro using the PC.
-
 ## Making the partitions
 
 ### Dangerous section
