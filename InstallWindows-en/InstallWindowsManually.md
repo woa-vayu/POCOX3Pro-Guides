@@ -204,9 +204,9 @@ Find the POCO X3 Pro Disk, and take note of the number.
 # select disk <number>
 # list partition
 You will be able to recognize the partitions we made earlier by their size. take note of the ESP and WIN partition numbers.
-# select partition <esp-partition-number>
+# select partition <esp-partition-number(Usually it's 34)>
 # assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
-# select partition <win-partition-number>
+# select partition <win-partition-number(Usually it's 33)>
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
 ```
 
