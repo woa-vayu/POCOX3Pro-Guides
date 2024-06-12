@@ -191,6 +191,13 @@ POCO X3 Pro should now be in USB Mass Storage Mode.
 ## Installing Windows
 
 - Make sure you are in Mass Storage Mode, that your POCO X3 Pro is plugged into your PC
+
+- Enter diskpart
+
+```batch
+diskpart
+```
+
 - Mount the partitions you have created using diskpart and assign them some letters:
 
 ```batch
@@ -198,15 +205,13 @@ POCO X3 Pro should now be in USB Mass Storage Mode.
 ACTUAL COMMANDS START WITH AN HASHTAG (which you will need to remove)
 YOU DO NOT HAVE TO USE THE LETTERS WE USE AT ALL!!!, THEY ONLY NEED TO BE FREE LETTERS. IF LETTERS DON'T ASSIGN FINE, USE ANOTHER ONE.
 IF ONE PARTITION IS ALREADY ASSIGNED, YOU ALSO DO NOT NEED TO ASSIGN IT AGAIN IF YOU DONT WANT TO.
+IF YOU HAVE RAN list volume AND YOU DONT SEE ESPVAYU AND WINVAYU; MAKE SURE THAT YOU HAVE RAN adb shell msc
+AND/OR PARTITIONED YOUR DEVICE, IF YOU DIDNT PARTITION FOLLOW THIS GUIDE [Partitioning](Partitioning.md)
 
-# list disk
-Find the POCO X3 Pro Disk, and take note of the number.
-# select disk <number>
-# list partition
-You will be able to recognize the partitions we made earlier by their size. take note of the ESP and WIN partition numbers.
-# select partition <esp-partition-number(Usually it's 34)>
+# list volume
+# select  <ESPVAYU-volume-number>
 # assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
-# select partition <win-partition-number(Usually it's 33)>
+# select <WINVAYU-volume-number>
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
 ```
 
