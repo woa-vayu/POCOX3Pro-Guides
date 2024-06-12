@@ -2,7 +2,7 @@
 
 Welcome!
 
-## [Installing Windows](/InstallWindows-en/InstallWindows.md)
+## [Installing Windows](/InstallWindows-en/InstallWindowsManually.md)
 
 ## [Reinstalling Windows if it was already installed](/InstallWindows-en/ReinstallWindows.md)
 
