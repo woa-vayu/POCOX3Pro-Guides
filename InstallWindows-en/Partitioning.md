@@ -133,14 +133,6 @@ You will now boot to recovery. Keep the phone plugged to your PC and continue al
 ### Dangerous section
 
 > [!WARNING]
-> This section if followed incorrectly could make your device unusable and require dedicated fixing steps that would be better given through assistance within our telegram channel.
->
-> Please carefully follow every step, and try to not commit typos by missing numbers or characters, as those may make the device unusable.
->
-> Further more, rerunning these commands after running them once ever can also damage your device, so do not refollow this section ever again.
->
-> You can only refollow such instructions when you have followed our uninstall guide first.
->
 > A warning or unexpected message is, well, unexpected, contact us if you see one, and do not attempt to fix anything by yourself.
 
 - Let's now run partitioning script:
@@ -156,8 +148,6 @@ adb shell partition [Amount of storage you want Windows to have (only number)]
 ```bash
 exit
 ```
-
-### End of the Dangerous section
 
 ## Rebooting into Android
 
