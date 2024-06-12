@@ -107,6 +107,12 @@ Note: Here's a table of what to download if you're a bit lost:
 |-------------------------------------------------|-----------------------|
 | POCOX3Pro-Drivers-v2XXX.XX-Desktop.7z           | POCO X3 Pro           |
 
+- Download and install .NET 8 desktop runtime via this command, Skip this if you have installed it already
+
+```batch
+winget install Microsoft.DotNet.DesktopRuntime.8
+```
+
 - Extract the driver package, and go to the folder where you extracted it.
 
 - Double click the ```OfflineUpdater.cmd``` file.
