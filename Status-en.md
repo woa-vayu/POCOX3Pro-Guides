@@ -7,8 +7,8 @@
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | ⌨️ Side buttons        |                                     | ✅            |
 | ♋ Cellular Calls      |                                     | ❌            |
-| ♋ Cellular Data       | Requires manial provisioning.       | ✅            |
-| ♋ Cellular Texts      | Requires manial provisioning.       | ✅            |
+| ♋ Cellular Data       | Requires manual provisioning.       | ✅            |
+| ♋ Cellular Texts      | Requires manual provisioning.       | ✅            |
 | ♋ Wifi                |                                     | ✅            |
 | 📦 UFS                 |                                     | ✅            |
 | 🔵 Bluetooth           |                                     | ✅            |
@@ -18,7 +18,7 @@
 | 🪵 USB                 |                                     | ✅            |
 | 🔊 Audio               | Speakers don't work                 | ⚠️            |
 | 🧭 Sensor              |                                     | ✅            |
-| 🛡️ TPM                 | Not support Windows 10 18362/18363. | ✅            |
+| 🛡️ TPM                 | Doesn't support Windows 10 18362/18363. | ✅            |
 | 👆 Touch               |                                     | ✅            |
 | 🔌 Charge              | Slow charging only.                 | ✅            |
 | 📳 Vibration motor     |                                     | ❌            |
