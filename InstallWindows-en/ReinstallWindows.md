@@ -140,7 +140,7 @@ AND/OR PARTITIONED YOUR DEVICE, IF YOU DIDNT PARTITION FOLLOW THIS GUIDE [Partit
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
 ```
 
-- exit from diskpart
+- Exit from diskpart
 
 ```batch
 exit
@@ -176,6 +176,12 @@ Note: Here's a table of what to download if you're a bit lost:
 | File Name                                      | Target Device         |
 |------------------------------------------------|-----------------------|
 | POCOX3Pro-Drivers-XXXX.XX-Desktop.zip  | POCO X3 Pro           |
+
+- Download and install .NET 8 desktop runtime via this command, Skip this if you have installed it already
+
+```batch
+winget install Microsoft.DotNet.DesktopRuntime.8
+```
 
 - Extract the driver package, and go to the folder where you extracted it.
 
