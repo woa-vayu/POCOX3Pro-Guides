@@ -215,6 +215,12 @@ AND/OR PARTITIONED YOUR DEVICE, IF YOU DIDNT PARTITION FOLLOW THIS GUIDE [Partit
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
 ```
 
+- exit from diskpart
+
+```batch
+exit
+```
+
 - You will have two partitions loaded, one is the ESP partition, and the other is the Win partition. Take note of the letters you've used.
 
 > [!WARNING]
