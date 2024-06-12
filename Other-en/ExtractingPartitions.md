@@ -92,7 +92,7 @@ ls /dev/block/by-name/
 Let's make an image of the partition:
 
 ```bash
-dd if=/dev/block/by-name/boot of=/tmp/boot.img
+dd if=/dev/block/by-name/boot of=/tmp/boot.img bs=8388608
 ```
 
 - Now let's exit the shell and pull the boot.img from the device, to do so, run the following command on your PC:
