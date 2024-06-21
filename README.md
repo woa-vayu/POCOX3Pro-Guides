@@ -1,65 +1,55 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+# Windows on Poco X3 Pro Guides
 
-# Running Windows on the POCO X3 Pro
+Guides for running Windows on Poco X3 Pro.
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
+Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-Guides)
 
-## Language 
-[```Русский```](guide/Russian/README-ru.md) | **```English```** |
+![POCO X3 Pro Windows](https://github.com/woa-vayu/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
 
-## ⚠️ Warning
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+## A few notes
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+> [!NOTE]
+> Welcome 🥰! Thanks for being interested in trying out this project. We thought the following notes may interest you first before proceeding further:
+>
+> ℹ️ We recommend you know what you're getting into here. You need to know a bit about command line interfaces, Windows technical aspects, as this is not for the faint of heart yet! We won't teach you how to port the OS yourself, we've done this for you, but this is not for beginners or common users either. Tech Savvy people only or technical people only please, or you'll regret it or commit mistakes that may take some time to solve with us!
+>
+> ℹ️ We do not recommend you buy a POCO X3 Pro to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a POCO X3 Pro and want to try it, feel free 🙂 But do not buy this with hopes of it replacing your laptop, buy a laptop instead 🙂 (Even if this is the long term goal for us)
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR  PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+## Main Guides
 
-> [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM!**
+- [Install Windows](/InstallWindows-en.md)
 
+## Additional Guides:
 
-## Get Started
-- [Project status](guide/English/status-en.md)
+- [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/GetWindows.md)
+- [Activate Windows on your POCO X3 Pro](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
+- [Uninstall Windows and only keep Android™](/InstallWindows-en/Uninstall.md)
+- [Dual Boot between Android™ and Windows without the need of another Computer](/InstallWindows-en/DualBoot.md)
+- [Reinstall Windows](/InstallWindows-en/ReinstallWindows.md)
+- [Making Cellular work](/InstallWindows-en/Cellular.md)
 
-- [Installation](guide/English/install-1-en.md)
+## More Resources:
 
-- [Uninstallation](guide/English/uninstall-en.md)
+- [Frequently Asked Questions](/FAQ-en.md)
+- [Current Status of the Windows Port](/Status-en.md)
+- [Restore the Microsoft Store on Windows](/RestoreMicrosoftStore-en.md)
+- [Extract boot.img or other partitions](/Other-en/ExtractingPartitions.md)
 
-## Miscellaneous
-- [Dualboot setup](guide/English/dualboot-en.md)
+## Contact
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
+Please join [our Telegram group](https://t.me/winonvayualt) if you need any assistance!
 
-- [Useful apps and instructions](guide/English/additional-materials-en.md)
+---
 
-- [Updating Drivers](guide/English/update-en.md)
+_**© 2020-2024 The Duo WOA Authors**_
 
-- [Reinstallation](guide/English/reinstall-en.md)
+_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated, Microsoft Surface and Xiaomi Inc._
 
-## Contributors
-[<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
-[<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
-[<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
-[<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
-[<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)
-[<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/halal-beef)
-[<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
-[<img alt="gus33000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/3755345?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/gus33000)
-[<img alt="Renegade Project Discord Members" src="https://images.weserv.nl/?url=https://cdn.discordapp.com/icons/736563593058713690/68f67bfddf4390b11effc99917b16338.webp?size=256&w=45&fit=cover&mask=circle&maxage=7d" />](https://discord.gg/XXBWfag)
-[<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArturoGC06)
-[<img alt="SebastianZSXS" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111822607?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/SebastianZSXS)
-[<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
-[<img alt="haouarihk" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/57036855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/haouarihk)
-[<img alt="bibarub" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73599925?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/bibarub)
-[<img alt="Ilya114" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93242944?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Ilya114)
-[<img alt="proganime1200" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/32473502?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/proganime1200)
-[<img alt="KuatoDev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17999613?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/KuatoDev)
-[<img alt="belomaxorka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54049465?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/belomaxorka)
-[<img alt="nedokaka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104865210?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/nedokaka)
-[<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
-[<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
-[<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
+_**Limited emergency calling**_
 
+_Running Windows on your POCO X3 Pro is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
+
+_**Hello from Seattle (US), France, Italy.**_
 
 
 
