@@ -4,7 +4,7 @@ Guides for running Windows on Poco X3 Pro.
 
 Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-Guides)
 
-![POCO X3 Pro Windows](https://github.com/woa-vayu/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
+![POCO X3 Pro Windows](https://github.com/woa-vayu-archive/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
 
 ## A few notes
 

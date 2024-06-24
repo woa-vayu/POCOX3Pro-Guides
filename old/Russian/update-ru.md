@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woa-vayu-archive/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 
 # Запуск Windows на POCO X3 Pro
@@ -8,9 +8,9 @@
 ### Требования 
 - [Образ recovery](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
 
-- [Образ UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
+- [Образ UEFI](https://github.com/woa-vayu-archive/msmnilePkg/releases/latest)
 
-- [Драйвера](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+- [Драйвера](https://github.com/woa-vayu-archive/Vayu-Drivers/releases/latest)
 
 ### Загрузитесь в TWRP
 > Замените `<recovery.img>` действительным путём к recovery.img

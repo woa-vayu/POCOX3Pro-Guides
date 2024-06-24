@@ -1,6 +1,6 @@
 # Install Windows on POCO X3 Pro
 
-![POCO X3 Pro Windows](https://github.com/woa-vayu/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
+![POCO X3 Pro Windows](https://github.com/woa-vayu-archive/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
 
 Table of Contents:
 
@@ -233,7 +233,7 @@ Windows is now installed but has no drivers.
 
 ## Installing the drivers
 
-- Download the latest driver package from https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest
+- Download the latest driver package from https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/latest
 
 Note: Here's a table of what to download if you're a bit lost:
 

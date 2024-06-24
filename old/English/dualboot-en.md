@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woa-vayu-archive/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
 
@@ -6,8 +6,8 @@
 
 ### Prerequisites
 - A rooted vayu with Windows already installed
-- [Secure Boot UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [M3K WoA Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [Secure Boot UEFI image](https://github.com/woa-vayu-archive/msmnilePkg/releases/latest)
+- [M3K WoA Helper](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)
 - [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
 
 ## Setting up the dualboot app

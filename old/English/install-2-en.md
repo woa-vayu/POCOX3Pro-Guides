@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woa-vayu-archive/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
 
@@ -10,7 +10,7 @@
 ### Prerequisites
 - [ARM Windows esd](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
     
-- [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/woa-vayu-archive/Vayu-Drivers/releases/latest)
 
 - [Recovery image](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
 
