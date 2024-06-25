@@ -12,9 +12,9 @@ As common in the chip industry, Chip designs rarely are entirely different in a 
 
 Maybe.
 
-## I would like to help, how can I reach you
+## I would like to help, how can I reach you?
 
-We'll be happy to talk to you on our telegram channel: https://t.me/winonvayualt, note, you can help us with more than driver work, a lot of work is needed as well with documentation, support for the community, testing, developping apps, making a better shell, etc. We welcome any kind of help.
+We'll be happy to talk to you on our [telegram channel](https://t.me/winonvayualt), note, you can help us with more than driver work, a lot of work is needed as well with documentation, support for the community, testing, developping apps, making a better shell, etc. We welcome any kind of help.
 
 ## Are you going to do this for other Snapdragon™ 855 devices?
 

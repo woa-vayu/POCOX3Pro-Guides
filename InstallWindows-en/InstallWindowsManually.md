@@ -10,8 +10,8 @@ Table of Contents:
 * [Steps 🛠️](#steps-️)
    * [Unlocking the Bootloader](#unlocking-the-bootloader)
    * [Partitioning](#partitioning)
-   * [Getting to Mass Storage Mode](#getting-to-mass-storage-mode)
-   * [Going to Mass Storage](#going-to-mass-storage)
+   * [Getting the Mass Storage Script](#getting-the-mass-storage-script)
+   * [Entering Mass Storage Mode](#entering-mass-storage-mode)
    * [Installing Windows](#installing-windows)
    * [Installing the drivers](#installing-the-drivers)
    * [Boot Windows 🚀](#boot-windows-)
@@ -25,7 +25,7 @@ UEFI Image:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI.img                   | POCO X3 Pro           |
+| POCO.X3.Pro.UEFI-v2XXX.XX.img          | POCO X3 Pro           |
 
 Windows Drivers:
 
@@ -36,6 +36,7 @@ Windows Drivers:
 Recovery image:
 
 11 image supports Android™ 11 encryption
+
 12 image supports Android™ 12/12.1/13/14 encryption
 
 | File Name                                       | Target Device         |
@@ -93,7 +94,7 @@ Here's how to acquire a Driver archive file and the matching UEFI image for POCO
 </td>
 <td>
 
-- [Fast Boot](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/download/2406.06/POCO.X3.Pro.UEFI-v2406.06.img)
+[POCO.X3.Pro.UEFI-v2406.06.img](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/download/2406.06/POCO.X3.Pro.UEFI-v2406.06.img)
 </td>
 <td>POCO X3 Pro</td>
 <td>Windows 10 Version 2004 and higher</td>
@@ -148,7 +149,7 @@ If not already done, please first unlock the bootloader. Come back once you're d
 
 If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReinstallWindows.md) guide, not this one.
 
-## Getting to Mass Storage Mode
+## Getting the Mass Storage Script
 
 - Reboot into the Bootloader mode by running this command while inside Android™:
 
@@ -164,7 +165,7 @@ Start by flashing recovery:
 fastboot flash recovery
 ```
 
-- Go find the recovery image file you downloaded earlier, right click it, click "Copy as path"
+- Go find the recovery image file you downloaded earlier, hold shift and right click it, click "Copy as path"
 
 - Then go back to the Command Prompt window we started writing text in previously, and simply, right click on it with your mouse (or long press if you're on a touch device) and press enter
 
@@ -174,9 +175,9 @@ fastboot flash recovery
 fastboot reboot recovery
 ```
 
-You will now boot to SHPR/TWRP.
+You will now boot to SHRP/TWRP.
 
-## Going to Mass Storage
+## Entering Mass Storage Mode
 
 - Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
@@ -186,7 +187,7 @@ adb shell msc
 
 - If it asks you to run it once again, do so
 
-POCO X3 Pro should now be in USB Mass Storage Mode.
+Your POCO X3 Pro should now be in USB Mass Storage Mode.
 
 ## Installing Windows
 
@@ -206,14 +207,14 @@ Find the POCO X3 Pro Disk, and take note of the number.
 You will be able to recognize the partitions we made earlier by their size. take note of the ESP and WIN partition numbers.
 # select partition <esp-partition-number(Usually it's 34)>
 # assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
-# select partition <win-partition-number(Usually it's 33)>
+# select partition <windows-partition-number(Usually it's 33)>
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
 ```
 
-- You will have two partitions loaded, one is the ESP partition, and the other is the Win partition. Take note of the letters you've used.
+- You will have two partitions loaded, one is the ESP partition, and the other is the Windows partition. Take note of the letters you've used.
 
 > [!WARNING]
-From now on we will assume X: is the Win partition and that Y: is the ESP partition for all the commands. You very very likely used other letters, or have to use other letters. Replace them correctly with what you previously picked or you will lose data on your PC.
+From now on we will assume X: is the Windows partition and that Y: is the ESP partition for all the commands. You very very likely used other letters, or have to use other letters. Replace them correctly with what you previously picked or you will lose data on your PC.
 
 - We will need our install.wim file now. If you haven't it already, you can [use this guide](/InstallWindows-en/ISO/GetWindows.md). When you are ready, run these commands:
 
@@ -261,7 +262,7 @@ You will be back into POCO X3 Pro bootloader.
 
 We are ready to boot for the first time!
 
-Reboot your device to the Bootloader mode, using adb or from the recovery.
+Reboot your device to the Bootloader mode, using adb or the recovery.
 
 Let's boot the UEFI, from a command prompt:
 
@@ -295,7 +296,7 @@ In case you want the dual boot option, then follow [this guide](/InstallWindows-
   <summary>In case you want to manually boot each time: (<b>Click to expand</b>)</summary>
   <p>
 
-Reboot your device to the Bootloader mode, using adb or from the recovery.
+Reboot your device to the Bootloader mode, using adb or the recovery.
 
 Let's boot the UEFI, from a command prompt:
 
@@ -306,8 +307,6 @@ fastboot boot uefi.img
 This step above will be needed every time you will want to boot Windows and needs to be done from the Bootloader mode.
 
 If you did everything right, Windows will now boot! Enjoy!
-
-**Note:** If the Touch keyboard won't show up in OOBE, touch somewhere else (to let the text box loose focus) and then touch into the text box again. As an alternative, you can use the On-Screen Keyboard.
   </p>
 </details>
 

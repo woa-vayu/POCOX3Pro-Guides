@@ -8,7 +8,7 @@ UEFI Image:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI.img                   | POCO X3 Pro           |
+| POCO.X3.Pro.UEFI-v2XXX.XX.img          | POCO X3 Pro           |
 
 Windows Drivers:
 
@@ -19,6 +19,7 @@ Windows Drivers:
 Recovery image:
 
 11 image supports Android™ 11 encryption
+
 12 image supports Android™ 12/12.1/13/14 encryption
 
 | File Name                                       | Target Device         |
@@ -103,7 +104,7 @@ Now the Windows Partition on your POCO X3 Pro should be empty. Let's go ahead an
 
 ## Getting to Mass Storage Mode
 
-- Please turn your phone and boot to recovery again before proceding further
+- Please restart your phone and boot it into recovery again before proceding further.
 
 - Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
@@ -111,11 +112,11 @@ Now the Windows Partition on your POCO X3 Pro should be empty. Let's go ahead an
 adb shell msc
 ```
 
-POCO X3 Pro should now be in USB Mass Storage Mode.
+Your POCO X3 Pro should now be in USB Mass Storage Mode.
 
 ## Installing Windows
 
-- Make sure you are in Mass Storage Mode, that your POCO X3 Pro is plugged into your PC
+- Make sure you are in Mass Storage Mode and your POCO X3 Pro is plugged into your PC.
 - Mount the partitions you have created using diskpart and assign them some letters:
 
 ```batch
@@ -130,15 +131,15 @@ Find the POCO X3 Pro Disk, and take note of the number.
 # list partition
 You will be able to recognize the partitions we made earlier by their size. take note of the ESP and WIN partition numbers.
 # select partition <esp-partition-number(Usually it's 34)>
-# assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
-# select partition <win-partition-number(Usually it's 33)>
-# assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
+# assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
+# select partition <windows-partition-number(Usually it's 33)>
+# assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
 ```
 
-- You will have two partitions loaded, one is the ESP partition, and the other is the Win partition. Take note of the letters you've used.
+- You will have two partitions loaded, one is the ESP partition, and the other is the Windows partition. Take note of the letters you've used.
 
 > [!WARNING]
-From now on we will assume X: is the Win partition and that Y: is the ESP partition for all the commands. You very very likely used other letters, or have to use other letters. Replace them correctly with what you previously picked or you will lose data on your PC.
+From now on we will assume X: is the Windows partition and that Y: is the ESP partition for all the commands. You very very likely used other letters, or have to use other letters. Replace them correctly with what you previously picked or you will lose data on your PC.
 
 - We will need our install.wim file now. If you haven't it already, you can [use this guide](/InstallWindows-en/ISO/GetWindows.md). When you are ready, run these commands:
 
@@ -151,7 +152,6 @@ This will take a bit of time. Go make some coffee ☕ or some tea 🍵.
 - Once that is done:
 
 ```batch
-rmdir /Q /S Y:\EFI
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
@@ -201,7 +201,7 @@ In case you want the dual boot option, then follow [this guide](/InstallWindows-
   <summary>In case you want to manually boot each time: (<b>Click to expand</b>)</summary>
   <p>
 
-Reboot your device to the Bootloader mode, using adb or from the recovery.
+Reboot your device to the Bootloader mode, using adb or the recovery.
 
 Let's boot the UEFI, from a command prompt:
 
@@ -212,8 +212,6 @@ fastboot boot uefi.img
 This step above will be needed every time you will want to boot Windows and needs to be done from the Bootloader mode.
 
 If you did everything right, Windows will now boot! Enjoy!
-
-**Note:** If the Touch keyboard won't show up in OOBE, touch somewhere else (to let the text box loose focus) and then touch into the text box again. As an alternative, you can use the On-Screen Keyboard.
   </p>
 </details>
 

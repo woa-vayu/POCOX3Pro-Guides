@@ -5,6 +5,7 @@
 Recovery image:
 
 11 image supports Android™ 11 encryption
+
 12 image supports Android™ 12/12.1/13/14 encryption
 
 | File Name                                       | Target Device         |
@@ -132,7 +133,7 @@ You will now boot to recovery. Keep the phone plugged to your PC and continue al
 - Let's run partitioning script:
 
 ```bash
-adb shell partition [Amount of storage you want Windows to have (only number)]
+adb shell partition [Amount of storage you want Windows to have (only as a number in GB e.g 64 for 64GB)]
 ```
 
 - If it asks you to run it once again, do so

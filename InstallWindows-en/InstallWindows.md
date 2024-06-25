@@ -11,14 +11,14 @@
 
 There are three methods to install Windows:
 
-| **Comming Soon: Flash a Full Flash Update (FFU) file**                                                                       | **Coming Soon: Install Windows using automated scripts**                                                 | **Commin Soon: Install Windows Manually yourself**                                                                          |
+| **Coming Soon: Flash a Full Flash Update (FFU) file**                                                                       | **Coming Soon: Install Windows using automated scripts**                                                 | **Install Windows Manually yourself**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <a href="/InstallWindows-en/FlashingFFU.md"><img src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/c4fd0391-210a-4c31-8f03-7db2e634430c" width="200"></a> | <a href="/InstallWindows-en/InstallWindows.md"><img src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/c4d1d3cd-b0aa-4a96-986b-929f5443865a" width="150"></a> | <a href="/InstallWindows-en/InstallWindowsManually.md"><img src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/9791796b-406b-4f0d-8aad-20fff18741da" width="200"></a> |
 | - Easiest                                                                                                      | - Easy                                                                                                         | - Hardest                                                                                                      |
 | - Quickest                                                                                                     | - Takes a little bit of time                                                                                   | - Longest                                                                                                      |
 | - Simple                                                                                                       | - Doable for most people                                                                                       | - Complicated for inexperienced user, and can lead to mistakes breaking the device if done incorrectly         |
-| - Lack of options in regards to OS version, language, edition, storage allocation | - Customizable in regards to OS version, language, edition, storage allocation | - Highly customizable in regards to OS version, language, edition, storage allocation |
-| [Comming Soon!](/InstallWindows-en/InstallWindows.md) | [Coming Soon!](/InstallWindows-en/InstallWindows.md) | [Manual Guide](/InstallWindows-en/InstallWindowsManually.md) |
+| - Lack of options in regards to OS version, language, edition and storage allocation | - Customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
+| [Coming Soon!](/InstallWindows-en/InstallWindows.md) | [Coming Soon!](/InstallWindows-en/InstallWindows.md) | [Manual Guide](/InstallWindows-en/InstallWindowsManually.md) |
 
 ---
 

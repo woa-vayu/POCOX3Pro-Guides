@@ -13,7 +13,7 @@ UEFI Image:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI.img                   | POCO X3 Pro           |
+| POCO.X3.Pro.UEFI-v2XXX.XX.img          | POCO X3 Pro           |
 
 Windows Drivers:
 
@@ -24,6 +24,7 @@ Windows Drivers:
 Recovery image:
 
 11 image supports Android™ 11 encryption
+
 12 image supports Android™ 12/12.1/13/14 encryption
 
 | File Name                                       | Target Device         |
@@ -80,11 +81,11 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Getting to Mass Storage Mode
+## Entering Mass Storage Mode
 
 - Reboot your deivce into recovery
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
+- Run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
@@ -92,12 +93,12 @@ adb shell msc
 
 - If it asks you to run it once again, do so
 
-POCO X3 Pro should now be in USB Mass Storage Mode.
+Your POCO X3 Pro should now be in USB Mass Storage Mode.
 
 ## Updating Drivers
 
 > [!WARNING]
-> From now on we will assume X: is the Win partition for all commands. Replace them correctly with what you previously picked or you will lose data on your PC.
+> From now on we will assume X: is the Windows partition for all commands. Replace them correctly with what you previously picked or you will lose data on your PC.
 
 - Download the latest driver package from https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/latest
 
@@ -137,7 +138,7 @@ Simply use the latest UEFI image
 fastboot boot uefi.img
 ```
 
-### For Dual Boot follow [Dual Boot](/InstallWindows-en/DualBoot.md) guide again
+### For Dual Boot installations, follow the [Dual Boot](/InstallWindows-en/DualBoot.md) guide again.
 
 ---
 

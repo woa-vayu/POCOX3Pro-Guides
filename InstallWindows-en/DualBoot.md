@@ -17,7 +17,7 @@ UEFI Image:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI.img                   | POCO X3 Pro           |
+| POCO.X3.Pro.UEFI-v2XXX.XX.img          | POCO X3 Pro           |
 
 StA Installer:
 | File Name                              | Target Device         |
@@ -28,10 +28,10 @@ M3K WoA Helper:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| [M3K-WoA-Helper.apk](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)                | POCO X3 Pro           |
+| [M3K-HelperX.X.apk](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)                | POCO X3 Pro           |
 
-- Stock device boot.img image obtained from an ota package, or from the device itself using **M3K WoA Helper**.
-- Rooted POCO X3 Pro with Windows already installed
+- Stock device boot.img image obtained from an OTA package, or from the device itself using **M3K WoA Helper** or by using [this guide](../Other-en/ExtractingPartitions.md).
+- Rooted POCO X3 Pro with Windows already installed.
 
 # Steps 🛠️
 
@@ -42,7 +42,7 @@ M3K WoA Helper:
 - Press the ```Mount Windows``` button, then download and move StA_Installer_vayu.exe to the newly created ```Windows``` folder in your internal storage.
 - Return to the M3K WoA Helper and press ```QuickBoot to Windows```.
 
-Your device will now boot into Windows
+Your device will now boot into Windows.
 
 ## Installing StA
 
@@ -50,8 +50,8 @@ Your device will now boot into Windows
 
 ## How it Works
 
-- To boot Android™, run ```Switch to Android``` shortcut on your desktop or start menu
-- To boot Windows, press ```QuickBoot to Windows``` inside the M3K WoA Helper
+- To boot Android™, run ```Switch to Android``` shortcut on your desktop or start menu.
+- To boot Windows, press ```QuickBoot to Windows``` inside the M3K WoA Helper.
 
 ---
 

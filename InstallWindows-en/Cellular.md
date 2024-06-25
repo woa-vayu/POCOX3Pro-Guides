@@ -5,6 +5,7 @@
 Recovery image:
 
 11 image supports Android™ 11 encryption
+
 12 image supports Android™ 12/12.1/13/14 encryption
 
 | File Name                                       | Target Device         |
@@ -33,7 +34,7 @@ Cellular provisioning script:
 
 ## Booting to recovery
 
-- Reboot your deivce into recovery
+- Reboot your device into recovery
 
 ## Dumping Modem partitions using automated script
 
@@ -48,7 +49,7 @@ Cellular provisioning script:
 
 ## Dumping Modem partitions manually
 
-Using [the following guide](/Other/ExtractingPartitions.md), extract the following partitions:
+Using [the following guide](/Other-en/ExtractingPartitions.md), extract the following partitions:
 
 - ```modemst1```
 - ```modemst2```
@@ -57,9 +58,9 @@ once done, you should have obtained the ```modemst1.img``` and ```modemst2.img``
 
 Please note that your device is already in recovery, there's no need to put it back again into recovery. (So jump directly to the adb shell section of the above's guide).
 
-### Getting to Mass Storage Mode
+### Entering Mass Storage Mode
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
+- Run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
@@ -67,11 +68,11 @@ adb shell msc
 
 - If it asks you to run it once again, do so
 
-POCO X3 Pro should now be in USB Mass Storage Mode.
+Your POCO X3 Pro should now be in USB Mass Storage Mode.
 
 ### Copying files over
 
-Assuming the Windows partition is available under X: (will/may be different for you), do the following:
+Assuming the Windows partition is available under X: (may be different for you), do the following:
 
 - Copy the ```modemst1.img``` file to ```X:\Windows\System32\DriverStore\FileRepository\qcremotefs8150_<random data here>\bootmodem_fs1```
 - Copy the ```modemst2.img``` file to ```X:\Windows\System32\DriverStore\FileRepository\qcremotefs8150_<random data here>\bootmodem_fs2```

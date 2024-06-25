@@ -2,19 +2,19 @@
 
 Welcome!
 
-## [Installing Windows](/InstallWindows-en/InstallWindows.md)
+### [Installing Windows](/InstallWindows-en/InstallWindows.md)
 
-## [Reinstalling Windows if it was already installed](/InstallWindows-en/ReinstallWindows.md)
+### [Reinstalling Windows if it was already installed](/InstallWindows-en/ReinstallWindows.md)
 
-## [Install Dual Boot](/InstallWindows-en/DualBoot.md)
+### [Install Dual Boot](/InstallWindows-en/DualBoot.md)
 
-## [Uninstalling Windows](/InstallWindows-en/Uninstall.md)
+### [Uninstalling Windows](/InstallWindows-en/Uninstall.md)
 
-## [Updating Drivers and/or UEFI](/Update-en/UpdateDriversAndUEFI.md)
+### [Updating Drivers and/or UEFI](/Update-en/UpdateDriversAndUEFI.md)
 
-## Help! Something is wrong and the guides do not seem to cover them
+## Help! Something is wrong and the guide does not seem to cover it
 
-- [Telegram Group, please send us a message, you may make things worse](https://t.me/winonvayualt)
+- [Telegram Group, please send us a message, you may make things worse otherwise.](https://t.me/winonvayualt)
 
 ---
 
