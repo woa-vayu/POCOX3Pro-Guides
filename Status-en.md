@@ -7,8 +7,8 @@
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | ⌨️ Side buttons        |                                     | ✅            |
 | ♋ Cellular Calls      |                                     | ❌            |
-| ♋ Cellular Data       | Requires manial provisioning.       | ✅            |
-| ♋ Cellular Texts      | Requires manial provisioning.       | ✅            |
+| ♋ Cellular Data       | Requires manual provisioning.       | ✅            |
+| ♋ Cellular Texts      | Requires manual provisioning.       | ✅            |
 | ♋ Wifi                |                                     | ✅            |
 | 📦 UFS                 |                                     | ✅            |
 | 🔵 Bluetooth           |                                     | ✅            |
@@ -26,7 +26,7 @@
 | 📸 Camera Flash        |                                     | ❌            |
 | 🏷️ NFC                 |                                     | ❌            |
 | 📸 Camera              |                                     | ❌            |
-| 🧑‍💼 Hyper-V             | Requires Microsoft Corporation Signed device configuration binary  | ❌           |
+| 🧑‍💼 Hyper-V             | Requires Xiaomi Corporation Signed device configuration binary  | ❌           |
 | 🧬 Fingerprint scanner |                                     | ❌            |
 
 # Detailed status

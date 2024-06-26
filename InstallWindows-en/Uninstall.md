@@ -69,6 +69,8 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 ## Booting to recovery
 
+- If not already done, please proceed with the installing recovery as told in **Getting the Mass Storage Script** section in [Main guide](/InstallWindows-en/InstallWindowsManually.md) for the POCO X3 Pro. Come back once you're done.
+
 - Reboot your deivce into recovery
 
 ## Restoring the original partitions
@@ -93,7 +95,7 @@ exit
 
 - Once your phone is confirmed working, congratulations, you successfully uninstalled Windows from your device.
 
-You may however want to also relock the bootloader of the device, please note that you cannot relock the bootloader of your device if you flashed a custom rom as well as installed Windows before, or modified the boot partition for your own purposes.
+You may however want to also relock the bootloader of the device, please note that you cannot relock the bootloader of your device if you flashed a custom rom as well as installed Windows without uninstalling it, or modified the boot partition for your own purposes.
 
 🎉 Congratulations, your POCO X3 Pro is back to factory settings.
 

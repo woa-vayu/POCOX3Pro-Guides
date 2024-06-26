@@ -5,6 +5,7 @@
 Recovery image:
 
 11 image supports Android™ 11 encryption
+
 12 image supports Android™ 12/12.1/13/14 encryption
 
 | File Name                                       | Target Device         |
@@ -65,13 +66,16 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 ## Boot into recovery
 
-- If not already done, please proceed with the installing recovery as told in [Getting to Mass Storage Mode] section in [Main guide](/InstallWindows-en/InstallWindowsManually.md) for POCO X3 Pro. Come back once you're done.
+- If not already done, please proceed with the installing recovery as told in **Getting the Mass Storage Script** section in [Main guide](/InstallWindows-en/InstallWindowsManually.md) for the POCO X3 Pro. Come back once you're done.
 
 - Reboot into recovery
 
-Your POCO X3 Pro will boot into TWRP, touch will not work and the device will say it is locked. This is completely normal and expected.
+Your POCO X3 Pro will boot into TWRP/SHRP.
 
-## Retrieve the location of our boot partition
+## Retrieve the location of our target partition
+
+> [!WARNING]
+> From now on we will assume you are trying to extract the boot partition, if not, replace "boot" with the name of the partition you are trying to extract.
 
 - We need to open a shell to issue commands directly to the phone. To do so, run the following command on your PC:
 
@@ -81,7 +85,7 @@ adb shell
 
 You are now able to issue commands directly to your phone via your PC.
 
-- Now, we need to find the location of our boot partition, as it is different for each device. To do so, run the following command on your PC:
+- Now, we need to find the location of our target partition, as it is different for each device. To do so, run the following command on your PC:
 
 ```bash
 ls /dev/block/by-name/
