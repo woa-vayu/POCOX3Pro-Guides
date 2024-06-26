@@ -39,7 +39,7 @@ Recovery image:
 
 You will end up with both Android™ and Windows on your POCO X3 Pro. Android™ and Windows will both split the internal storage.
 
-Android™ will boot normally, and you will have to use a PC to boot Windows when needed, unless you flash UEFI in boot partition or use M3K WoA Helper.
+Android™ will boot normally, and you will have to use a PC to boot Windows when needed, unless you flash UEFI in boot partition or use M3K Helper.
 
 # Steps 🛠️
 
@@ -108,7 +108,7 @@ adb reboot bootloader
 
 You will be rebooted to Poco X3 Pro's bootloader.
 
-## Booting to recovery
+## Flashing recovery
 
 - Plug your phone to your PC, open a command prompt and start by typing the following text, but do not press enter just yet
 
@@ -116,7 +116,7 @@ You will be rebooted to Poco X3 Pro's bootloader.
 fastboot flash recovery
 ```
 
-- Go find the recovery image file you downloaded earlier, right click it, click "Copy as path"
+- Go find the recovery image file you downloaded earlier, hold shift and right click it, click "Copy as path"
 
 - Then go back to the Command Prompt window we started writing text in previously, and simply, right click on it with your mouse (or long press if you're on a touch device) and press enter
 

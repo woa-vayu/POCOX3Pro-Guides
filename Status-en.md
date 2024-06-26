@@ -18,7 +18,7 @@
 | 🪵 USB                 |                                     | ✅            |
 | 🔊 Audio               | Speakers don't work                 | ⚠️            |
 | 🧭 Sensor              |                                     | ✅            |
-| 🛡️ TPM                 | Not support Windows 10 18362/18363. | ✅            |
+| 🛡️ TPM                 |                                     | ✅            |
 | 👆 Touch               |                                     | ✅            |
 | 🔌 Charge              | Slow charging only.                 | ✅            |
 | 📳 Vibration motor     |                                     | ❌            |

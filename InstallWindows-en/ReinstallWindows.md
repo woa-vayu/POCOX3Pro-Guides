@@ -92,7 +92,9 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 ## Booting to recovery
 
-- Reboot your deivce into recovery
+- If not already done, please proceed with the installing recovery as told in **Flashing recovery** section in [Partitioning](/InstallWindows-en/Partitioning.md) guide for the POCO X3 Pro. Come back once you're done.
+
+- Reboot your device into recovery
 
 ## Formatting the existing Windows partition
 
@@ -102,7 +104,7 @@ adb shell format
 
 Now the Windows Partition on your POCO X3 Pro should be empty. Let's go ahead and reinstall everything.
 
-## Getting to Mass Storage Mode
+## Entering Mass Storage Mode
 
 - Please restart your phone and boot it into recovery again before proceding further.
 
@@ -212,6 +214,8 @@ fastboot boot uefi.img
 This step above will be needed every time you will want to boot Windows and needs to be done from the Bootloader mode.
 
 If you did everything right, Windows will now boot! Enjoy!
+
+**Note:** If the Touch keyboard won't show up in OOBE, touch somewhere else (to let the text box loose focus) and then touch into the text box again. As an alternative, you can use the On-Screen Keyboard.
   </p>
 </details>
 

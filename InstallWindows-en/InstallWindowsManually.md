@@ -10,7 +10,7 @@ Table of Contents:
 * [Steps 🛠️](#steps-️)
    * [Unlocking the Bootloader](#unlocking-the-bootloader)
    * [Partitioning](#partitioning)
-   * [Getting the Mass Storage Script](#getting-the-mass-storage-script)
+   * [Booting to recovery](#booting-to-recovery)
    * [Entering Mass Storage Mode](#entering-mass-storage-mode)
    * [Installing Windows](#installing-windows)
    * [Installing the drivers](#installing-the-drivers)
@@ -71,7 +71,7 @@ Recovery image:
 
 You will end up with both Android™ and Windows on your POCO X3 Pro. Android™ and Windows will both split the internal storage.
 
-Android™ will boot normally, and you will have to use a PC to boot Windows when needed, unless you flash UEFI in boot partition or use M3K WoA Helper.
+Android™ will boot normally, and you will have to use a PC to boot Windows when needed, unless you flash UEFI in boot partition or use M3K Helper.
 
 # Steps 🛠️
 
@@ -149,30 +149,12 @@ If not already done, please first unlock the bootloader. Come back once you're d
 
 If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReinstallWindows.md) guide, not this one.
 
-## Getting the Mass Storage Script
+## Booting to recovery
 
-- Reboot into the Bootloader mode by running this command while inside Android™:
-
-```batch
-adb reboot bootloader
-```
-
-Start by flashing recovery:
-
-- Plug your phone to your PC, open a command prompt and start by typing the following text, but do not press enter just yet
+- Assuming you're inside Android™ run this command:
 
 ```batch
-fastboot flash recovery
-```
-
-- Go find the recovery image file you downloaded earlier, hold shift and right click it, click "Copy as path"
-
-- Then go back to the Command Prompt window we started writing text in previously, and simply, right click on it with your mouse (or long press if you're on a touch device) and press enter
-
-- Now you can type the following text and press enter
-
-```batch
-fastboot reboot recovery
+adb reboot recovery
 ```
 
 You will now boot to SHRP/TWRP.
@@ -307,6 +289,8 @@ fastboot boot uefi.img
 This step above will be needed every time you will want to boot Windows and needs to be done from the Bootloader mode.
 
 If you did everything right, Windows will now boot! Enjoy!
+
+**Note:** If the Touch keyboard won't show up in OOBE, touch somewhere else (to let the text box loose focus) and then touch into the text box again. As an alternative, you can use the On-Screen Keyboard.
   </p>
 </details>
 

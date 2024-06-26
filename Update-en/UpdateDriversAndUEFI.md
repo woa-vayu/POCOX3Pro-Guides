@@ -81,9 +81,15 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Entering Mass Storage Mode
+## Booting to recovery
 
-- Reboot your deivce into recovery
+- If not already done, please proceed with the installing recovery as told in **Flashing recovery** section in [Partitioning](/InstallWindows-en/Partitioning.md) guide for the POCO X3 Pro. Come back once you're done.
+
+- Reboot into recovery
+
+Your POCO X3 Pro will boot into TWRP/SHRP.
+
+## Entering Mass Storage Mode
 
 - Run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
 

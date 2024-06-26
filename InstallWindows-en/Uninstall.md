@@ -69,9 +69,9 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 ## Booting to recovery
 
-- If not already done, please proceed with the installing recovery as told in **Getting the Mass Storage Script** section in [Main guide](/InstallWindows-en/InstallWindowsManually.md) for the POCO X3 Pro. Come back once you're done.
+- If not already done, please proceed with the installing recovery as told in **Flashing recovery** section in [Partitioning](/InstallWindows-en/Partitioning.md) guide for the POCO X3 Pro. Come back once you're done.
 
-- Reboot your deivce into recovery
+- Reboot your device into recovery
 
 ## Restoring the original partitions
 
