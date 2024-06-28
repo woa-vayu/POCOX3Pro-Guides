@@ -18,7 +18,7 @@ There are three methods to install Windows:
 | - Quickest                                                                                                     | - Takes a little bit of time                                                                                   | - Longest                                                                                                      |
 | - Simple                                                                                                       | - Doable for most people                                                                                       | - Complicated for inexperienced user, and can lead to mistakes breaking the device if done incorrectly         |
 | - Lack of options in regards to OS version, language, edition and storage allocation | - Customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
-| [FFU Guide](/InstallWindows-en/InstallWindows.md) | [Coming Soon!](/InstallWindows-en/InstallWindows.md) | [Manual Guide](/InstallWindows-en/FlashingFFU.md) |
+| [FFU Guide](/InstallWindows-en/FlashingFFU.md) | [Coming Soon!](/InstallWindows-en/InstallWindows.md) | [Manual Guide](/InstallWindows-en/InstallWindowsManually.md) |
 
 ---
 
