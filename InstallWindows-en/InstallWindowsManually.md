@@ -143,7 +143,7 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 ## Unlocking the Bootloader
 
-If not already done, please first unlock the bootloader. Come back once you're done. If you already did this, please skip this.
+If not already done, please first unlock the bootloader. Come back once you're done. If you already did this, please skip this section.
 
 ## Partitioning
 
