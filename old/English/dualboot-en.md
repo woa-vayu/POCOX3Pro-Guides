@@ -8,7 +8,7 @@
 - A rooted vayu with Windows already installed
 - [UEFI image](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/latest)
 - [M3K Helper](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)
-- [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/StA_Installer_vayu.exe)
+- [StA Installer](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/raw/main/Files/StA_Installer_vayu.exe)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do this first

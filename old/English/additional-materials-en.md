@@ -61,7 +61,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 
 #### Prerequisites
 - Magisk or TWRP installed
-- [Modem provisioning zip](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/modemprov.zip)
+- [Modem provisioning zip](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/raw/main/Files/modemprov.zip)
 
 ##### Flash the modem provisioning zip
 

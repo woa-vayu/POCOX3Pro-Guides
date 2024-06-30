@@ -12,7 +12,7 @@
     
 - [Drivers](https://github.com/woa-vayu-archive/Vayu-Drivers/releases/latest)
 
-- [Recovery image](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
+- [Recovery image](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries) (should already be installed)
 
 ### Boot back into recovery to start installing Windows
 > If your recovery has been replaced by the stock recovery, flash it again using

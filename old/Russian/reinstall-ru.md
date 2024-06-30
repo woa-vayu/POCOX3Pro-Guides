@@ -14,7 +14,7 @@
 
 - ```Существующие разделы Windows и ESP``` (*If not met, [go back and just pretend this guide never existed](/guide/English/install-1-en.md)*)
 
-- [```Образ recovery```](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [```Образ recovery```](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

@@ -12,7 +12,7 @@
 
 - [Драйвера](https://github.com/woa-vayu-archive/Vayu-Drivers/releases/latest)
 
-- [Образ recovery](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries) (should already be installed)
+- [Образ recovery](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries) (should already be installed)
 
 ### Загрузитесь обратно в recovery что бы начать установку Windows
 > Замените `<recovery.img>` действительным путём к recovery.img

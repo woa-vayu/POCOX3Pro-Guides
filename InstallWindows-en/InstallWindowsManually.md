@@ -41,8 +41,8 @@ Recovery image:
 
 | File Name                                       | Target Device         |
 |-------------------------------------------------|-----------------------|
-| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
-| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
+| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
+| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
 
 - [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
 - An ARM64 Windows build of your choice that meets the minimum system requirements (specifically the install.wim file). You can use [UUPMediaCreator](https://github.com/gus33000/UUPMediaCreator) for this. [Here's a guide on how to use it.](/InstallWindows-en/ISO/GetWindows.md)

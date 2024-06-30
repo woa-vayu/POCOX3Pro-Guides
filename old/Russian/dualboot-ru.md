@@ -8,7 +8,7 @@
 - Рутированный vayu с уже установленной Windows
 - [Образ UEFI](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/latest)
 - [M3K Helper](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)
-- [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/StA_Installer_vayu.exe)
+- [StA Installer](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/raw/main/Files/StA_Installer_vayu.exe)
 
 ## Настройка приложения dualboot
 > В этом гайде предполагается, что у вас есть root, если это не так, пожалуйста, сделайте это в первую очередь

@@ -12,7 +12,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Recovery Image](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [Recovery Image](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries)
 
 ### Flash and boot modified recovery
 > Replace `<recovery.img>` with the actual path to the recovery image

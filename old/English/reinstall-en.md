@@ -14,7 +14,7 @@ If you don't like your Windows version or you've bricked your Windows install, o
 
 - ```Existing Windows and boot partitions``` (*If not met, [go back and just pretend this guide never existed](/guide/English/install-1-en.md)*)
 
-- [```Recovery Image```](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [```Recovery Image```](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

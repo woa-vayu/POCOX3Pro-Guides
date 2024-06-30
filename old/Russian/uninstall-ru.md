@@ -11,7 +11,7 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Образ recovery](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [Образ recovery](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries)
 
 ### Прошейте и загрузите модифицированное recovery
 > Замените `<recovery.img>` путём к образу recovery

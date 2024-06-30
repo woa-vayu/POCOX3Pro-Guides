@@ -6,7 +6,7 @@
 ## Обновление драйверов 
 
 ### Требования 
-- [Образ recovery](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [Образ recovery](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries)
 
 - [Образ UEFI](https://github.com/woa-vayu-archive/msmnilePkg/releases/latest)
 

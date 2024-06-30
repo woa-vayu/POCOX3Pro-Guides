@@ -9,7 +9,7 @@
 
 - Brain
   
-- [Recovery Image](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/Recoveries)
+- [Recovery Image](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
