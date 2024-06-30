@@ -61,7 +61,7 @@
 
 #### Требования 
 - Установленный Magisk или TWRP
-- [Zip-файл для настройки модема](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/modemprov)
+- [Zip-файл для настройки модема](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/modemprov.zip)
 
 ##### Прошейте zip-файл для настройки модема
 

@@ -22,7 +22,7 @@ UEFI Image:
 StA Installer:
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| [StA_Installer_vayu.exe](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)                | POCO X3 Pro           |
+| [StA_Installer_vayu.exe](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/StA_Installer_vayu.exe)                | POCO X3 Pro           |
 
 M3K Helper:
 

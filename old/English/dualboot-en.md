@@ -6,16 +6,16 @@
 
 ### Prerequisites
 - A rooted vayu with Windows already installed
-- [Secure Boot UEFI image](https://github.com/woa-vayu-archive/msmnilePkg/releases/latest)
+- [UEFI image](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/latest)
 - [M3K Helper](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)
-- [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/tag/dualboot)
+- [StA Installer](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/StA_Installer_vayu.exe)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do this first
 
 ### Setup - Android
 - Download and install the **M3K Helper** app, then open it and grant it root access.
-- Download the **Secure Boot UEFI image** for your panel and place it inside the folder named `UEFI` in your internal storage.
+- Download the **UEFI image** for your panel and place it inside the folder named `UEFI` in your internal storage.
 - Press the `MOUNT WINDOWS` button, then download and move **StA_Installer_vayu.exe** to the newly created `Windows` folder in your internal storage.
 - Return to the M3K Helper app and press `QUICKBOOT TO WINDOWS`.
   

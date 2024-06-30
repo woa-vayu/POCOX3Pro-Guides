@@ -17,7 +17,7 @@ Cellular provisioning script:
 
 | File Name                                       | Target Device         |
 |-------------------------------------------------|-----------------------|
-| [modemprov.zip](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/releases/download/modemprov/modemprov.zip) | POCO X3 Pro |
+| [modemprov.zip](https://github.com/woa-vayu-archive/Port-Windows-11-POCO-X3-Pro/raw/main/Files/modemprov.zip) | POCO X3 Pro |
 
 - Windows Command Prompt, Linux is not required
 
