@@ -59,9 +59,9 @@ If not already done, please first unlock the bootloader. Come back once you're d
 adb shell parted /dev/block/sda p
 ```
 
-- Now make sure that it says ```Model: SAMSUNG xxxxxxxxx``` and your POCO X3 Pro is 256GB
+- Now make sure that it says ```Model: SAMSUNG xxxxxxxxx``` or ```Model: MICRON xxxxxxxxx``` and your POCO X3 Pro is 256GB
 
-- If it says MICRON, WDC or your POCO X3 Pro is 128GB then you have to install Windows manually using [this guide](./InstallWindowsManually.md)
+- If it says WDC or your POCO X3 Pro is 128GB then you have to install Windows manually using [this guide](./InstallWindowsManually.md)
 
 ## Acquiring all files
 
