@@ -9,7 +9,6 @@ Table of Contents:
    * [What you will get 🛒](#what-you-will-get-)
 * [Steps 🛠️](#steps-️)
    * [Unlocking the Bootloader](#unlocking-the-bootloader)
-   * [Making sure you can flash FFUs](#making-sure-you-can-flash-ffus)
    * [Acquiring all files](#acquiring-all-files)
    * [Getting to FFU Loader](#getting-to-ffu-loader)
    * [Flashing the Windows FFU Image](#flashing-the-windows-ffu-image)
@@ -48,20 +47,6 @@ Android™ will boot normally, and you will have to use a PC to boot Windows whe
 ## Unlocking the Bootloader
 
 If not already done, please first unlock the bootloader. Come back once you're done. If you already did this, please skip this section.
-
-## Making sure you can flash FFUs
-
-- If not already done, please proceed with the installing recovery as told in **Flashing recovery** section in [Partitioning](/InstallWindows-en/Partitioning.md) guide for the POCO X3 Pro. Come back once you're done.
-
-- Assuming you're inside recovery run this command:
-
-```batch
-adb shell parted /dev/block/sda p
-```
-
-- Now make sure that it says ```Model: SAMSUNG xxxxxxxxx``` or ```Model: MICRON xxxxxxxxx``` and your POCO X3 Pro is 256GB
-
-- If it says WDC or your POCO X3 Pro is 128GB then you have to install Windows manually using [this guide](./InstallWindowsManually.md)
 
 ## Acquiring all files
 
