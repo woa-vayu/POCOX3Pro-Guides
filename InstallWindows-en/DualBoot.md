@@ -11,7 +11,7 @@ Table of Contents:
 
 ## Files/Tools Needed 📃
 
-- You will need the following files from the [BSP Release page](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/latest):
+- You will need the following files from the [BSP Release page](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest):
 
 UEFI Image:
 
@@ -22,13 +22,13 @@ UEFI Image:
 StA Installer:
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| [StA_Installer_vayu.exe](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/raw/main/Files/StA_Installer_vayu.exe)                | POCO X3 Pro           |
+| [StA_Installer_vayu.exe](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/StA_Installer_vayu.exe)                | POCO X3 Pro           |
 
 M3K Helper:
 
 | File Name                              | Target Device         |
 |----------------------------------------|-----------------------|
-| [M3K-HelperX.X.apk](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)                | POCO X3 Pro           |
+| [M3K-HelperX.X.apk](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)                | POCO X3 Pro           |
 
 - Stock device boot.img image obtained from an OTA package, or from the device itself using **M3K Helper** or by using [this guide](../Other-en/ExtractingPartitions.md).
 - Rooted POCO X3 Pro with Windows already installed.

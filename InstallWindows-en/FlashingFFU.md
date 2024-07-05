@@ -18,7 +18,7 @@ Table of Contents:
 
 ## Files/Tools Needed 📃
 
-- [WOA Device Manager](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/download/WDM/WOA_Device_Manager.zip)
+- [WOA Device Manager](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/WDM/WOA_Device_Manager.zip)
 - An FFU file for POCO X3 Pro
 - A Windows PC to flash the device
 
@@ -55,7 +55,7 @@ Here's how to acquire an FFU file and the matching UEFI image for POCO X3 Pro:
 ### POCO X3 Pro
 
 UEFI:
-- [UEFI Image](https://github.com/woa-vayu-archive/POCOX3Pro-Releases/releases/download/2406.36/POCO.X3.Pro.UEFI-v2406.36.img)
+- [UEFI Image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2406.36/POCO.X3.Pro.UEFI-v2406.36.img)
 
 [FFU Files](https://t.me/woavayuffu)
 
@@ -63,7 +63,7 @@ UEFI:
 
 | Steps | Illustration |
 |-|-|
-| Download WOA Device Manager using [the link provided above](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/download/WDM/WOA_Device_Manager.zip) | |
+| Download WOA Device Manager using [the link provided above](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/WDM/WOA_Device_Manager.zip) | |
 | Extract it | |
 | Double tap the ```Install.cmd``` file | |
 | Follow the on screen instructions. | |

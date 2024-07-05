@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/woa-vayu-archive/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 # Запуск Windows на POCO X3 Pro
 
@@ -10,9 +10,9 @@
 ### Требования 
 - [ARM Windows esd](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```выберите ваш язык```)
 
-- [Драйвера](https://github.com/woa-vayu-archive/Vayu-Drivers/releases/latest)
+- [Драйвера](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
 
-- [Образ recovery](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/tag/Recoveries) (should already be installed)
+- [Образ recovery](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/tag/Recoveries) (should already be installed)
 
 ### Загрузитесь обратно в recovery что бы начать установку Windows
 > Замените `<recovery.img>` действительным путём к recovery.img

@@ -9,8 +9,8 @@ Recovery image:
 
 | File Name                                       | Target Device         |
 |-------------------------------------------------|-----------------------|
-| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
-| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu-archive/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
+| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
+| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
 
 ## Disclaimers
 
