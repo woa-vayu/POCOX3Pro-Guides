@@ -65,8 +65,8 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /
 
 | Feature                         | Notes                                                                                   | Status         |
 |---------------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn   (Charging & MTP)   | **[Default]** MTP doesn't work all of the time | ✅            |
-| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles)          | ⚠️            |
+| 🪵 USB-Fn   (Charging & MTP)   | **[Default]**                                                                            | ✅            |
+| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles)                        | ⚠️            |
 
 
 ## 🎆 GPU 
