@@ -67,7 +67,8 @@ UEFI:
 | Extract it | |
 | Double tap the ```Install.cmd``` file | |
 | Follow the on screen instructions. | |
-| Open WOA Device Manager. | <img align="right" width="425" alt="Screenshot 2024-06-22 183133" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/ba7b4289-1c23-4138-9428-1d9e8c90af10"> |
+| Open WOA Device Manager. | <img align="right" width="425" alt="Screenshot 2024-06-22 183133" src="[https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/ba7b4289-1c23-4138-9428-1d9e8c90af10](https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/65ddcd6a-4540-483d-9e39-c2d031703e88)">
+
 
 Congratulations, you successfully installed WOA Device Manager.
 
