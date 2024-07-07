@@ -46,7 +46,7 @@
 | 🧭 Accelerometer       |                                     | ✅            |
 | 🧭 Gyroscope           |                                     | ✅            |
 | 🧭 Light sensor        |                                     | ✅            |
-| 🧭 Magnetometer        | Testing required.                   | ⚠️            |
+| 🧭 Magnetometer        |                                     | ✅            |
 | 🧭 Proximity           | Testing required.                   | ⚠️            |
 
 ## 🪵 USB
