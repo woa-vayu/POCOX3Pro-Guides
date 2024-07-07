@@ -26,7 +26,6 @@
 | 📸 Camera Flash        |                                     | ❌            |
 | 🏷️ NFC                 |                                     | ❌            |
 | 📸 Camera              |                                     | ❌            |
-| 🧑‍💼 Hyper-V             | Requires Xiaomi Corporation Signed device configuration binary  | ❌           |
 | 🧬 Fingerprint scanner |                                     | ❌            |
 
 # Detailed status
