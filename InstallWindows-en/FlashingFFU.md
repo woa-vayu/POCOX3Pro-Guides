@@ -67,8 +67,7 @@ UEFI:
 | Extract it | |
 | Double tap the ```Install.cmd``` file | |
 | Follow the on screen instructions. | |
-| Open WOA Device Manager. | <img align="right" width="425" alt="Screenshot 2024-06-22 183133" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/65ddcd6a-4540-483d-9e39-c2d031703e88">
-
+| Open WOA Device Manager. | <img align="right" width="425" alt="Screenshot 2024-06-22 183133" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/42be9ce4-2f28-4a36-af40-8ce57243aebc">
 
 Congratulations, you successfully installed WOA Device Manager.
 
@@ -76,11 +75,11 @@ Congratulations, you successfully installed WOA Device Manager.
 
 | Steps | Illustration |
 |-|-|
-| Plug your device into your computer inside Android™ | <img align="right" width="425" alt="Screenshot 2024-06-22 183159" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/001215d0-4bbb-4ba1-839c-552890fbc1b7"> |
-| Go into the Switch Mode Section of WOA Device Manager | <img align="right" width="425" alt="Screenshot 2024-06-22 183227" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/95732dc8-10c5-472f-b6ca-89c9ba8f0563"> |
-| Click Switch to Windows mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183235" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/805dc2cc-0db2-472a-9f6d-7597b4336e77"> |
-| When the device shows the "FASTBOOT" text on its screen, Press the Volume Down Key on the side of your device til you see something like shown below on screen: | PLACEHOLDER |
-| WOA Device Manager will detect your device in UFP mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183302" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/90c5d4a3-4b37-4486-8920-8b0e14e0b461"> |
+| Plug your device into your computer inside Android™ | <img align="right" width="425" alt="Screenshot 2024-06-22 183159" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/9c610f45-4df3-463b-8aae-efde82a4108a"> |
+| Go into the Switch Mode Section of WOA Device Manager | <img align="right" width="425" alt="Screenshot 2024-06-22 183227" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/90ea2b5c-c996-4e28-a3c5-3a343c8fbf82"> |
+| Click Switch to Windows mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183235" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/f4c6ed5f-572f-4a36-8fcd-0bfae2dd8af6"> |
+| When the device shows the "FASTBOOT" text on its screen, Press the Volume Down Key on the side of your device til you see something like shown below on screen: | <img align="right" width="425" alt="Screenshot 2024-06-22 183302" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/8b8d8598-1164-4f07-b421-88e147dbd4e8"> |
+| WOA Device Manager will detect your device in UFP mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183302" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/21d3cf3c-1090-491b-9ba4-97a79156591f"> |
 
 > [!TIP]
 > In case the PC complains the device was not found, try using an USB-2 port or cable that downgrades your connection to USB-2, there are known issues with the UEFI that prevent USB-3 from functioning properly at the moment, and will be addressed in a future update.
@@ -91,14 +90,14 @@ Congratulations, you're now in FFU Loader.
 
 | Steps | Illustration |
 |-|-|
-| Go to the Flash Section of WOA Device Manager | <img align="right" width="425" alt="Screenshot 2024-06-22 183326" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/6773ecbb-0de3-4cd4-9aa3-76ac02d7a273"> |
-| Pick your FFU File, and click "Flash FFU Image" | <img align="right" width="425" alt="Screenshot 2024-06-22 183344" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/b6fd0499-0c34-410c-9e2d-25b331b7a2be"> |
-| You should now see the device flashing on both your computer | <img align="right" width="425" alt="Screenshot 2024-06-22 183429" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/171d458f-5c89-4af8-86fd-06bfb59d4dd0"> |
-| and on the device, wait til the process is complete. | <img align="right" width="425" alt="POCO X3 Pro in FFU Loader mode, flashing" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/a0d8af6c-5b30-4afd-85d3-58249accde12"> |
-| Wait til the process is finished, and you should be back into Android™ or a boot failure screen. | |
+| Go to the Flash Section of WOA Device Manager | <img align="right" width="425" alt="Screenshot 2024-06-22 183326" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/f4c0f9fb-8ce7-408e-82ec-570860bf8be7"> |
+| Pick your FFU File, and click "Flash FFU Image" | <img align="right" width="425" alt="Screenshot 2024-06-22 183344" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/9f200e51-00bf-4950-a998-4343f68fdb75"> |
+| You should now see the device flashing on both your computer | <img align="right" width="425" alt="Screenshot 2024-06-22 183429" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/3a643ab4-680f-4a8e-ac55-2d80de357b51"> |
+| and on the device, wait til the process is complete. | <img align="right" width="425" alt="POCO X3 Pro in FFU Loader mode, flashing" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/37ab28cd-4f69-4288-bfc7-a6a7f476aa9b"> |
+| Wait til the process is finished, and you should be back into Android™ or Recovery. | |
 
 > [!TIP]
-> If you are seeing a boot failure option, see below section entitled "Reset Android™"
+> If you are seeing a Recovery, see below section entitled "Reset Android™"
 
 ## Reset Android™
 
