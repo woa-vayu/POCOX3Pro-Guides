@@ -4,7 +4,8 @@ Guides for running Windows on Poco X3 Pro.
 
 Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-Guides)
 
-![POCO X3 Pro Windows](https://github.com/woa-vayu/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
+![POCO X3 Pro Windows](https://github.com/user-attachments/assets/355e74cd-dea9-460f-8db4-87f766cd3223)
+
 
 ## A few notes
 
@@ -17,16 +18,17 @@ Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-G
 
 ## Main Guides
 
-- [Install Windows](/InstallWindows-en.md)
+- [Install Windows](/InstallWindows-en/InstallWindows.md)
+- [Updating Drivers and/or UEFI](/Update-en/UpdateDriversAndUEFI.md)
+- [Reinstall Windows](/InstallWindows-en/ReinstallWindows.md)
+- [Uninstall Windows](/InstallWindows-en/Uninstall.md)
 
 ## Additional Guides:
 
-- [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/GetWindows.md)
+- [Install Dual Boot](/InstallWindows-en/DualBoot.md)
+- [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/WindowsRetail-Channels.md)
 - [Activate Windows on your POCO X3 Pro](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
-- [Uninstall Windows and only keep Android™](/InstallWindows-en/Uninstall.md)
-- [Dual Boot between Android™ and Windows without the need of another Computer](/InstallWindows-en/DualBoot.md)
-- [Reinstall Windows](/InstallWindows-en/ReinstallWindows.md)
-- [Making Cellular work](/InstallWindows-en/Cellular.md)
+
 
 ## More Resources:
 
@@ -42,14 +44,6 @@ Please join [our Telegram group](https://t.me/winonvayualt) if you need any assi
 ---
 
 _**© 2020-2024 The Duo WOA Authors**_
-
-_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated, Microsoft Surface and Xiaomi Inc._
-
-_**Limited emergency calling**_
-
-_Running Windows on your POCO X3 Pro is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
-
-_**Hello from Seattle (US), France, Italy.**_
 
 
 
