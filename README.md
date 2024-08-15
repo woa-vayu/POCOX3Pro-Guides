@@ -26,14 +26,15 @@ Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-G
 ## Additional Guides:
 
 - [Install Dual Boot](/InstallWindows-en/DualBoot.md)
-- [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/WindowsRetail-Channels.md)
-- [Activate Windows on your POCO X3 Pro](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
+- [Additional materials](/Other-en/Extras.md)
+- [Activate Windows or Office on your POCO X3 Pro](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 
 ## More Resources:
 
 - [Frequently Asked Questions](/FAQ-en.md)
 - [Current Status of the Windows Port](/Status-en.md)
+- [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/WindowsRetail-Channels.md)
 - [Restore the Microsoft Store on Windows](/RestoreMicrosoftStore-en.md)
 - [Extract boot.img or other partitions](/Other-en/ExtractingPartitions.md)
 
