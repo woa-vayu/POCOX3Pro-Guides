@@ -1,6 +1,10 @@
 # Uninstall Windows and revert your POCO X3 Pro to stock
 
-## Files/Tools Needed 📃
+This guide will help you go back to a normal POCO X3 Pro, with Android only.
+
+Just like you had it before installing Windows.
+
+## Files/Tools Needed 
 
 TWRP image:
 
@@ -18,7 +22,7 @@ TWRP image:
 >
 > but this is **STILL IN PREVIEW** and things can go wrong.
 
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 
@@ -86,7 +90,7 @@ exit
 
 You may however want to also relock the bootloader of the device, please note that you cannot relock the bootloader of your device if you flashed a custom rom as well as installed Windows without uninstalling it, or modified the boot partition for your own purposes.
 
-🎉 Congratulations, your POCO X3 Pro is back to factory settings.
+ Congratulations, your POCO X3 Pro is back to factory settings.
 
 ---
 

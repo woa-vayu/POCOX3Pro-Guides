@@ -2,10 +2,10 @@
 
 Table of Contents:
 
-1. [Files/Tools needed 📃](#filestools-needed-📃)
-2. [Steps 🛠️](#steps-🛠️)
+1. [Files/Tools needed](#filestools-needed-)
+2. [Steps](#steps-)
 
-## Files/Tools needed 📃
+## Files/Tools needed 
 
 - You will need the following files from the [BSP Release page](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest):
 
@@ -37,7 +37,7 @@ TWRP image:
 > - If you see a warning and/or error during the process, it is not normal. Contact us on telegram if you see anything odd, but do not continue or proceed on your own, you will break things further.
 > - Do not run all commands at once.
 
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 

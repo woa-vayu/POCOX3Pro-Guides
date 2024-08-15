@@ -2,7 +2,7 @@
 
 ## Can I update Android if I have installed Windows?
 
-✅ Yes! Feel free to do so. All Android updates until now have worked fine even if Windows was installed.
+Yes! Feel free to do so. All Android updates until now have worked fine even if Windows was installed.
 
 ## Will you look into getting this device more mainlined (for linux) in the future?
 

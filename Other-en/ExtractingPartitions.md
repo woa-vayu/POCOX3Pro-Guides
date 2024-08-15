@@ -1,6 +1,6 @@
 # Extract the boot partition or other partitions
 
-## Files/Tools Needed 📃
+## Files/Tools Needed 
 
 TWRP image:
 

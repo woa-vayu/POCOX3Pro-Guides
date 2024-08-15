@@ -1,18 +1,26 @@
 # Flashing a Full Flash Update Image (.FFU) on POCO X3 Pro
 
+This guide will help you flash a FFU file containing Windows on your POCO X3 Pro.
+
+You will end up with both Android and Windows on your POCO X3 Pro.
+
+Android and Windows will both split the internal storage according to the configuration contained within the FFU file.
+
+Android will boot normally, and you will have to use a PC to boot Windows when needed, unless you create a follow a dualboot guide (explained later).
+
 Table of Contents:
 
 * [Flashing a Full Flash Update Image (.FFU) on POCO X3 Pro](#flashing-a-full-flash-update-image-ffu-on-poco-x3-pro)
-   * [Files/Tools Needed 📃](#filestools-needed-)
-* [Steps 🛠️](#steps-️)
+   * [Files/Tools Needed](#filestools-needed-)
+* [Steps](#steps-️)
    * [Unlocking the Bootloader](#unlocking-the-bootloader)
    * [Acquiring all files](#acquiring-all-files)
    * [Getting to FFU Loader](#getting-to-ffu-loader)
    * [Flashing the Windows FFU Image](#flashing-the-windows-ffu-image)
-   * [Boot Windows 🚀](#boot-windows-)
+   * [Boot Windows](#boot-windows-)
    * [Boot Windows again after initial installation](#boot-windows-again-after-initial-installation)
 
-## Files/Tools Needed 📃
+## Files/Tools Needed 
 
 - [WOA Device Manager](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/WDM/WOA_Device_Manager.zip)
 - An FFU file for POCO X3 Pro
@@ -32,7 +40,7 @@ Table of Contents:
 
 **PLEASE READ AND BE SURE TO UNDERSTAND THE ENTIRE GUIDE BEFORE STARTING**
 
-# Steps 🛠️
+# Steps 
 
 ## Unlocking the Bootloader
 
@@ -66,13 +74,13 @@ Congratulations, you successfully installed WOA Device Manager.
 | Steps | Illustration |
 |-|-|
 | Plug your device into your computer inside Android | <img align="right" width="425" alt="Screenshot 2024-06-22 183159" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/9c610f45-4df3-463b-8aae-efde82a4108a"> |
-| Go into the Switch Mode Section of WOA Device Manager | <img align="right" width="425" alt="Screenshot 2024-06-22 183227" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/90ea2b5c-c996-4e28-a3c5-3a343c8fbf82"> |
-| Click Switch to Windows mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183235" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/f4c6ed5f-572f-4a36-8fcd-0bfae2dd8af6"> |
-| When the device shows the "FASTBOOT" text on its screen, Press the Volume Down Key on the side of your device til you see something like shown below on screen: | <img align="right" width="425" alt="Screenshot 2024-06-22 183302" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/8b8d8598-1164-4f07-b421-88e147dbd4e8"> |
+| Go into the Manual Mode Section of WOA Device Manager | <img align="right" width="425" alt="Screenshot 2024-06-22 183227" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/90ea2b5c-c996-4e28-a3c5-3a343c8fbf82"> |
+| Click "Switch to Windows-mode" | <img align="right" width="425" alt="Screenshot 2024-06-22 183235" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/f4c6ed5f-572f-4a36-8fcd-0bfae2dd8af6"> |
+| When the device shows the "FASTBOOT" text on its screen, Press the Volume Up Key on the side of your device til you see something like shown below on screen: | <img align="right" width="425" alt="Screenshot 2024-06-22 183302" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/8b8d8598-1164-4f07-b421-88e147dbd4e8"> |
 | WOA Device Manager will detect your device in UFP mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183302" src="https://github.com/woa-vayu/POCOX3Pro-Guides/assets/69907487/21d3cf3c-1090-491b-9ba4-97a79156591f"> |
 
 > [!TIP]
-> In case the PC complains the device was not found, try using an USB-2 port or cable that downgrades your connection to USB-2, there are known issues with the UEFI that prevent USB-3 from functioning properly.
+> In case the PC complains the device was not found, try using an USB-2 port there are known issues with the UEFI that prevent device from being recognized via USB-3 port.
 
 Congratulations, you're now in FFU Loader.
 
@@ -94,14 +102,14 @@ If this isn't your case, feel free to ignore this section, Android should still 
 If this is your case, then please boot into stock recovery and do a "Factory Reset" or boot into TWRP and format Data.
 >
 
-## Boot Windows 🚀
+## Boot Windows 
 
 We are ready to boot for the first time!
 
 | Steps | Illustration |
 |-|-|
 | Inside WOA Device Manager, go to switch mode | <img align="right" width="425" alt="Screenshot 2024-06-22 183227" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/a5fb15b1-6a43-45b5-b440-df243b076b9c"> |
-| and select "Switch to Windows". | <img align="right" width="425" alt="Screenshot 2024-06-22 183235" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/bb4f618a-fa7c-4874-8dd6-f87181753be6"> | 
+| and select "Switch to Windows-mode". | <img align="right" width="425" alt="Screenshot 2024-06-22 183235" src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/bb4f618a-fa7c-4874-8dd6-f87181753be6"> | 
 
 This step above will be needed every time you will want to boot Windows and needs to be done from the Bootloader mode.
 

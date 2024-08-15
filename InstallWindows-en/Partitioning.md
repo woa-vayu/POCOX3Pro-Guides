@@ -1,6 +1,6 @@
 # Partitioning POCO X3 Pro
 
-## Files/Tools Needed 📃
+## Files/Tools Needed 
 
 TWRP image:
 
@@ -31,7 +31,7 @@ TWRP image:
 
 **PLEASE READ AND BE SURE TO UNDERSTAND THE ENTIRE GUIDE BEFORE STARTING**
 
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 

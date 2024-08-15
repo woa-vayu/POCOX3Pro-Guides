@@ -1,6 +1,6 @@
 # Reinstall Windows on POCO X3 Pro
 
-## Files/Tools Needed 📃
+## Files/Tools Needed 
 
 - You will need the following files from the [BSP Release page](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest):
 
@@ -46,7 +46,7 @@ TWRP image:
 
 **PLEASE READ AND BE SURE TO UNDERSTAND THE ENTIRE GUIDE BEFORE STARTING**
 
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 
@@ -116,7 +116,7 @@ Your POCO X3 Pro should now be in USB Mass Storage Mode.
 - Mount the partitions you have created using diskpart and assign them some letters:
 
 ```batch
-⚠️ THESE ARE NOT ALL COMMANDS. DISKPART COMMANDS VARY A LOT, SO THESE ARE SOME ROUGH INSTRUCTIONS.
+ THESE ARE NOT ALL COMMANDS. DISKPART COMMANDS VARY A LOT, SO THESE ARE SOME ROUGH INSTRUCTIONS.
 ACTUAL COMMANDS START WITH AN HASHTAG (which you will need to remove)
 YOU DO NOT HAVE TO USE THE LETTERS WE USE AT ALL!!!, THEY ONLY NEED TO BE FREE LETTERS. IF LETTERS DON'T ASSIGN FINE, USE ANOTHER ONE.
 IF ONE PARTITION IS ALREADY ASSIGNED, YOU ALSO DO NOT NEED TO ASSIGN IT AGAIN IF YOU DONT WANT TO.
@@ -174,7 +174,7 @@ Congratulations, you just installed your drivers!
 
 - You can now reboot your phone using ```adb reboot bootloader```.
 
-## Boot Windows 🚀
+## Boot Windows 
 
 We are ready to boot!
 

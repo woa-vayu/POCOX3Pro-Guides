@@ -1,6 +1,6 @@
 # Enabling Dual Boot
 
-## Files/Tools Needed 📃
+## Files/Tools Needed 
 
 - You will need the following files from the [BSP Release page](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest):
 
@@ -24,7 +24,7 @@ M3K Helper:
 - Stock device boot.img image obtained from an OTA package, or from the device itself using **M3K Helper**.
 - Rooted POCO X3 Pro with Windows already installed.
 
-# Steps 🛠️
+# Steps 
 
 ## Installing M3K Helper
 
