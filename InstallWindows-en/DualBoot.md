@@ -26,7 +26,7 @@ M3K Helper:
 
 # Steps 
 
-## Installing M3K Helper
+## Setup - Android
 
 - Download and install the M3K Helper, then open it and grant it root access.
 - Download the UEFI image and place it inside the folder named ```UEFI``` in your internal storage.
@@ -35,11 +35,13 @@ M3K Helper:
 
 Your device will now boot into Windows.
 
-## Installing StA
+## Setup - Windows
+> [!Tip]
+> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
 
 - Once in Windows, navigate to ```C:\StA_Installer_vayu.exe``` and run it.
 
-## How it Works
+# How it Works
 
 - To boot Android, run ```Switch to Android``` shortcut on your desktop or start menu.
 - To boot Windows, press ```QuickBoot to Windows``` inside the M3K Helper.

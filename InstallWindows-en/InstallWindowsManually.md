@@ -177,6 +177,7 @@ Find the WINVAYU and ESPVAYU you made earlier, and take note of the numbers. You
 # assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
 # select volume <windows-partition-number>
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
+# exit
 ```
 
 - You will have two partitions loaded, one is the ESP partition, and the other is the Windows partition. Take note of the letters you've used.
@@ -197,6 +198,7 @@ This will take a bit of time. Go make some coffee ☕ or some tea 🍵.
 ```batch
 bcdboot X:\Windows /s Y: /f UEFI
 ```
+
 
 Windows is now installed but has no drivers.
 
