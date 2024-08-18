@@ -25,7 +25,7 @@
 | 🔦 Flashlight          | Acessible only from Windows camera app      | ⚠️            |
 | 📸 Camera Flash        |                                             | ⚠️            |
 | 🏷️ NFC                 |                                             | ❌            |
-| 📸 Camera              |                                             | ⚠️            |
+| 📸 Camera              |                                             | ❌            |
 | 🧬 Fingerprint scanner |                                             | ❌            |
 
 # Detailed status
