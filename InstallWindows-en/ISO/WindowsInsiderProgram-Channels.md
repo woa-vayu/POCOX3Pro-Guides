@@ -15,7 +15,7 @@ As Microsoft continues to evolve the way they're building and releasing Windows 
 
 For more information about the insider program, please see the [Windows Insider Program website](https://insider.windows.com)
 
-# Steps 🛠️
+# Steps 
 
 - Presuming you are working on a Windows AMD64 machine, download and extract the ```win-XXX.zip``` file from [the UUPMediaCreator repo](https://github.com/gus33000/UUPMediaCreator/releases/latest).
 
@@ -82,11 +82,3 @@ UUPMediaConverter.exe -u <10.0.22000... name of your Windows build folder> -i Wi
 ---
 
 _**© 2020-2024 The Duo WOA Authors**_
-
-_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated, Microsoft Surface and Xiaomi Inc._
-
-_**Limited emergency calling**_
-
-_Running Windows on your POCO X3 Pro is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
-
-_**Hello from Seattle (US), France, Italy.**_

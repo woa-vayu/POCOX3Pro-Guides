@@ -1,33 +1,28 @@
 # Uninstall Windows and revert your POCO X3 Pro to stock
 
-## Files/Tools Needed 📃
+This guide will help you go back to a normal POCO X3 Pro, with Android only.
 
-Recovery image:
+Just like you had it before installing Windows.
 
-11 image supports Android™ 11 encryption
-12 image supports Android™ 12/12.1/13/14 encryption
+## Files/Tools Needed 
 
-| File Name                                       | Target Device         |
-|-------------------------------------------------|-----------------------|
-| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
-| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
+TWRP image:
+
+| File Name                                       | Android version |
+|-------------------------------------------------|-----------------|
+| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
+| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | Android 11 |
 
 ## Disclaimers
 
 > [!IMPORTANT]
-> **THIS WILL WIPE ALL YOUR ANDROID™ DATA**
+> **THIS WILL WIPE ALL YOUR ANDROID DATA**
 >
 > We don't take any responsibility for any damage done to your phone. By following this guide, you agree to take full responsibility of your actions. We have done some testing,
 >
 > but this is **STILL IN PREVIEW** and things can go wrong.
 
-## What you'll get 🛒
-
-A normal POCO X3 Pro, with Android™ only. Just like you had it before installing Windows. If you haven't broke anything else in the meantime.
-
-Android™ will have access to the whole memory back again.
-
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 
@@ -67,15 +62,13 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Booting to recovery
+## Booting to TWRP
 
-- If not already done, please proceed with the installing recovery as told in **Flashing recovery** section in [Partitioning](/InstallWindows-en/Partitioning.md) guide for the POCO X3 Pro. Come back once you're done.
-
-- Reboot your device into recovery
+- Reboot your device into TWRP, assuming you have installed it previously
 
 ## Restoring the original partitions
 
-- Once booted into recovery run the following command:
+- Once booted into TWRP run the following command:
 
 ```batch
 adb shell restore
@@ -89,24 +82,16 @@ adb shell restore
 exit
 ```
 
-- Once it is done, you can reboot your phone using ```adb reboot```. You will be able to boot to Android™ and your phone should work normally. In case it doesn't you likely messed up something above.
+- Once it is done, you can reboot your phone using ```adb reboot```. You will be able to boot to Android and your phone should work normally. In case it doesn't you likely messed up something above.
 
-- You should now be seeing the Android™ Out of Box Experience (OOBE). Setup your phone to confirm it works correctly if you need it.
+- You should now be seeing the Android Out of Box Experience (OOBE). Setup your phone to confirm it works correctly if you need it.
 
 - Once your phone is confirmed working, congratulations, you successfully uninstalled Windows from your device.
 
 You may however want to also relock the bootloader of the device, please note that you cannot relock the bootloader of your device if you flashed a custom rom as well as installed Windows without uninstalling it, or modified the boot partition for your own purposes.
 
-🎉 Congratulations, your POCO X3 Pro is back to factory settings.
+ Congratulations, your POCO X3 Pro is back to factory settings.
 
 ---
 
 _**© 2020-2024 The Duo WOA Authors**_
-
-_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated, Microsoft Surface and Xiaomi Inc._
-
-_**Limited emergency calling**_
-
-_Running Windows on your POCO X3 Pro is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
-
-_**Hello from Seattle (US), France, Italy.**_

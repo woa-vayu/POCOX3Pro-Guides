@@ -1,17 +1,13 @@
 # Partitioning POCO X3 Pro
 
-## Files/Tools Needed 📃
+## Files/Tools Needed 
 
-Recovery image:
+TWRP image:
 
-11 image supports Android™ 11 encryption
-
-12 image supports Android™ 12/12.1/13/14 encryption
-
-| File Name                                       | Target Device         |
-|-------------------------------------------------|-----------------------|
-| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
-| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
+| File Name                                       | Android version |
+|-------------------------------------------------|-----------------|
+| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
+| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | Android 11 |
 
 - [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
 - A Windows PC
@@ -27,7 +23,7 @@ Recovery image:
 > - Anything you do may cause permanent damage to your device.
 
 > [!IMPORTANT]
-> **THIS WILL WIPE ALL YOUR ANDROID™ DATA**
+> **THIS WILL WIPE ALL YOUR ANDROID DATA**
 >
 > We don't take any responsibility for any damage done to your phone. By following this guide, you agree to take full responsibility of your actions. We have done some testing,
 >
@@ -35,13 +31,7 @@ Recovery image:
 
 **PLEASE READ AND BE SURE TO UNDERSTAND THE ENTIRE GUIDE BEFORE STARTING**
 
-## What you will get 🛒
-
-You will end up with both Android™ and Windows on your POCO X3 Pro. Android™ and Windows will both split the internal storage.
-
-Android™ will boot normally, and you will have to use a PC to boot Windows when needed, unless you flash UEFI in boot partition or use M3K Helper.
-
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 
@@ -83,11 +73,11 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 ## Going to the Bootloader menu
 
-- Start by turning on your POCO X3 Pro into Android™, and unlock it
+- Start by turning on your POCO X3 Pro into Android, and unlock it
 
 - Open a command prompt on your PC
 
-- Go to the folder where you extracted the Google Android™ Platform tools using the CD command and the path of the folder
+- Go to the folder where you extracted the Google Android Platform tools using the CD command and the path of the folder
 
 - Run the following command to ensure your phone is detected by your PC
 
@@ -108,7 +98,7 @@ adb reboot bootloader
 
 You will be rebooted to Poco X3 Pro's bootloader.
 
-## Flashing recovery
+## Flashing TWRP
 
 - Plug your phone to your PC, open a command prompt and start by typing the following text, but do not press enter just yet
 
@@ -116,7 +106,7 @@ You will be rebooted to Poco X3 Pro's bootloader.
 fastboot flash recovery
 ```
 
-- Go find the recovery image file you downloaded earlier, hold shift and right click it, click "Copy as path"
+- Go find the TWRP image file you downloaded earlier, hold shift and right click it, click "Copy as path"
 
 - Then go back to the Command Prompt window we started writing text in previously, and simply, right click on it with your mouse (or long press if you're on a touch device) and press enter
 
@@ -126,7 +116,7 @@ fastboot flash recovery
 fastboot reboot recovery
 ```
 
-You will now boot to recovery. Keep the phone plugged to your PC and continue along.
+You will now boot to TWRP. Keep the phone plugged to your PC and continue along.
 
 ## Making the partitions
 
@@ -146,7 +136,7 @@ Now, reboot into Android again:
 adb reboot
 ```
 
-- You should now be seeing the Android™ Out of Box Experience (OOBE). Setup your phone to confirm it works correctly.
+- You should now be seeing the Android Out of Box Experience (OOBE). Setup your phone to confirm it works correctly.
 
 Congratulations, you successfully partitioned your device.
 
@@ -157,11 +147,3 @@ And we're done, please continue with the previous guide that made you land here 
 ---
 
 _**© 2020-2024 The Duo WOA Authors**_
-
-_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated, Microsoft Surface and Xiaomi Inc._
-
-_**Limited emergency calling**_
-
-_Running Windows on your POCO X3 Pro is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
-
-_**Hello from Seattle (US), France, Italy.**_

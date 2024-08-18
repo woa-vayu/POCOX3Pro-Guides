@@ -7,8 +7,8 @@
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | ⌨️ Side buttons        |                                     | ✅            |
 | ♋ Cellular Calls      |                                     | ❌            |
-| ♋ Cellular Data       | Requires manual provisioning.       | ✅            |
-| ♋ Cellular Texts      | Requires manual provisioning.       | ✅            |
+| ♋ Cellular Data       |                                     | ✅            |
+| ♋ Cellular Texts      |                                     | ✅            |
 | ♋ Wifi                |                                     | ✅            |
 | 📦 UFS                 |                                     | ✅            |
 | 🔵 Bluetooth           |                                     | ✅            |

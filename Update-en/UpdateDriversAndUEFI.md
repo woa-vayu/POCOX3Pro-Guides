@@ -2,35 +2,31 @@
 
 Table of Contents:
 
-1. [Files/Tools needed 📃](#filestools-needed-📃)
-2. [Steps 🛠️](#steps-🛠️)
+1. [Files/Tools needed](#filestools-needed-)
+2. [Steps](#steps-)
 
-## Files/Tools needed 📃
+## Files/Tools needed 
 
 - You will need the following files from the [BSP Release page](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest):
 
 UEFI Image:
 
-| File Name                              | Target Device         |
-|----------------------------------------|-----------------------|
-| POCO.X3.Pro.UEFI-v2XXX.XX.img          | POCO X3 Pro           |
+| File Name                              |
+|----------------------------------------|
+| POCO.X3.Pro.UEFI-v2XXX.XX.img          |
 
 Windows Drivers:
 
-| File Name                                       | Target Device         |
-|-------------------------------------------------|-----------------------|
-| POCOX3Pro-Drivers-v2XXX.XX-Desktop.7z           | POCO X3 Pro           |
+| File Name                                       |
+|-------------------------------------------------|
+| POCOX3Pro-Drivers-v2XXX.XX-Desktop.7z           |
 
-Recovery image:
+TWRP image:
 
-11 image supports Android™ 11 encryption
-
-12 image supports Android™ 12/12.1/13/14 encryption
-
-| File Name                                       | Target Device         |
-|-------------------------------------------------|-----------------------|
-| [shrp-3.2_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/shrp-3.2_12-vayu.img) | POCO X3 Pro |
-| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | POCO X3 Pro |
+| File Name                                       | Android version |
+|-------------------------------------------------|-----------------|
+| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
+| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | Android 11 |
 
 - [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
 - A Windows PC
@@ -41,7 +37,7 @@ Recovery image:
 > - If you see a warning and/or error during the process, it is not normal. Contact us on telegram if you see anything odd, but do not continue or proceed on your own, you will break things further.
 > - Do not run all commands at once.
 
-# Steps 🛠️
+# Steps 
 
 ## Acquiring all files
 
@@ -81,17 +77,15 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Booting to recovery
+## Booting to TWRP
 
-- If not already done, please proceed with the installing recovery as told in **Flashing recovery** section in [Partitioning](/InstallWindows-en/Partitioning.md) guide for the POCO X3 Pro. Come back once you're done.
+- Reboot your device into TWRP, assuming you have installed it previously
 
-- Reboot into recovery
-
-Your POCO X3 Pro will boot into TWRP/SHRP.
+Your POCO X3 Pro will boot into TWRP.
 
 ## Entering Mass Storage Mode
 
-- Run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
+- Run the mass storage shell script in order to boot into Mass Storage from TWRP. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
@@ -149,11 +143,3 @@ fastboot boot uefi.img
 ---
 
 _**© 2020-2024 The Duo WOA Authors**_
-
-_Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the Microsoft Corporate Logo, Windows, Surface, Surface Duo, Windows Hello, Continuum, Hyper-V, and DirectX are registered trademarks of Microsoft Corporation in the United States. Android is a registered trademark of Google LLC. Miracast is a registered trademark of the Wi-Fi Alliance. Other binaries may be copyright Qualcomm Incorporated, Microsoft Surface and Xiaomi Inc._
-
-_**Limited emergency calling**_
-
-_Running Windows on your POCO X3 Pro is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
-
-_**Hello from Seattle (US), France, Italy.**_
