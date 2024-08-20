@@ -36,8 +36,8 @@ TWRP image:
 
 | File Name                                       | Android version |
 |-------------------------------------------------|-----------------|
-| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
-| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/Recoveries/twrp-3.7.0_11-vayu.img) | Android 11 |
+| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
+| [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.0_11-vayu.img) | Android 11 |
 
 - [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
 - An ARM64 Windows build of your choice that meets the minimum system requirements (specifically the install.wim file). You can create it using[UUPMediaCreator](https://github.com/gus33000/UUPMediaCreator). [Here's a guide on how to use it.](/InstallWindows-en/ISO/GetWindows.md). Or you can download it from [WoR Project](https://www.worproject.com/esd).
