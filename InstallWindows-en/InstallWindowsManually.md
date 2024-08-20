@@ -1,6 +1,6 @@
 # Install Windows on POCO X3 Pro
 
-![POCO X3 Pro Windows](https://github.com/woa-vayu/src_vayu_windows/blob/main/2PocoX3ProWindows.png)
+![POCO X3 Pro Windows](https://github.com/user-attachments/assets/355e74cd-dea9-460f-8db4-87f766cd3223)
 
 Table of Contents:
 
