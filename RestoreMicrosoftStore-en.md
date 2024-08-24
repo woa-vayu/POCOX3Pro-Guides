@@ -38,7 +38,3 @@ Add-AppxPackage -Path .\Microsoft.UI.Xaml.2.7_7.2208.15002.0_arm64__8wekyb3d8bbw
 ```batch
 Add-AppxPackage -Path .\Microsoft.WindowsStore_22210.1401.6.0_neutral___8wekyb3d8bbwe.Msixbundle
 ```
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_

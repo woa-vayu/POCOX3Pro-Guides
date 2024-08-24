@@ -143,7 +143,3 @@ Congratulations, you successfully partitioned your device.
 ## The End
 
 And we're done, please continue with the previous guide that made you land here :)
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_

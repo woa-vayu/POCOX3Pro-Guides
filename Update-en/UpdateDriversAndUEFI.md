@@ -138,8 +138,4 @@ Simply use the latest UEFI image
 fastboot boot uefi.img
 ```
 
-### For Dual Boot installations, follow the [Dual Boot](/InstallWindows-en/DualBoot.md) guide again.
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_
+### For Dual Boot installations, follow the [Dual Boot](/Install-en/DualBoot.md) guide again.

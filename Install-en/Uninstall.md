@@ -91,7 +91,3 @@ exit
 You may however want to also relock the bootloader of the device, please note that you cannot relock the bootloader of your device if you flashed a custom rom as well as installed Windows without uninstalling it, or modified the boot partition for your own purposes.
 
  Congratulations, your POCO X3 Pro is back to factory settings.
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_

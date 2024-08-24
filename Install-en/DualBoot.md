@@ -45,7 +45,3 @@ Your device will now boot into Windows.
 
 - To boot Android, run ```Switch to Android``` shortcut on your desktop or start menu.
 - To boot Windows, press ```QuickBoot to Windows``` inside the M3K Helper.
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_

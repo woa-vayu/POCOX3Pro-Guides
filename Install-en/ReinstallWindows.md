@@ -1,20 +1,4 @@
-# Install Windows on POCO X3 Pro
-
-![POCO X3 Pro Windows](https://github.com/user-attachments/assets/355e74cd-dea9-460f-8db4-87f766cd3223)
-
-Table of Contents:
-
-* [Install Windows on POCO X3 Pro](#install-windows-on-surface-duo-1st-gen)
-   * [Files/Tools Needed](#filestools-needed-)
-* [Steps](#steps-️)
-   * [Unlocking the Bootloader](#unlocking-the-bootloader)
-   * [Partitioning](#partitioning)
-   * [Booting to TWRP](#booting-to-twrp)
-   * [Entering Mass Storage Mode](#entering-mass-storage-mode)
-   * [Installing Windows](#installing-windows)
-   * [Installing the drivers](#installing-the-drivers)
-   * [Boot Windows](#boot-windows-)
-   * [Boot Windows again after initial installation](#boot-windows-again-after-initial-installation)
+# Reinstall Windows on POCO X3 Pro
 
 ## Files/Tools Needed 
 
@@ -40,7 +24,7 @@ TWRP image:
 | [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.0_11-vayu.img) | Android 11 |
 
 - [Platform Tools from Google (ADB and Fastboot)](https://developer.android.com/studio/releases/platform-tools)
-- An ARM64 Windows build of your choice that meets the minimum system requirements (specifically the install.wim file). You can create it using[UUPMediaCreator](https://github.com/gus33000/UUPMediaCreator). [Here's a guide on how to use it.](/InstallWindows-en/ISO/GetWindows.md). Or you can download it from [WoR Project](https://www.worproject.com/esd).
+- An ARM64 Windows build of your choice that meets the minimum system requirements (specifically the install.wim file). You can create it using[UUPMediaCreator](https://github.com/gus33000/UUPMediaCreator). [Here's a guide on how to use it.](/Install-en/ISO/GetWindows.md). Or you can download it from [WoR Project](https://www.worproject.com/esd).
 - A Windows PC to build the Windows ISO, apply it onto the phone from mass storage, add drivers to the installation, configure ESP
 
 ## Disclaimers
@@ -54,7 +38,7 @@ TWRP image:
 > - Be familiar with command line interfaces.
 
 > [!IMPORTANT]
-> **THIS WILL WIPE ALL YOUR ANDROID DATA**
+> **THIS WILL WIPE ALL YOUR WINDOWS DATA**
 >
 > We don't take any responsibility for any damage done to your phone. By following this guide, you agree to take full responsibility of your actions. We have done some testing,
 >
@@ -65,34 +49,6 @@ TWRP image:
 # Steps 
 
 ## Acquiring all files
-
-Here's how to acquire a Driver archive file and the matching UEFI image for POCO X3 Pro:
-
-<table>
-<tr>
-<td>Drivers File</td>
-<td>UEFI File</td>
-<td>Target Device</td>
-<td>OS Version</td>
-<td>Notes</td>
-</tr>
-<tr>
-<td>
-
-[POCOX3Pro-Drivers-v2406.06-Desktop.7z](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2406.06/POCOX3Pro-Drivers-v2406.06-Desktop.7z)
-</td>
-<td>
-
-[POCO.X3.Pro.UEFI-v2406.06.img](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2406.06/POCO.X3.Pro.UEFI-v2406.06.img)
-</td>
-<td>POCO X3 Pro</td>
-<td>Windows 10 Version 2004 and higher</td>
-<td><details>
-
-N/A
-</details></td>
-</tr>
-</table>
 
 <details>
     <summary>Here's how to acquire the Android SDK Platform Tools: <b>Click to expand</b></summary>
@@ -130,39 +86,33 @@ Save the file on your computer, and extract the zip file by opening it, and sele
   </p>
 </details>
 
-## Unlocking the Bootloader
-
-If not already done, please first unlock the bootloader. Come back once you're done. If you already did this, please skip this section.
-
-## Partitioning
-
-If not already done, please proceed with the [Partitioning](Partitioning.md) guide for POCO X3 Pro. Come back once you're done. If you already followed this guide, please instead follow the [Reinstall Windows](ReinstallWindows.md) guide, not this one.
-
 ## Booting to TWRP
 
-- Assuming you're inside Android run this command:
+- Reboot your device into TWRP, assuming you have installed it previously
+
+## Formatting the existing Windows partition
 
 ```batch
-adb reboot recovery
+adb shell format
 ```
 
-You will now boot to TWRP.
+Now the Windows Partition on your POCO X3 Pro should be empty. Let's go ahead and reinstall everything.
 
 ## Entering Mass Storage Mode
 
-- Let's run the mass storage shell script in order to boot into Mass Storage from recovery. You must decrypt your data if it asks you to.
+- Please restart your phone and boot it into TWRP again before proceding further.
+
+- Let's run the mass storage shell script in order to boot into Mass Storage from TWRP. You must decrypt your data if it asks you to.
 
 ```batch
 adb shell msc
 ```
 
-- If it asks you to run it once again, do so
-
 Your POCO X3 Pro should now be in USB Mass Storage Mode.
 
 ## Installing Windows
 
-- Make sure you are in Mass Storage Mode, that your POCO X3 Pro is plugged into your PC
+- Make sure you are in Mass Storage Mode and your POCO X3 Pro is plugged into your PC.
 - Mount the partitions you have created using diskpart and assign them some letters:
 
 ```batch
@@ -177,7 +127,6 @@ Find the WINVAYU and ESPVAYU you made earlier, and take note of the numbers. You
 # assign letter=<THE LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: Y)>:
 # select volume <windows-partition-number>
 # assign letter=<ANOTHER LETTER YOU WANT AS LONG AS IT IS NOT CURRENTLY IN USE IN FILE EXPLORER FOR ANOTHER DRIVE! (Example: X)>:
-# exit
 ```
 
 - You will have two partitions loaded, one is the ESP partition, and the other is the Windows partition. Take note of the letters you've used.
@@ -185,7 +134,7 @@ Find the WINVAYU and ESPVAYU you made earlier, and take note of the numbers. You
 > [!WARNING]
 From now on we will assume X: is the Windows partition and that Y: is the ESP partition for all the commands. You very very likely used other letters, or have to use other letters. Replace them correctly with what you previously picked or you will lose data on your PC.
 
-- We will need our install.wim file now. If you haven't it already, you can make it [using this guide](/InstallWindows-en/ISO/GetWindows.md), or download it from [WoR Project](https://www.worproject.com/esd). When you are ready, run these commands:
+- We will need our install.wim file now. If you haven't it already, you can make it [using this guide](/Install-en/ISO/GetWindows.md), or download it from [WoR Project](https://www.worproject.com/esd). When you are ready, run these commands:
 
 ```batch
 dism /apply-image /ImageFile:"<path to install.wim>" /index:1 /ApplyDir:X:\
@@ -198,7 +147,6 @@ This will take a bit of time. Go make some coffee ☕ or some tea 🍵.
 ```batch
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
 
 Windows is now installed but has no drivers.
 
@@ -224,31 +172,11 @@ Note: Here's a table of what to download if you're a bit lost:
 
 Congratulations, you just installed your drivers!
 
-- You can now reboot your phone using ```adb reboot bootloader```. You will be able to boot to Android and your phone will work normally. Set it up if you need it.
-
-You will be back into POCO X3 Pro bootloader.
+- You can now reboot your phone using ```adb reboot bootloader```.
 
 ## Boot Windows 
 
-We are ready to boot for the first time!
-
-Reboot your device to the Bootloader mode, using adb or the recovery.
-
-Let's boot the UEFI, from a command prompt:
-
-```batch
-fastboot boot uefi.img
-```
-
-This step above will be needed every time you will want to boot Windows and needs to be done from the Bootloader mode.
-
-If you did everything right, Windows will now boot! Enjoy!
-
-**Note:** If the Touch keyboard won't show up in OOBE, touch somewhere else (to let the text box loose focus) and then touch into the text box again. As an alternative, you can use the On-Screen Keyboard.
-
-Let Windows set itself up, and come back once you're on the Windows Desktop on your POCO X3 Pro
-
-## Boot Windows again after initial installation
+We are ready to boot!
 
 You'll have two methods of booting Windows.
 
@@ -259,7 +187,7 @@ You'll have two methods of booting Windows.
 - Enabling Dual Boot
     - Pros: You'll be able to boot Windows directly from the device
 
-In case you want the dual boot option, then follow [this guide](/InstallWindows-en/DualBoot.md)
+In case you want the dual boot option, then follow [this guide](/Install-en/DualBoot.md)
 
 ---
 <details>
@@ -281,7 +209,3 @@ If you did everything right, Windows will now boot! Enjoy!
 **Note:** If the Touch keyboard won't show up in OOBE, touch somewhere else (to let the text box loose focus) and then touch into the text box again. As an alternative, you can use the On-Screen Keyboard.
   </p>
 </details>
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_

@@ -64,25 +64,15 @@ Save the file on your computer, and extract the zip file by opening it, and sele
 
 - Reboot your device into TWRP, assuming you have installed it previously
 
-Your POCO X3 Pro will boot into TWRP.
-
 ## Retrieve the location of our target partition
 
 > [!WARNING]
 > From now on we will assume you are trying to extract the boot partition, if not, replace "boot" with the name of the partition you are trying to extract.
 
-- We need to open a shell to issue commands directly to the phone. To do so, run the following command on your PC:
-
-```batch
-adb shell
-```
-
-You are now able to issue commands directly to your phone via your PC.
-
 - Now, we need to find the location of our target partition, as it is different for each device. To do so, run the following command on your PC:
 
 ```bash
-ls /dev/block/by-name/
+adb shell ls /dev/block/by-name/
 ```
 
 - This is going to output a lot of lines, with each partition name having its mount point. Look for the line that says `boot`
@@ -90,21 +80,7 @@ ls /dev/block/by-name/
 Let's make an image of the partition:
 
 ```bash
-dd if=/dev/block/by-name/boot of=/tmp/boot.img
-```
-
-- Now let's exit the shell and pull the boot.img from the device, to do so, run the following command on your PC:
-
-```bash
-exit
-```
-
-```batch
-adb pull /tmp/boot.img
+adb pull /dev/block/by-name/boot boot.img
 ```
 
 If you did everything correctly, you will now have your `boot.img`. Enjoy! 🥳
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_

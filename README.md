@@ -1,4 +1,6 @@
-# Windows on Poco X3 Pro Guides
+# Windows on Poco X3 Pro
+
+[Russian guides](/README-ru.md)
 
 Guides for running Windows on Poco X3 Pro.
 
@@ -14,37 +16,33 @@ Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-G
 >
 >  We recommend you know what you're getting into here. You need to know a bit about command line interfaces, Windows technical aspects, as this is not for the faint of heart yet! We won't teach you how to port the OS yourself, we've done this for you, but this is not for beginners or common users either. Tech Savvy people only or technical people only please, or you'll regret it or commit mistakes that may take some time to solve with us!
 >
->  We do not recommend you buy a POCO X3 Pro to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a POCO X3 Pro and want to try it, feel free  But do not buy this with hopes of it replacing your laptop, buy a laptop instead (Even if this is the long term goal for us)
+>  We do not recommend you buy a POCO X3 Pro to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a POCO X3 Pro and want to try it, feel free  But do not buy this with hopes of it replacing your laptop.
 
-## Main Guides
+## [Current Status of the project](/Status-en.md)
 
-- [Install Windows](/InstallWindows-en/InstallWindows.md)
+### Main Guides
+
+- [Install Windows](/Install-en/InstallWindows.md)
 - [Updating Drivers and/or UEFI](/Update-en/UpdateDriversAndUEFI.md)
-- [Reinstall Windows](/InstallWindows-en/ReinstallWindows.md)
-- [Uninstall Windows](/InstallWindows-en/Uninstall.md)
+- [Reinstall Windows](/Install-en/ReinstallWindows.md)
+- [Uninstall Windows](/Install-en/Uninstall.md)
 
-## Additional Guides:
+### Additional Guides:
 
-- [Install Dual Boot](/InstallWindows-en/DualBoot.md)
+- [Install Dual Boot](/Install-en/DualBoot.md)
 - [Additional materials](/Other-en/Extras.md)
 - [Activate Windows or Office on your POCO X3 Pro](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 
-## More Resources:
+### More Resources:
 
-- [Frequently Asked Questions](/FAQ-en.md)
-- [Current Status of the Windows Port](/Status-en.md)
-- [Create a Windows ISO with UUPMediaCreator](/InstallWindows-en/ISO/WindowsRetail-Channels.md)
+- [Create a Windows ISO with UUPMediaCreator](/Install-en/ISO/CreateISO.md)
 - [Restore the Microsoft Store on Windows](/RestoreMicrosoftStore-en.md)
 - [Extract boot.img or other partitions](/Other-en/ExtractingPartitions.md)
 
-## Contact
+## Where to find us
 
-Please join [our Telegram group](https://t.me/winonvayualt) if you need any assistance!
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_
+Please contact us at [our Telegram group](https://t.me/winonvayualt) if you need any assistance!
 
 
 

@@ -20,7 +20,3 @@ You can also find a list of dedicated ARM software [here](https://armrepo.ver.lt
 #### Enabling USB Host mode
 - In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 1```
 - Reboot your phone
-
----
-
-_**© 2020-2024 The Duo WOA Authors**_
