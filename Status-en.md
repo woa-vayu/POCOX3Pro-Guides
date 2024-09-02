@@ -16,7 +16,7 @@
 | 🔋 Battery             |                                             | ✅            |
 | 📌 GPS                 |                                             | ✅            |
 | 🪵 USB                 |                                             | ✅            |
-| 🔊 Audio               | Speakers don't work                         | ⚠️            |
+| 🔊 Audio               |                                             | ✅            |
 | 🧭 Sensor              |                                             | ✅            |
 | 🛡️ TPM                 | Not support versions below Windows 11 22H2. | ✅            |
 | 👆 Touch               |                                             | ✅            |
@@ -33,10 +33,10 @@
 ## 🔊 Audio
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🔉 Audio Speaker       |                                             | ❌            |
-| 🔉 Handset  Speaker    |                                             | ❌            |
+| 🔉 Audio Speaker       |                                             | ✅            |
+| 🔉 Handset  Speaker    |                                             | ✅            |
 | 🔉 AUX                 |                                             | ✅            |
-| 🎙️ Internal Top Mic    |                                             | ❌            |
+| 🎙️ Internal Top Mic    |                                             | ✅            |
 | 🎙️ Internal Bottom Mic |                                             | ✅            |
 
 ## 🧭 Sensors
