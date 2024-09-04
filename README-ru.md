@@ -32,7 +32,7 @@
 
 - [Установить Dual Boot](/Install-ru/DualBoot.md)
 - [Дополнительные материалы](/Other-ru/Extras.md)
-- [Активация Windows или Office на POCO X3 Pro](https://github.com/massgravel/Microsoft-Activation-Scripts)
+- [Активация Windows или Office на POCO X3 Pro](https://massgrave.dev/)
 
 
 ### Полезное

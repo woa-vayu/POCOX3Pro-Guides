@@ -31,7 +31,7 @@ Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-G
 
 - [Install Dual Boot](/Install-en/DualBoot.md)
 - [Additional materials](/Other-en/Extras.md)
-- [Activate Windows or Office on your POCO X3 Pro](https://github.com/massgravel/Microsoft-Activation-Scripts)
+- [Activate Windows or Office on your POCO X3 Pro](https://massgrave.dev/)
 
 
 ### More Resources:
