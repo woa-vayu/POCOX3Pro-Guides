@@ -50,7 +50,7 @@ If not already done, please first unlock the bootloader. Come back once you're d
 ## Acquiring all files
 
 UEFI:
-- [UEFI Image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2408.19/POCO.X3.Pro.UEFI-v2408.19.img)
+- [UEFI Image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2409.04/POCO.X3.Pro.UEFI-v2409.04.img)
 
 [FFU Files](https://t.me/woavayuffu)
 

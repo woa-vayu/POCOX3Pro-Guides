@@ -48,8 +48,6 @@ TWRP image:
 
 # Steps 
 
-## Acquiring all files
-
 <details>
     <summary>Here's how to acquire the Android SDK Platform Tools: <b>Click to expand</b></summary>
     <p>

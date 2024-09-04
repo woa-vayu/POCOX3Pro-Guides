@@ -50,7 +50,7 @@ Android будет загружаться нормально, а для загр
 ## Получение всех файлов
 
 UEFI:
-- [Образ UEFI](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2408.19/POCO.X3.Pro.UEFI-v2408.19.img)
+- [Образ UEFI](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2409.04/POCO.X3.Pro.UEFI-v2409.04.img)
 
 [Образ FFU](https://t.me/woavayuffu)
 

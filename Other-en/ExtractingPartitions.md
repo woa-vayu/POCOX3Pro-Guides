@@ -22,8 +22,6 @@ TWRP image:
 > - Do not commit *any* typo with *any* commands.
 > - Be familiar with command line interfaces.
 
-## Acquiring all files
-
 <details>
     <summary>Here's how to acquire the Android SDK Platform Tools: <b>Click to expand</b></summary>
     <p>

@@ -64,36 +64,6 @@ TWRP image:
 
 # Steps 
 
-## Acquiring all files
-
-Here's how to acquire a Driver archive file and the matching UEFI image for POCO X3 Pro:
-
-<table>
-<tr>
-<td>Drivers File</td>
-<td>UEFI File</td>
-<td>Target Device</td>
-<td>OS Version</td>
-<td>Notes</td>
-</tr>
-<tr>
-<td>
-
-[POCOX3Pro-Drivers-v2408.19-Desktop.7z](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2408.19/POCOX3Pro-Drivers-v2408.19-Desktop.7z)
-</td>
-<td>
-
-[POCO.X3.Pro.UEFI-v2408.19.img](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/download/2408.19/POCO.X3.Pro.UEFI-v2408.19.img)
-</td>
-<td>POCO X3 Pro</td>
-<td>Windows 10 Version 2004 and higher</td>
-<td><details>
-
-N/A
-</details></td>
-</tr>
-</table>
-
 <details>
     <summary>Here's how to acquire the Android SDK Platform Tools: <b>Click to expand</b></summary>
     <p>
