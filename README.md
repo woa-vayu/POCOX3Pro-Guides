@@ -1,64 +1,37 @@
 # Windows on Poco X3 Pro
 
-[Russian guides](/README-ru.md)
-
 Guides for running Windows on Poco X3 Pro.
-
-Heavily based on [Surface Duo guide](https://github.com/WOA-Project/SurfaceDuo-Guides)
 
 ![POCO X3 Pro Windows](https://github.com/user-attachments/assets/355e74cd-dea9-460f-8db4-87f766cd3223)
 
+## ⚠️ Warning
 
-## A few notes
+We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back into android for the alarm.
 
-> [!NOTE]
-> Welcome ! Thanks for being interested in trying out this project. We thought the following notes may interest you first before proceeding further:
->
->  We recommend you know what you're getting into here. You need to know a bit about command line interfaces, Windows technical aspects, as this is not for the faint of heart yet! We won't teach you how to port the OS yourself, we've done this for you, but this is not for beginners or common users either. Tech Savvy people only or technical people only please, or you'll regret it or commit mistakes that may take some time to solve with us!
->
->  We do not recommend you buy a POCO X3 Pro to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a POCO X3 Pro and want to try it, feel free  But do not buy this with hopes of it replacing your laptop.
+This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
-## [Current Status of the project](/Status-en.md)
+**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
-### Main Guides
+## Get started
 
-- [Install Windows](/Install-en/InstallWindows.md)
-- [Updating Drivers and/or UEFI](/Update-en/UpdateDriversAndUEFI.md)
-- [Reinstall Windows](/Install-en/ReinstallWindows.md)
-- [Uninstall Windows](/Install-en/Uninstall.md)
+- [Project status](/Status-en.md)
 
-### Additional Guides:
+- [Installation instructions](en/installation-selection.md)
 
-- [Install Dual Boot](/Install-en/DualBoot.md)
-- [Additional materials](/Other-en/Extras.md)
-- [Activate Windows or Office on your POCO X3 Pro](https://massgrave.dev/)
+- [Troubleshooting](en/troubleshooting.md)
 
+## Miscellaneous
 
-### More Resources:
+- [Dualboot setup](en/dualboot.md)
 
-- [Create a Windows ISO with UUPMediaCreator](/Install-en/ISO/CreateISO.md)
-- [Restore the Microsoft Store on Windows](/RestoreMicrosoftStore-en.md)
-- [Extract boot.img or other partitions](/Other-en/ExtractingPartitions.md)
+- [Additional materials](en/materials.md)
+
+- [Update drivers](en/update.md)
+
+- [Reinstall instructions](en/reinstall.md)
+
+- [Uninstall instructions](en/uninstall.md)
 
 ## Where to find us
 
 Please contact us at [our Telegram group](https://t.me/winonvayualt) if you need any assistance!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
