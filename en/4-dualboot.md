@@ -1,6 +1,6 @@
 # Dualboot guide
 
-## Prerequisites
+## Files/Tools Needed
 
 - [UEFI image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
 

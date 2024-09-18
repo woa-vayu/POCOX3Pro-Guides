@@ -1,6 +1,6 @@
 # Reinstall Windows on your POCO X3 Pro
 
-## Prerequisites
+## Files/Tools Needed
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

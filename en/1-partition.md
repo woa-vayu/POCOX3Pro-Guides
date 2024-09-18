@@ -1,6 +1,6 @@
 # Partitioning your POCO X3 Pro
 
-## Prerequisites
+## Files/Tools Needed
 
 - Unlocked bootloader
 

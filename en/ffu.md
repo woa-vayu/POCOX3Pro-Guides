@@ -1,6 +1,6 @@
 # Installing Windows (FFU method)
 
-## Prerequisites
+## Files/Tools Needed
 
 - A device running Windows 10 or higher
 

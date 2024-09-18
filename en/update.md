@@ -1,6 +1,6 @@
 # Updating drivers
 
-## Prerequisites
+## Files/Tools Needed
 
 Modified TWRP:
 

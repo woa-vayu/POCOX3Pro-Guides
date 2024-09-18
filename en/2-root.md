@@ -1,6 +1,6 @@
 # Rooting your POCO X3 Pro
 
-## Prerequisites
+## Files/Tools Needed
 
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 

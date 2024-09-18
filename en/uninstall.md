@@ -6,7 +6,7 @@ If you want to uninstall Windows, this is used instead of deleting partitions ma
 
 If you want to relock your bootloader you'll need your partition table to be stock.
 
-### Prerequisites
+### Files/Tools Needed
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

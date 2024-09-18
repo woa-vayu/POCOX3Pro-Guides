@@ -1,6 +1,6 @@
 # Installing Windows on your POCO X3 Pro
 
-## Prerequisites
+## Files/Tools Needed
 
 Modified TWRP:
 

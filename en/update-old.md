@@ -1,6 +1,6 @@
 # Updating drivers
 
-### Prerequisites
+### Files/Tools Needed
 
 - [Drivers](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
 
