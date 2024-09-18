@@ -92,7 +92,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 ### Installing Drivers
 
-- Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+- Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
 > If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be **X**), then press enter
 
