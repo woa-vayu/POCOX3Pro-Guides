@@ -5,30 +5,30 @@
 > [!IMPORTANT]
 > **This description is for reference only. It does not represent any commitment to develop Windows on POCO X3 Pro in any way, nor does it mean that all functions will be available or development will be completed forever. You should not buy this device for the purpose of using Windows on it, and hope that it will have complete functions in the end. The functions available today should be considered as the most you can get.We should take this into consideration when purchasing.**
 
-| Feature                | Notes                                       | Status         |
-|------------------------|---------------------------------------------|----------------|
-| ⌨️ Side buttons        |                                             | ✅            |
-| ♋ Cellular Calls      |                                             | ❌            |
-| ♋ Cellular Data       |                                             | ✅            |
-| ♋ Cellular Texts      |                                             | ✅            |
-| ♋ Wifi                |                                             | ✅            |
-| 📦 UFS                 |                                             | ✅            |
-| 🔵 Bluetooth           |                                             | ✅            |
-| 🎆 GPU                 |                                             | ✅            |
-| 🔋 Battery             |                                             | ✅            |
-| 📌 GPS                 |                                             | ✅            |
-| 🪵 USB                 |                                             | ✅            |
-| 🔊 Audio               |                                             | ✅            |
-| 🧭 Sensor              |                                             | ✅            |
-| 🛡️ TPM                 | Not support versions below Windows 11 22H2. | ✅            |
-| 👆 Touch               |                                             | ✅            |
-| 🔌 Charge              | Slow charging only.                         | ✅            |
-| 📳 Vibration motor     |                                             | ❌            |
-| 🔦 Flashlight          | Acessible only from Windows camera app      | ⚠️            |
-| 📸 Camera Flash        |                                             | ⚠️            |
-| 🏷️ NFC                 |                                             | ❌            |
-| 📸 Camera              |                                             | ❌            |
-| 🧬 Fingerprint scanner |                                             | ❌            |
+| Feature                | Notes                                           | Status         |
+|------------------------|-------------------------------------------------|----------------|
+| ⌨️ Side buttons        |                                                 | ✅            |
+| ♋ Cellular Calls      |                                                 | ❌            |
+| ♋ Cellular Data       |                                                 | ✅            |
+| ♋ Cellular Texts      |                                                 | ✅            |
+| ♋ Wifi                |                                                 | ✅            |
+| 📦 UFS                 |                                                 | ✅            |
+| 🔵 Bluetooth           |                                                 | ✅            |
+| 🎆 GPU                 |                                                 | ✅            |
+| 🔋 Battery             |                                                 | ✅            |
+| 📌 GPS                 |                                                 | ✅            |
+| 🪵 USB                 |                                                 | ✅            |
+| 🔊 Audio               |                                                 | ✅            |
+| 🧭 Sensor              |                                                 | ✅            |
+| 🛡️ TPM                 | Doesn't support versions below Windows 11 22H2. | ✅            |
+| 👆 Touch               |                                                 | ✅            |
+| 🔌 Charge              | Slow charging only.                             | ✅            |
+| 📳 Vibration motor     |                                                 | ❌            |
+| 🔦 Flashlight          | Acessible only from Windows camera app          | ⚠️            |
+| 📸 Camera Flash        |                                                 | ⚠️            |
+| 🏷️ NFC                 |                                                 | ❌            |
+| 📸 Camera              |                                                 | ❌            |
+| 🧬 Fingerprint scanner |                                                 | ❌            |
 
 # Detailed status
 
