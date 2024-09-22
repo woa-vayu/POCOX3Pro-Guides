@@ -2,7 +2,8 @@
 
 Guides for running Windows on Poco X3 Pro.
 
-![POCO X3 Pro Windows](https://github.com/user-attachments/assets/355e74cd-dea9-460f-8db4-87f766cd3223)
+![POCO X3 Pro Windows](https://github.com/user-attachments/assets/ba31e9b2-3a08-4e41-818d-7efee9f42661)
+
 
 ## ⚠️ Warning
 
