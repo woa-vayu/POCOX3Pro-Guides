@@ -24,7 +24,7 @@
 | 👆 Touch               |                                                 | ✅            |
 | 🔌 Charge              | Slow charging only.                             | ✅            |
 | 📳 Vibration motor     |                                                 | ❌            |
-| 🔦 Flashlight          | Acessible only from Windows camera app          | ⚠️            |
+| 🔦 Flashlight          | Accessible only from Windows camera app         | ⚠️            |
 | 📸 Camera Flash        |                                                 | ⚠️            |
 | 🏷️ NFC                 |                                                 | ❌            |
 | 📸 Camera              |                                                 | ❌            |
