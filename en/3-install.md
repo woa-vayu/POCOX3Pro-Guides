@@ -11,9 +11,7 @@ Modified TWRP:
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
-- [Drivers](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
-
-- [UEFI image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
+- [Drivers & UEFI](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
 
 ### Boot into TWRP
 >
