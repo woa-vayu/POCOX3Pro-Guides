@@ -43,3 +43,5 @@ body:
           required: true
         - label: There is no issue already describing my problem.
           required: true
+        - label: I have a brain
+          required: true
