@@ -7,7 +7,7 @@ This is by no means a comprehensive list, it simply lists apps/games that have b
 
 You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
 
-#### Finished
+##### Finished!
 
 ## Hide D drive (modem partition)
 >
@@ -20,7 +20,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 - Remove the letter with ```remove letter d```
 - Exit diskpart with ```exit```
 
-##### Finished
+##### Finished!
 
 ## Install Microsoft Office / Microsoft 365
 
@@ -31,15 +31,15 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 - In the window that appears, click `Yes` to start installation
 - Wait for the installation to complete
 
-#### Finished
+##### Finished!
 
 ## Activate Windows / Office
 
 Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-#### Finished
+##### Finished!
 
-### Making the keyboard float
+## Making the keyboard float
 >
 > [!WARNING]  
 > Make sure these steps are done on the POCO X3 Pro running Windows!
@@ -48,18 +48,15 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 - Press 'y' then enter
 - Reboot your phone
 
-##### Finished
+##### Finished!
 
-### Disabling USB Host mode
+## Disabling USB host mode
+> [!Warning]
+> Unpowered USB devices will stop working
 
-> [!WARNING]
-> Any non powered hub will STOP working!
->
-> Make sure these steps are done on the POCO X3 Pro running Windows!
+> [!Important]
+> The following steps must be done on your phone in Windows, not on your computer. 
 
-> This edits the registry key to tell the USB Controller not to put the device into host mode
+Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
 
-- In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
-- Reboot your phone
-
-##### Finished
+##### Finished!
