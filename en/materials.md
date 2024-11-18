@@ -57,6 +57,8 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 > [!Important]
 > The following steps must be done on your phone in Windows, not on your computer. 
 
-Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
+> This edits the registry key to tell the USB Controller not to put the device into host mode
+- In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
+- Reboot your phone
 
 ##### Finished!
