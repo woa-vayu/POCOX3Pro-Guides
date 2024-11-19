@@ -41,6 +41,9 @@ Modified TWRP:
 cd path\to\platform-tools
 ```
 
+> [!Note]
+> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery)
+
 #### Flash the modded recovery
 >
 > While in fastboot mode, replace `path\to\moddedtwrp.img` with the actual path to the modded recovery image
