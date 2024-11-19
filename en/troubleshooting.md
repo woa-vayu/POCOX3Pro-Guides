@@ -8,6 +8,14 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 
 ##### Done
 
+## Device is not recognized in fastboot or recovery
+> This likely means you don't have (proper) USB drivers installed
+- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
+- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
+- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+
+##### Done
+
 ## Cannot write to Windows in Android
 >
 > This is caused by shutting down Windows instead of restarting it.
