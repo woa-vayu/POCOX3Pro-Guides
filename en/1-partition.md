@@ -65,7 +65,7 @@ adb pull /dev/block/by-name/boot boot.img
 adb shell umount /dev/block/by-name/userdata
 ```
 
-#### Resing partition table
+#### Resizing partition table
 ``` cmd
 adb shell sgdisk --resize-table 64 /dev/block/sda
 ```
