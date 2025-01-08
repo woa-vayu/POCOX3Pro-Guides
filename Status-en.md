@@ -18,7 +18,7 @@
 | 🔋 Battery             |                                                 | ✅            |
 | 📌 GPS                 |                                                 | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
-| 🔊 Audio               | Experimental, speakers can randomly stop working                                                | ✅            |
+| 🔊 Audio               |                                                 | ✅            |
 | 🧭 Sensor              |                                                 | ✅            |
 | 🛡️ TPM                 | Doesn't support versions below Windows 11 22H2. | ✅            |
 | 👆 Touch               |                                                 | ✅            |
@@ -36,8 +36,8 @@
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🔉 Audio Speaker       | Experimental, can randomly stop working                                            | ✅            |
-| 🔉 Handset  Speaker    | Experimental, can randomly stop working                                            | ✅            |
+| 🔉 Audio Speaker       |                                             | ✅            |
+| 🔉 Handset  Speaker    |                                             | ✅            |
 | 🔉 AUX                 |                                             | ✅            |
 | 🎙️ Internal Top Mic    |                                             | ✅            |
 | 🎙️ Internal Bottom Mic |                                             | ✅            |
