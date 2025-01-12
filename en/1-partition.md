@@ -14,6 +14,8 @@ Modified TWRP:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
+- [Latest Vayu firmware](https://xmfirmwareupdater.com/firmware/vayu/)
+
 ### Notes
 >
 > [!WARNING]  
@@ -60,6 +62,15 @@ fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
 ```
+
+### Flashing latest firmware
+> [!Important]
+> If you are using older Android versions, it is mandatory to flash the latest firmware (this does not affect your current ROM), or Windows will not boot.
+>
+> If you are on recent Android versions, it is still recommended to do so.
+- Download the **vayu firmware.zip** and put it somewhere on your phone.
+- Select the **Install** button in TWRP, locate the firmware file, then install it.
+- There is no need to reboot yet, stay in TWRP for the next few steps.
 
 #### Unmount data
 > Ignore any possible errors and continue
