@@ -9,7 +9,6 @@ Modified TWRP:
 | [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
 | [twrp-3.7.0_11-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.0_11-vayu.img) | Android 11 |
 
-
 - Unlocked bootloader
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
@@ -64,90 +63,111 @@ adb pull /dev/block/by-name/boot boot.img
 ```
 
 ### Flashing latest firmware
+>
 > [!Important]
 > If you are using older Android versions, it is mandatory to flash the latest firmware (this does not affect your current ROM), or Windows will not boot.
 >
 > If you are on recent Android versions, it is still recommended to do so.
+
 - Download the **vayu firmware.zip** and put it somewhere on your phone.
 - Select the **Install** button in TWRP, locate the firmware file, then install it.
 - There is no need to reboot yet, stay in TWRP for the next few steps.
 
 #### Unmount data
+>
 > Ignore any possible errors and continue
+
 ```cmd
 adb shell umount /dev/block/by-name/userdata
 ```
 
 #### Resizing partition table
+
 ``` cmd
 adb shell sgdisk --resize-table 64 /dev/block/sda
 ```
 
 #### Preparing for partitioning
+
 ```cmd
 adb shell parted /dev/block/sda
 ```
 
 #### Printing the current partition table
+>
 > Parted will print the list of partitions, userdata should be the last partition in the list.
+
 ```cmd
 print
 ```
 
 #### Removing userdata
+>
 > Replace **$** with the number of the **userdata** partition, which should be **32**
+
 ```cmd
 rm $
 ```
 
 #### Recreating userdata
+>
 > Replace **11.7GB** with the former start value of **userdata** which we just deleted
 >
 > Replace **70GB** with the end value you want **userdata** to have. In this example Android will have 70-11.7 = **58.3GB** of usable space
+
 ```cmd
 mkpart userdata ext4 11.7GB 70GB
 ```
 
 #### Creating ESP partition
+>
 > Replace **70GB** with the end value of **userdata**
 >
 > Replace **70.4GB** with the value you used before, adding **0.4GB** to it
+
 ```cmd
 mkpart esp fat32 70GB 70.4GB
 ```
 
 #### Creating Windows partition
+>
 > Replace **70.4GB** with the end value of **esp**
+
 ```cmd
 mkpart win ntfs 70.4GB -0MB
 ```
 
 #### Making ESP bootable
+>
 > Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **33**
+
 ```cmd
 set $ esp on
 ```
 
 #### Exit parted
+
 ```cmd
 quit
 ```
 
 ### Formatting Windows and ESP partitions
+
 ```cmd
 adb shell mkfs.ntfs -f /dev/block/sda34 -L WINVAYU
-``` 
+```
 
 ```cmd
 adb shell mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPVAYU
 ```
 
 ### Formatting data
+
 - Format all data in TWRP, or Android will not boot.
 - ( Go to Wipe > Format data > type yes )
 
 #### Check if Android still starts
-- Just restart the phone, and see if Android still works
 
+- Just restart the phone, and see if Android still works
 
 ## [Next step: Rooting your phone](2-root.md)

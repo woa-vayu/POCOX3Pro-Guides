@@ -51,6 +51,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 ##### Finished!
 
 ## Disabling USB host mode
+>
 > [!Warning]
 > Unpowered USB devices will stop working
 
@@ -58,6 +59,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 > The following steps must be done on your phone in Windows, not on your computer. 
 
 > This edits the registry key to tell the USB Controller not to put the device into host mode
+
 - In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
 - Reboot your phone
 
