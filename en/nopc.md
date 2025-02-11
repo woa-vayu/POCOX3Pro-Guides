@@ -56,6 +56,9 @@ partition $
 
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder **of your internal storage**, NOT SD card.
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
+
 - Download **WinInstaller** and leave it in your internal storage.
 - Download the **vayu firmware.zip** and leave it in your internal storage.
 - Download and install the [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK), then open it and grant it root access. Do not do anything else inside the app yet.
