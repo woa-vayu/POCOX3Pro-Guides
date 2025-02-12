@@ -7,7 +7,7 @@
 
 | File Name                                       | Android version |
 |-------------------------------------------------|-----------------|
-| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14 |
+| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14/15 |
 
 - [Termux](https://play.google.com/store/apps/details?id=com.termux) (only if you do not have any custom recovery installed)
 
