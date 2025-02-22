@@ -6,8 +6,6 @@
 
 If mounting Windows produces an empty folder, you either don't have Windows installed, or your rom does not have mount support.
 
-##### Done
-
 ## Device is not recognized in fastboot or recovery
 >
 > This likely means you don't have (proper) USB drivers installed
@@ -15,8 +13,6 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 - Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
 - Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
 - Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
-
-##### Done
 
 ## Cannot write to Windows in Android
 >
@@ -27,16 +23,12 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 
 > Alternatively, if you have already set up the Switch to Android app, simply use this to switch to Android.
 
-##### Done
-
 ## Charging in Windows does not work
 >
 > [!WARNING]
 > Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/en/materials.md#Disabling-USB-host-mode)
 
 Charging in Windows only works on specific cables. Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), and the Nimaso 100W USB-C to USB-C fast charging cable.
-
-##### Done
 
 ## Device can boot into Android but not bootloader
 >
@@ -53,5 +45,3 @@ parted /dev/block/sda
 - Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have
 - Run ```quit```
 - Reboot to bootloader in the reboot menu to check if fastboot works again
-
-##### Done
