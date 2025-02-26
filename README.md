@@ -21,8 +21,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Dualboot setup](en/4-dualboot.md)
 
-- [Additional materials](en/materials.md)
-
 - [Update drivers](en/update.md)
 
 - [Reinstall instructions](en/reinstall.md)
