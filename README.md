@@ -17,8 +17,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation instructions](en/installation-selection.md)
 
-- [Troubleshooting](en/troubleshooting.md)
-
 ## Miscellaneous
 
 - [Dualboot setup](en/4-dualboot.md)
