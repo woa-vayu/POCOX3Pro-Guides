@@ -11,7 +11,7 @@ Modified TWRP:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Latest Vayu firmware](https://xmfirmwareupdater.com/firmware/vayu/)
+- [Latest POCO X3 Pro firmware](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/fw_vayu_miui_VAYUGlobal_V14.0.3.0.TJUMIXM_6be397120d_13.0.zip)
 
 ### Notes
 >
@@ -41,9 +41,6 @@ Modified TWRP:
 cd path\to\platform-tools
 ```
 
-> [!Note]
-> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery)
-
 #### Flash the modded recovery
 >
 > While in fastboot mode, replace `path\to\moddedtwrp.img` with the actual path to the modded recovery image
@@ -63,11 +60,9 @@ adb pull /dev/block/by-name/boot boot.img
 ### Flashing latest firmware
 >
 > [!Important]
-> If you are using older Android versions, it is mandatory to flash the latest firmware (this does not affect your current ROM), or Windows will not boot.
->
-> If you are on recent Android versions, it is still recommended to do so.
+> It is mandatory to flash the latest firmware (this does not affect your current ROM).
 
-- Download the **vayu firmware.zip** and put it somewhere on your phone.
+- Download the **fw_vayu_miui_VAYUGlobal_V14.0.3.0.TJUMIXM_6be397120d_13.0.zip** and put it somewhere on your phone.
 - Select the **Install** button in TWRP, locate the firmware file, then install it.
 - There is no need to reboot yet, stay in TWRP for the next few steps.
 
@@ -132,7 +127,7 @@ mkpart esp fat32 70GB 70.4GB
 > Replace **70.4GB** with the end value of **esp**
 
 ```cmd
-mkpart win ntfs 70.4GB -0MB
+mkpart win ntfs 70.4GB 100%
 ```
 
 #### Making ESP bootable
@@ -168,4 +163,4 @@ adb shell mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPVAYU
 
 - Just restart the phone, and see if Android still works
 
-## [Next step: Rooting your phone](2-root.md)
+## [Next step: Rooting your phone](2-install.md)

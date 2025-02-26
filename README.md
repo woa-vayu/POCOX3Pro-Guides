@@ -19,7 +19,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
-- [Dualboot setup](en/4-dualboot.md)
+- [Dualboot setup](en/3-dualboot.md)
 
 - [Update drivers](en/update.md)
 

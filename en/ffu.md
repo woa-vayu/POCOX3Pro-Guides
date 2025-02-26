@@ -23,9 +23,7 @@
 
 ### Booting into FFU mode
 
-- Plug your phone into your computer while booted in Android and press **Manual Mode** (the rotation icon on the left) in WOA Device Manager.
-
-> If WOA Device Manager does not detect your device, reboot to **fastboot mode** instead and try again. To do this, hold the **volume down** + **power** button until the fastboot logo appears.
+- Plug your phone into your computer while booted in Fastboot and press **Manual Mode** (the rotation icon on the left) in WOA Device Manager.
 
 - In the newly opened menu, click **Switch to Windows-mode**, then hold the **volume down** button until the QR code and wrench icons appear on the screen.
 
