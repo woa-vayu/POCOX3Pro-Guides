@@ -159,6 +159,12 @@ adb shell mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPVAYU
 - Format all data in TWRP, or Android will not boot.
 - ( Go to Wipe > Format data > type yes )
 
+### Fixing the GPT
+> Or Windows may brick your device
+```cmd
+adb shell fixgpt
+```
+
 #### Check if Android still starts
 
 - Just restart the phone, and see if Android still works
