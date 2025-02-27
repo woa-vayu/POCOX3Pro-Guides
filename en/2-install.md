@@ -6,7 +6,7 @@ Modified TWRP:
 
 | File Name                                       | Android version |
 |-------------------------------------------------|-----------------|
-| [twrp-3.7.1_12-vayu.img](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/twrp-3.7.1_12-vayu.img) | Android 12/12.1/13/14/15 |
+| [twrp-3.7.1_vap.img](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/twrp/twrp-3.7.1_vap.img) | Android 12/12.1/13/14/15 |
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
