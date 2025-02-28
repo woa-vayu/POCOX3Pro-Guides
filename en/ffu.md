@@ -13,7 +13,7 @@
 > [!Warning]
 > All your data will be erased!
 >
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayualt)
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/windowsonvayu)
 
 ### Install WOA Device Manager
 

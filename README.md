@@ -29,4 +29,4 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Where to find us
 
-You can find us at [our Telegram group](https://t.me/winonvayualt) if you need any assistance!
+You can find us at [our Telegram group](https://t.me/windowsonvayu) if you need any assistance!
