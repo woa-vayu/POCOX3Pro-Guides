@@ -41,7 +41,7 @@ Modified TWRP:
 cd path\to\platform-tools
 ```
 
-### Flash the modded recovery
+#### Flash the modded recovery
 >
 > While in fastboot mode, replace `path\to\moddedtwrp.img` with the actual path to the modded recovery image
 
@@ -49,7 +49,7 @@ cd path\to\platform-tools
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
-### Backing up your boot image
+#### Backing up your boot image
 >
 > This will back up your boot image in the current directory
 
@@ -66,12 +66,92 @@ adb pull /dev/block/by-name/boot boot.img
 - Select the **Install** button in TWRP, locate the firmware file, then install it.
 - There is no need to reboot yet, stay in TWRP for the next few steps.
 
-### Run the partitioning script
+#### Unmount data
 >
-> If it asks you to run it once again, do so
+> Ignore any possible errors and continue
 
 ```cmd
-adb shell partition
+adb shell umount /dev/block/by-name/userdata
+```
+
+#### Resizing partition table
+
+``` cmd
+adb shell sgdisk --resize-table 64 /dev/block/sda
+```
+
+#### Preparing for partitioning
+
+```cmd
+adb shell parted /dev/block/sda
+```
+
+#### Printing the current partition table
+>
+> Parted will print the list of partitions, userdata should be the last partition in the list.
+
+```cmd
+print
+```
+
+#### Removing userdata
+>
+> Replace **$** with the number of the **userdata** partition, which should be **32**
+
+```cmd
+rm $
+```
+
+#### Recreating userdata
+>
+> Replace **11.7GB** with the former start value of **userdata** which we just deleted
+>
+> Replace **70GB** with the end value you want **userdata** to have. In this example Android will have 70-11.7 = **58.3GB** of usable space
+
+```cmd
+mkpart userdata ext4 11.7GB 70GB
+```
+
+#### Creating ESP partition
+>
+> Replace **70GB** with the end value of **userdata**
+>
+> Replace **70.4GB** with the value you used before, adding **0.4GB** to it
+
+```cmd
+mkpart esp fat32 70GB 70.4GB
+```
+
+#### Creating Windows partition
+>
+> Replace **70.4GB** with the end value of **esp**
+
+```cmd
+mkpart win ntfs 70.4GB 100%
+```
+
+#### Making ESP bootable
+>
+> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **33**
+
+```cmd
+set $ esp on
+```
+
+#### Exit parted
+
+```cmd
+quit
+```
+
+### Formatting Windows and ESP partitions
+
+```cmd
+adb shell mkfs.ntfs -f /dev/block/sda34 -L WINVAYU
+```
+
+```cmd
+adb shell mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPVAYU
 ```
 
 ### Formatting data
@@ -80,9 +160,7 @@ adb shell partition
 - ( Go to Wipe > Format data > type yes )
 
 ### Fixing the GPT
->
 > Or Windows may brick your device
-
 ```cmd
 adb shell fixgpt
 ```
