@@ -11,7 +11,7 @@ Modified TWRP:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Latest POCO X3 Pro firmware](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/fw_vayu_miui_VAYUGlobal_V14.0.3.0.TJUMIXM_6be397120d_13.0.zip)
+- [Latest POCO X3 Pro firmware](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/firmware/fw_vayu_miui_VAYUGlobal_V14.0.3.0.TJUMIXM_6be397120d_13.0.zip)
 
 ### Notes
 >
