@@ -66,12 +66,28 @@ adb pull /dev/block/by-name/boot boot.img
 - Select the **Install** button in TWRP, locate the firmware file, then install it.
 - There is no need to reboot yet, stay in TWRP for the next few steps.
 
-### Run the partitioning script
->
-> If it asks you to run it once again, do so
+### Enter adb shell
 
 ```cmd
-adb shell partition
+adb shell
+```
+
+- Run the partitioning script `If it asks you to run it once again, do so`
+
+```cmd
+partition
+```
+
+- Fix the GPT `Or Windows may brick your device`
+
+```cmd
+fixgpt
+```
+
+- Exit adb shell
+
+```cmd
+exit
 ```
 
 ### Formatting data
@@ -79,15 +95,7 @@ adb shell partition
 - Format all data in TWRP, or Android will not boot.
 - ( Go to Wipe > Format data > type yes )
 
-### Fixing the GPT
->
-> Or Windows may brick your device
-
-```cmd
-adb shell fixgpt
-```
-
-#### Check if Android still starts
+### Check if Android still starts
 
 - Just restart the phone, and see if Android still works
 
