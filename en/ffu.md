@@ -4,7 +4,7 @@
 
 - A device running Windows 10 or higher
 
-- [FFU image](https://t.me/woavayuffu)
+- [FFU Image](https://t.me/woavayuffu)
 
 - [WOA Device Manager](https://github.com/woa-vayu/POCOX3Pro-Guides/releases/download/WDM/WOA_Device_Manager.zip)
 
@@ -14,6 +14,8 @@
 > All your data will be erased!
 >
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/windowsonvayu)
+>
+> Make sure you use latest 7z to unpack FFU Image. WinRAR or other file archiver utilities can't be used!
 
 ### Install WOA Device Manager
 
@@ -23,7 +25,7 @@
 
 ### Booting into FFU mode
 
-- Plug your phone into your computer while booted in Fastboot and press **Manual Mode** (the rotation icon on the left) in WOA Device Manager.
+- Plug your phone into your computer while booted in Fastboot or TWRP and press **Manual Mode** (the rotation icon on the left) in WOA Device Manager.
 
 - In the newly opened menu, click **Switch to Windows-mode**, then hold the **volume down** button until the QR code and wrench icons appear on the screen.
 
