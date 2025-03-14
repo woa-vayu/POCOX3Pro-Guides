@@ -1,6 +1,6 @@
 # Uninstall Windows and revert your POCO X3 Pro to stock
 
-### Files/Tools Needed
+## Files/Tools Needed
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -16,10 +16,10 @@ Modified TWRP:
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
-### Execute the restore script
+## Execute the restore script
 
 ```cmd
 adb shell restore
 ```
 
-#### Finished
+## Finished
