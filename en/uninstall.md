@@ -1,11 +1,5 @@
 # Uninstall Windows and revert your POCO X3 Pro to stock
 
-## Why is this needed?
-
-If you want to uninstall Windows, this is used instead of deleting partitions manually to avoid human error + writing a whole dedicated guide to just uninstalling.
-
-If you want to relock your bootloader you'll need your partition table to be stock.
-
 ### Files/Tools Needed
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
